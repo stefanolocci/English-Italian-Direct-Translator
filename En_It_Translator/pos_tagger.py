@@ -2,22 +2,22 @@ import json
 import math
 import os.path
 from operator import itemgetter
+from time import sleep
 
 import numpy as np
 import pandas as pd
+import progressbar as progressbar
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 
-from utils import config_data
-from utils.config_data import get_pos_tags
-from utils.time_it import timeit
+from En_It_Translator.utils import config_data
+from En_It_Translator.utils.time_it import timeit
 
 
-# Emission matrix
 @timeit
 def compute_emission_matrix(observation, is_baseline):
     em_matrix = {}
-    pos_tags = get_pos_tags()
+    pos_tags = config_data.get_pos_tags()
     # obs_words = word_tokenize(observation)
     obs_words = observation.split()
     words = train_corpus_df['word'].str.lower().values
@@ -76,7 +76,7 @@ def multiply_probability(p1, p2):
 # state graph: lista di pos tags
 # @timeit
 def viterbi(observation, em_matrix):
-    state_graph = get_pos_tags()
+    state_graph = config_data.get_pos_tags()
     backpointer = []
     token_obs = observation.split()
     vit_matrix = np.zeros((len(state_graph), len(token_obs)))
@@ -157,7 +157,28 @@ def refine_result(pos_tag_result):
     for res in pos_tag_result:
         if res[0] in punct_char and res[1] != 'PUNCT':
             res[1] = 'PUNCT'
+    return pos_tag_result
 
+
+def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\r')
+    # Print New Line on Complete
+    if iteration == total:
+        print()
 
 
 if __name__ == "__main__":
@@ -189,15 +210,22 @@ if __name__ == "__main__":
     test_emission_matrix = get_emission_matrix('./data/emission_matrix_test.json', observ)
     viterbi_result = []
     predicted_tags = []
-    # for sentence in sentences:
-    #     viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
-    # for ris in viterbi_result:
-    #     predicted_tags.append(ris[1])
-    # print("accuracy: {}".format(compute_accuracy(predicted_tags, test_corpus_df_check['tag'].tolist())))
-    # print(viterbi_result)
+    progr_bar_length = len(sentences)
+    printProgressBar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+    for i, sentence in enumerate(sentences):
+        sleep(0.1)
+        printProgressBar(i + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+        viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
+    viterbi_result = refine_result(viterbi_result)
+    for ris in viterbi_result:
+        predicted_tags.append(ris[1])
+
+    print("accuracy: {}".format(compute_accuracy(predicted_tags, test_corpus_df_check['tag'].tolist())))
+    print(viterbi_result)
     # baselilne_result = []
     # for sentence in sentences:
     #     baselilne_result = baselilne_result + compute_baseline(sentence)
     # for ris in baselilne_result:
     #     predicted_tags.append(ris[0])
+    #
     # print("accuracy: {}".format(compute_accuracy(predicted_tags, test_corpus_df_check['tag'].tolist())))
