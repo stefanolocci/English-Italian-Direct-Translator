@@ -6,6 +6,7 @@ comes	VERB
 this	DET
 story	NOUN
 :	PUNCT
+ 	S0
 President	PROPN
 Bush	PROPN
 on	ADP
@@ -25,6 +26,7 @@ the	DET
 Washington	PROPN
 area	NOUN
 .	PUNCT
+ 	S0
 Bush	PROPN
 nominated	VERB
 Jennifer	PROPN
@@ -54,6 +56,7 @@ Steffen	PROPN
 W.	PROPN
 Graae	PROPN
 .	PUNCT
+ 	S0
 ***	PUNCT
 Bush	PROPN
 also	ADV
@@ -85,6 +88,7 @@ John	PROPN
 Montague	PROPN
 Steadman	PROPN
 .	PUNCT
+ 	S0
 The	DET
 sheikh	NOUN
 in	ADP
@@ -103,6 +107,7 @@ F	NOUN
 launched	VERB
 bomb	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 could	AUX
 be	AUX
@@ -134,6 +139,7 @@ they	PRON
 did	VERB
 n't	PART
 .	PUNCT
+ 	S0
 Today	NOUN
 's	PART
 incident	NOUN
@@ -150,6 +156,7 @@ hope	NOUN
 in	ADP
 peace	NOUN
 .	PUNCT
+ 	S0
 Nervous	ADJ
 people	NOUN
 make	VERB
@@ -168,6 +175,7 @@ succesfull	ADJ
 arab	ADJ
 attacks	NOUN
 .	PUNCT
+ 	S0
 A	X
 la	X
 guerre	X
@@ -177,6 +185,7 @@ a	X
 la	X
 guerre	X
 !	PUNCT
+ 	S0
 In	ADP
 the	DET
 eastern	ADJ
@@ -198,6 +207,7 @@ killing	VERB
 several	ADJ
 people	NOUN
 .	PUNCT
+ 	S0
 The	DET
 US	PROPN
 lost	VERB
@@ -222,6 +232,7 @@ crew	NOUN
 was	AUX
 safe	ADJ
 .	PUNCT
+ 	S0
 In	ADP
 Fallujah	PROPN
 ,	PUNCT
@@ -242,6 +253,7 @@ yound	ADJ
 newlywed	ADJ
 bride	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 I	PRON
 hope	VERB
@@ -271,6 +283,7 @@ bad	ADJ
 tradeoff	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 The	DET
 US	PROPN
 troops	NOUN
@@ -283,6 +296,7 @@ crowd	NOUN
 killing	VERB
 4	NUM
 .	PUNCT
+ 	S0
 It	PRON
 seems	VERB
 clear	ADJ
@@ -319,6 +333,7 @@ with	ADP
 local	ADJ
 Iraqis	PROPN
 .	PUNCT
+ 	S0
 Google	PROPN
 has	AUX
 finally	ADV
@@ -349,6 +364,7 @@ n't	PART
 heard	VERB
 it	PRON
 .	PUNCT
+ 	S0
 Usually	ADV
 ,	PUNCT
 these	PRON
@@ -376,6 +392,7 @@ company	NOUN
 's	PART
 plans	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 work	VERB
 on	ADP
@@ -417,6 +434,7 @@ n't	PART
 be	AUX
 profitable	ADJ
 .	PUNCT
+ 	S0
 """"	PUNCT
 It	PRON
 's	AUX
@@ -431,6 +449,7 @@ you	PRON
 'd	AUX
 imagine	VERB
 :	PUNCT
+ 	S0
 Sergey	PROPN
 Brin	PROPN
 has	AUX
@@ -473,11 +492,13 @@ good	ADJ
 respectable	ADJ
 idea	NOUN
 .	PUNCT
+ 	S0
 Read	VERB
 the	DET
 entire	ADJ
 article	NOUN
 ;	PUNCT
+ 	S0
 there	PRON
 's	VERB
 a	DET
@@ -485,6 +506,7 @@ punchline	NOUN
 ,	PUNCT
 too	ADV
 .	PUNCT
+ 	S0
 My	PRON
 opinion	NOUN
 piece	NOUN
@@ -504,8 +526,10 @@ appeared	VERB
 at	ADP
 Newsday	PROPN
 .	PUNCT
+ 	S0
 Excerpt	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 Arafat	PROPN
 's	PART
@@ -536,6 +560,7 @@ negotiations	NOUN
 remained	VERB
 rocky	ADJ
 .	PUNCT
+ 	S0
 The	DET
 continued	VERB
 Israeli	ADJ
@@ -573,6 +598,7 @@ had	AUX
 always	ADV
 opposed	VERB
 .	PUNCT
+ 	S0
 Arafat	PROPN
 's	PART
 death	NOUN
@@ -589,6 +615,7 @@ soon	ADV
 be	AUX
 filled	VERB
 .	PUNCT
+ 	S0
 Sharon	PROPN
 's	PART
 assassination	NOUN
@@ -605,6 +632,7 @@ in	ADP
 that	DET
 party	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 the	DET
 Israelis	PROPN
@@ -640,6 +668,7 @@ for	ADP
 their	PRON
 cues	NOUN
 .	PUNCT
+ 	S0
 Even	ADV
 if	SCONJ
 local	ADJ
@@ -676,6 +705,7 @@ young	ADJ
 Muslim	ADJ
 men	NOUN
 .	PUNCT
+ 	S0
 Resolving	VERB
 this	DET
 conflict	NOUN
@@ -696,6 +726,7 @@ war	NOUN
 on	ADP
 terror	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Xinhua	PROPN
 reports	VERB
@@ -728,6 +759,7 @@ the	DET
 day	NOUN
 before	ADV
 .	PUNCT
+ 	S0
 The	DET
 Board	NOUN
 of	ADP
@@ -757,6 +789,7 @@ soldiers	NOUN
 in	ADP
 Iraq	PROPN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Ash	PROPN
 -	PUNCT
@@ -775,6 +808,7 @@ a	DET
 general	ADJ
 strike	NOUN
 .	PUNCT
+ 	S0
 US	PROPN
 troops	NOUN
 there	ADV
@@ -790,6 +824,7 @@ one	NUM
 Iraqi	PROPN
 dead	ADJ
 .	PUNCT
+ 	S0
 In	ADP
 Ramadi	PROPN
 ,	PUNCT
@@ -799,6 +834,7 @@ a	DET
 big	ADJ
 demonstration	NOUN
 .	PUNCT
+ 	S0
 Radical	ADJ
 Shiite	ADJ
 cleric	NOUN
@@ -834,6 +870,7 @@ and	CCONJ
 jihad	NOUN
 """"	PUNCT
 .	PUNCT
+ 	S0
 The	DET
 interim	ADJ
 Governing	PROPN
@@ -866,8 +903,11 @@ in	ADP
 the	DET
 region	NOUN
 .	PUNCT
+ 	S0
 .	PUNCT
+ 	S0
 .	PUNCT
+ 	S0
 This	DET
 operation	NOUN
 would	AUX
@@ -893,6 +933,7 @@ the	DET
 message	NOUN
 claimed	VERB
 .	PUNCT
+ 	S0
 Xinhua	PROPN
 alleged	VERB
 that	SCONJ
@@ -925,6 +966,7 @@ the	DET
 Israeli	ADJ
 occupation	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 In	ADP
 an	DET
@@ -959,6 +1001,7 @@ police	NOUN
 in	ADP
 Kirkuk	PROPN
 .	PUNCT
+ 	S0
 Ever	ADV
 since	ADP
 the	DET
@@ -1014,16 +1057,19 @@ a	DET
 real	ADJ
 profit	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 've	AUX
 moved	VERB
 on	ADV
 .	PUNCT
+ 	S0
 We	PRON
 've	AUX
 grown	VERB
 up	ADP
 .	PUNCT
+ 	S0
 Now	ADV
 ,	PUNCT
 people	NOUN
@@ -1034,6 +1080,7 @@ can	AUX
 even	ADV
 survive	VERB
 .	PUNCT
+ 	S0
 That	PRON
 's	AUX
 overstating	VERB
@@ -1042,6 +1089,7 @@ it	PRON
 I	PRON
 know	VERB
 .	PUNCT
+ 	S0
 What	PRON
 they	PRON
 wonder	VERB
@@ -1078,6 +1126,7 @@ grace	NOUN
 of	ADP
 simplicity	NOUN
 .	PUNCT
+ 	S0
 Simplicity	NOUN
 gave	VERB
 it	PRON
@@ -1110,6 +1159,7 @@ dial	VERB
 up	ADP
 connection	NOUN
 .	PUNCT
+ 	S0
 The	DET
 problem	NOUN
 is	VERB
@@ -1145,10 +1195,12 @@ end	NOUN
 camera	NOUN
 companies	NOUN
 .	PUNCT
+ 	S0
 The	DET
 other	ADJ
 problem	NOUN
 ?	PUNCT
+ 	S0
 It	PRON
 's	AUX
 tough	ADJ
@@ -1165,6 +1217,7 @@ in	ADP
 your	PRON
 focus	NOUN
 .	PUNCT
+ 	S0
 As	SCONJ
 the	DET
 survey	NOUN
@@ -1199,6 +1252,7 @@ Yahoo!	PROPN
 and	CCONJ
 AOL	PROPN
 .	PUNCT
+ 	S0
 If	SCONJ
 they	PRON
 continue	VERB
@@ -1237,6 +1291,7 @@ simple	ADJ
 search	NOUN
 engine	NOUN
 .	PUNCT
+ 	S0
 Remember	VERB
 when	ADV
 a	DET
@@ -1259,6 +1314,7 @@ the	DET
 Prophet	PROPN
 Mohammed	PROPN
 ?	PUNCT
+ 	S0
 Now	ADV
 Iran	PROPN
 wants	VERB
@@ -1279,6 +1335,7 @@ depicting	VERB
 the	DET
 Holocaust	PROPN
 .	PUNCT
+ 	S0
 Amazingly	ADV
 ,	PUNCT
 these	DET
@@ -1301,6 +1358,7 @@ new	ADJ
 fun	ADJ
 contest	NOUN
 :	PUNCT
+ 	S0
 TEHRAN	PROPN
 (	PUNCT
 AFP	PROPN
@@ -1334,6 +1392,7 @@ the	DET
 Prophet	PROPN
 Mohammed	PROPN
 .	PUNCT
+ 	S0
 """"	PUNCT
 We	PRON
 staged	VERB
@@ -1370,6 +1429,7 @@ organizer	NOUN
 ,	PUNCT
 said	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 They	PRON
 can	AUX
@@ -1403,6 +1463,7 @@ prison	NOUN
 he	PRON
 added	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 Though	SCONJ
 we	PRON
@@ -1431,6 +1492,7 @@ pay	VERB
 for	ADP
 it	PRON
 ?	PUNCT
+ 	S0
 """"	PUNCT
 Shojai	PROPN
 told	VERB
@@ -1451,6 +1513,7 @@ Contemporary	PROPN
 Art	PROPN
 Museum	PROPN
 .	PUNCT
+ 	S0
 He	PRON
 added	VERB
 that	SCONJ
@@ -1475,6 +1538,7 @@ are	AUX
 on	ADP
 show	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 said	VERB
 the	DET
@@ -1503,6 +1567,7 @@ and	CCONJ
 dollars	NOUN
 respectively	ADV
 .	PUNCT
+ 	S0
 This	DET
 cute	ADJ
 little	ADJ
@@ -1520,6 +1585,7 @@ extremist	NOUN
 Muslims	PROPN
 are	AUX
 .	PUNCT
+ 	S0
 When	ADV
 they	PRON
 saw	VERB
@@ -1534,6 +1600,7 @@ had	VERB
 to	PART
 die	VERB
 .	PUNCT
+ 	S0
 When	ADV
 their	PRON
 precious	ADJ
@@ -1553,6 +1620,7 @@ of	ADP
 the	DET
 world	NOUN
 .	PUNCT
+ 	S0
 US	PROPN
 Marines	PROPN
 moved	VERB
@@ -1572,6 +1640,7 @@ pockets	NOUN
 of	ADP
 resistance	NOUN
 .	PUNCT
+ 	S0
 The	DET
 Fallujah	PROPN
 fighting	NOUN
@@ -1598,6 +1667,7 @@ of	ADP
 Muslim	PROPN
 Scholars	PROPN
 .	PUNCT
+ 	S0
 Armed	ADJ
 clashes	NOUN
 broke	VERB
@@ -1623,6 +1693,7 @@ Baiji	PROPN
 and	CCONJ
 Tuz	PROPN
 .	PUNCT
+ 	S0
 Hundreds	NOUN
 of	ADP
 persons	NOUN
@@ -1646,6 +1717,7 @@ az	PROPN
 -	PUNCT
 Zaman	PROPN
 .	PUNCT
+ 	S0
 The	DET
 battles	NOUN
 and	CCONJ
@@ -1659,6 +1731,7 @@ assault	NOUN
 on	ADP
 Fallujah	PROPN
 .	PUNCT
+ 	S0
 Guerrillas	NOUN
 threatened	VERB
 to	PART
@@ -1679,6 +1752,7 @@ for	ADP
 the	DET
 attack	NOUN
 .	PUNCT
+ 	S0
 Allawi	PROPN
 's	PART
 aged	ADJ
@@ -1710,6 +1784,7 @@ is	AUX
 not	PART
 stopped	VERB
 .	PUNCT
+ 	S0
 In	ADP
 Iraqi	ADJ
 society	NOUN
@@ -1743,6 +1818,7 @@ shame	NOUN
 on	ADP
 him	PRON
 .	PUNCT
+ 	S0
 The	DET
 US	PROPN
 Marines	PROPN
@@ -1759,6 +1835,7 @@ pockets	NOUN
 of	ADP
 resistance	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 Samarra	PROPN
 and	CCONJ
@@ -1784,6 +1861,7 @@ time	NOUN
 to	PART
 come	VERB
 .	PUNCT
+ 	S0
 The	DET
 intrepid	ADJ
 Ed	PROPN
@@ -1801,6 +1879,7 @@ of	ADP
 the	DET
 elections	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 reports	VERB
 that	SCONJ
@@ -1835,6 +1914,7 @@ on	ADP
 the	DET
 situation	NOUN
 .	PUNCT
+ 	S0
 The	DET
 outbreak	NOUN
 of	ADP
@@ -1860,6 +1940,7 @@ the	DET
 January	PROPN
 elections	NOUN
 .	PUNCT
+ 	S0
 Jim	PROPN
 Lobe	PROPN
 has	VERB
@@ -1880,6 +1961,7 @@ and	CCONJ
 in	ADP
 Washington	PROPN
 .	PUNCT
+ 	S0
 For	ADP
 some	DET
 black	ADJ
@@ -1898,6 +1980,7 @@ with	ADP
 my	PRON
 Weblog	PROPN
 .	PUNCT
+ 	S0
 [	PUNCT
 Am	AUX
 at	ADP
@@ -1922,6 +2005,7 @@ couple	NOUN
 of	ADP
 days	NOUN
 .	PUNCT
+ 	S0
 ]	PUNCT
 The	DET
 hottest	ADJ
@@ -1936,6 +2020,7 @@ is	AUX
 nuclear	ADJ
 weapons	NOUN
 .	PUNCT
+ 	S0
 Al	PROPN
 -	PUNCT
 Qaeda	PROPN
@@ -1967,6 +2052,7 @@ piece	NOUN
 of	ADP
 coal	NOUN
 .	PUNCT
+ 	S0
 For	ADP
 the	DET
 last	ADJ
@@ -2007,6 +2093,7 @@ Atomic	PROPN
 Energy	PROPN
 Agency	PROPN
 .	PUNCT
+ 	S0
 At	ADP
 the	DET
 same	ADJ
@@ -2028,6 +2115,7 @@ nuclear	ADJ
 weapons	NOUN
 program	NOUN
 .	PUNCT
+ 	S0
 Arial	ADJ
 photos	NOUN
 ,	PUNCT
@@ -2047,6 +2135,7 @@ the	DET
 group	NOUN
 presented	VERB
 .	PUNCT
+ 	S0
 Russia	PROPN
 also	ADV
 announced	VERB
@@ -2065,6 +2154,7 @@ world	NOUN
 ever	ADV
 seen	VERB
 .	PUNCT
+ 	S0
 President	PROPN
 Vladimir	PROPN
 Putin	PROPN
@@ -2086,6 +2176,7 @@ will	AUX
 not	PART
 have	VERB
 .	PUNCT
+ 	S0
 With	SCONJ
 the	DET
 demand	NOUN
@@ -2112,6 +2203,7 @@ of	ADP
 nuclear	ADJ
 weapons	NOUN
 .	PUNCT
+ 	S0
 Right	ADV
 now	ADV
 that	PRON
@@ -2126,6 +2218,7 @@ EU	PROPN
 and	CCONJ
 IAEA	PROPN
 .	PUNCT
+ 	S0
 But	CCONJ
 not	PART
 always	ADV
@@ -2142,6 +2235,7 @@ their	PRON
 decisions	NOUN
 equal	ADJ
 .	PUNCT
+ 	S0
 The	DET
 US	PROPN
 has	AUX
@@ -2178,6 +2272,7 @@ in	ADP
 nuclear	ADJ
 strength	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 estimated	VERB
@@ -2202,6 +2297,7 @@ the	DET
 slightest	ADJ
 concern	NOUN
 .	PUNCT
+ 	S0
 North	PROPN
 Korea	PROPN
 ’s	PART
@@ -2230,6 +2326,7 @@ few	ADJ
 years	NOUN
 ago	ADV
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 rumored	VERB
@@ -2244,6 +2341,7 @@ couple	NOUN
 nuclear	ADJ
 weapons	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 getting	VERB
 past	SCONJ
@@ -2263,6 +2361,7 @@ is	AUX
 really	ADV
 close	ADJ
 .	PUNCT
+ 	S0
 The	DET
 case	NOUN
 against	ADP
@@ -2274,6 +2373,7 @@ of	ADP
 Déjà	X
 vu	X
 .	PUNCT
+ 	S0
 Arial	ADJ
 photos	NOUN
 of	ADP
@@ -2295,6 +2395,7 @@ stockpiles	NOUN
 in	ADP
 Iraq	PROPN
 .	PUNCT
+ 	S0
 America	PROPN
 cried	VERB
 wolf	NOUN
@@ -2318,6 +2419,7 @@ probably	ADV
 get	VERB
 us	PRON
 .	PUNCT
+ 	S0
 I	PRON
 ran	VERB
 across	ADP
@@ -2327,8 +2429,10 @@ on	ADP
 the	DET
 Internet	NOUN
 .	PUNCT
+ 	S0
 Sooooo	ADV
 .	PUNCT
+ 	S0
 The	DET
 United	PROPN
 States	PROPN
@@ -2356,6 +2460,7 @@ citizens	NOUN
 """"	PUNCT
 )	PUNCT
 .	PUNCT
+ 	S0
 Then	ADV
 ,	PUNCT
 eschewing	VERB
@@ -2377,8 +2482,10 @@ evacuating	VERB
 U.S.	PROPN
 citizen	NOUN
 .	PUNCT
+ 	S0
 Why	ADV
 ?	PUNCT
+ 	S0
 To	PART
 pander	VERB
 to	ADP
@@ -2392,6 +2499,7 @@ street	NOUN
 of	ADV
 course	ADV
 .	PUNCT
+ 	S0
 Now	ADV
 ,	PUNCT
 I	PRON
@@ -2435,6 +2543,7 @@ last	ADJ
 years	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 In	ADP
 other	ADJ
 words	NOUN
@@ -2457,6 +2566,7 @@ was	AUX
 totally	ADV
 predictable	ADJ
 .	PUNCT
+ 	S0
 Yet	CCONJ
 we	PRON
 did	AUX
@@ -2467,6 +2577,7 @@ for	ADP
 the	DET
 evacuation	NOUN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 unlike	ADP
@@ -2509,6 +2620,7 @@ down	ADV
 on	ADP
 Lebanon	PROPN
 .	PUNCT
+ 	S0
 And	CCONJ
 what	PRON
 do	AUX
@@ -2518,15 +2630,18 @@ for	ADP
 this	DET
 effort	NOUN
 ?	PUNCT
+ 	S0
 A	DET
 lawsuit	NOUN
 .	PUNCT
+ 	S0
 That	PRON
 's	AUX
 right	ADJ
 ,	PUNCT
 folks	NOUN
 .	PUNCT
+ 	S0
 The	DET
 American	PROPN
 -	PUNCT
@@ -2549,6 +2664,7 @@ the	DET
 evacuation	NOUN
 efforts	NOUN
 .	PUNCT
+ 	S0
 Here	ADV
 's	AUX
 an	DET
@@ -2557,6 +2673,7 @@ from	ADP
 the	DET
 article	NOUN
 :	PUNCT
+ 	S0
 Nina	PROPN
 Chahine	PROPN
 ,	PUNCT
@@ -2590,6 +2707,7 @@ for	ADP
 July	PROPN
 13	NUM
 .	PUNCT
+ 	S0
 The	DET
 wedding	NOUN
 had	VERB
@@ -2609,6 +2727,7 @@ war	NOUN
 she	PRON
 said	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 We	PRON
 were	AUX
@@ -2654,6 +2773,7 @@ court	NOUN
 in	ADP
 Detroit	PROPN
 .	PUNCT
+ 	S0
 """"	PUNCT
 We	PRON
 were	AUX
@@ -2670,10 +2790,12 @@ anybody	PRON
 helped	VERB
 us	PRON
 .	PUNCT
+ 	S0
 No	DET
 communications	NOUN
 nothing	PRON
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 on	ADP
@@ -2687,6 +2809,7 @@ death	NOUN
 ,	PUNCT
 basically	ADV
 .	PUNCT
+ 	S0
 """"	PUNCT
 Chahine	PROPN
 said	VERB
@@ -2706,6 +2829,7 @@ Syria	PROPN
 and	CCONJ
 Jordan	PROPN
 .	PUNCT
+ 	S0
 Dear	ADJ
 Nina	PROPN
 ,	PUNCT
@@ -2714,6 +2838,7 @@ Here	ADV
 a	DET
 tip	NOUN
 :	PUNCT
+ 	S0
 Do	AUX
 n't	PART
 get	AUX
@@ -2737,6 +2862,7 @@ come	VERB
 under	ADP
 counter-attack	NOUN
 !	PUNCT
+ 	S0
 Crap	NOUN
 like	ADP
 this	PRON
@@ -2758,6 +2884,7 @@ their	PRON
 own	ADJ
 making	NOUN
 .	PUNCT
+ 	S0
 Though	SCONJ
 I	PRON
 am	AUX
@@ -2804,6 +2931,7 @@ column	NOUN
 here	ADV
 )	PUNCT
 :	PUNCT
+ 	S0
 At	ADP
 the	DET
 Ask	VERB
@@ -2828,6 +2956,7 @@ about	ADP
 his	PRON
 memoirs	NOUN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 one	NUM
@@ -2846,6 +2975,7 @@ has	AUX
 n't	PART
 anticipated	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 Q	NOUN
 Thank	VERB
@@ -2872,6 +3002,7 @@ the	DET
 former	ADJ
 President	PROPN
 .	PUNCT
+ 	S0
 After	SCONJ
 you	PRON
 are	AUX
@@ -2901,17 +3032,21 @@ main	ADJ
 theme	NOUN
 say	VERB
 ?	PUNCT
+ 	S0
 """"	PUNCT
 THE	DET
 PRESIDENT	PROPN
 :	PUNCT
+ 	S0
 I	PRON
 appreciate	VERB
 that	PRON
 .	PUNCT
+ 	S0
 (	PUNCT
 Laughter	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 There	PRON
 is	VERB
@@ -2933,12 +3068,14 @@ do	AUX
 n't	PART
 know	VERB
 .	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 just	ADV
 speculating	VERB
 now	ADV
 .	PUNCT
+ 	S0
 I	PRON
 really	ADV
 have	AUX
@@ -2949,6 +3086,7 @@ writing	VERB
 a	DET
 book	NOUN
 .	PUNCT
+ 	S0
 My	PRON
 life	NOUN
 is	AUX
@@ -2962,9 +3100,11 @@ do	VERB
 my	PRON
 job	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 Laughter	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 But	CCONJ
 if	SCONJ
@@ -3000,6 +3140,7 @@ other	ADJ
 horsemen	NOUN
 following	VERB
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 a	DET
@@ -3018,6 +3159,7 @@ Charge	PROPN
 to	PART
 Keep	VERB
 .	PUNCT
+ 	S0
 '	PUNCT
 It	PRON
 's	AUX
@@ -3039,6 +3181,7 @@ Midland	PROPN
 ,	PUNCT
 Texas	PROPN
 .	PUNCT
+ 	S0
 He	PRON
 was	AUX
 the	DET
@@ -3064,6 +3207,7 @@ July	PROPN
 of	ADP
 1977	NUM
 .	PUNCT
+ 	S0
 Four	NUM
 months	NOUN
 later	ADV
@@ -3072,6 +3216,7 @@ we	PRON
 were	AUX
 married	VERB
 .	PUNCT
+ 	S0
 So	ADV
 he	PRON
 's	AUX
@@ -3091,9 +3236,11 @@ make	VERB
 good	ADJ
 decisions	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 Applause	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 """"	PUNCT
 And	CCONJ
@@ -3115,9 +3262,11 @@ to	ADP
 your	PRON
 answer	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 Laughter	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 This	PRON
 is	AUX
@@ -3125,9 +3274,11 @@ not	PART
 a	DET
 filibuster	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 Laughter	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 That	PRON
 's	AUX
@@ -3140,9 +3291,11 @@ on	ADP
 good	ADJ
 judges	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 Applause	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 The	DET
 hymn	NOUN
@@ -3157,12 +3310,14 @@ service	NOUN
 as	ADP
 governor	NOUN
 .	PUNCT
+ 	S0
 Laura	PROPN
 and	CCONJ
 I	PRON
 are	AUX
 Methodists	PROPN
 .	PUNCT
+ 	S0
 One	NUM
 of	ADP
 the	DET
@@ -3172,6 +3327,7 @@ wrote	VERB
 the	DET
 hymn	NOUN
 .	PUNCT
+ 	S0
 The	DET
 painting	NOUN
 is	AUX
@@ -3187,10 +3343,12 @@ Charge	PROPN
 to	PART
 Keep	VERB
 .	PUNCT
+ 	S0
 '	PUNCT
 I	PRON
 have	VERB
 .	PUNCT
+ 	S0
 The	DET
 hymn	NOUN
 talks	VERB
@@ -3203,6 +3361,7 @@ yourself	PRON
 in	ADP
 life	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 --	PUNCT
 which	PRON
@@ -3218,9 +3377,11 @@ I	PRON
 possibly	ADV
 can	AUX
 .	PUNCT
+ 	S0
 (	PUNCT
 Applause	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 """"	PUNCT
 The	DET
@@ -3254,6 +3415,7 @@ charge	NOUN
 to	PART
 keep	VERB
 .	PUNCT
+ 	S0
 And	CCONJ
 I	PRON
 gave	VERB
@@ -3281,9 +3443,11 @@ the	DET
 Oval	PROPN
 Office	PROPN
 .	PUNCT
+ 	S0
 (	PUNCT
 Applause	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 """"	PUNCT
 Now	ADV
@@ -3293,12 +3457,14 @@ a	DET
 rambling	ADJ
 response	NOUN
 .	PUNCT
+ 	S0
 And	CCONJ
 I	PRON
 have	VERB
 to	PART
 wonder	VERB
 :	PUNCT
+ 	S0
 Did	AUX
 he	PRON
 forget	VERB
@@ -3316,6 +3482,7 @@ to	PART
 Keep	VERB
 """"	PUNCT
 ?	PUNCT
+ 	S0
 That	PRON
 was	AUX
 the	DET
@@ -3336,6 +3503,7 @@ Hughes	PROPN
 in	ADP
 1999	NUM
 .	PUNCT
+ 	S0
 There	PRON
 has	AUX
 been	VERB
@@ -3353,6 +3521,7 @@ or	CCONJ
 acquiring	VERB
 Firefox	PROPN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 true	ADJ
@@ -3364,6 +3533,7 @@ in	ADP
 acquisition	NOUN
 mode	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 have	AUX
 acquired	VERB
@@ -3389,6 +3559,7 @@ why	ADV
 not	PART
 Firefox	PROPN
 ?	PUNCT
+ 	S0
 I	PRON
 have	VERB
 no	DET
@@ -3423,6 +3594,7 @@ technology	NOUN
 in	ADP
 Firefox	PROPN
 .	PUNCT
+ 	S0
 Ben	PROPN
 Goodger	PROPN
 is	AUX
@@ -3433,12 +3605,14 @@ for	ADP
 Mozilla	PROPN
 Firefox	PROPN
 .	PUNCT
+ 	S0
 He	PRON
 announced	VERB
 this	PRON
 in	ADP
 January	PROPN
 :	PUNCT
+ 	S0
 As	ADP
 of	ADP
 January	PROPN
@@ -3465,6 +3639,7 @@ View	PROPN
 ,	PUNCT
 California	PROPN
 .	PUNCT
+ 	S0
 My	PRON
 role	NOUN
 with	ADP
@@ -3505,6 +3680,7 @@ and	CCONJ
 2.0	NUM
 releases	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 remain	VERB
 devoted	ADJ
@@ -3526,6 +3702,7 @@ browsing	NOUN
 in	ADP
 general	ADJ
 .	PUNCT
+ 	S0
 He	PRON
 also	ADV
 announced	VERB
@@ -3533,9 +3710,11 @@ this	PRON
 in	ADP
 January	PROPN
 :	PUNCT
+ 	S0
 Welcome	INTJ
 Darin	PROPN
 !	PUNCT
+ 	S0
 I	PRON
 just	ADV
 want	VERB
@@ -3546,6 +3725,7 @@ big	ADJ
 """"	PUNCT
 Welcome	NOUN
 !	PUNCT
+ 	S0
 """"	PUNCT
 to	ADP
 Darin	PROPN
@@ -3559,12 +3739,14 @@ Google	PROPN
 this	DET
 week	NOUN
 .	PUNCT
+ 	S0
 2005	NUM
 is	AUX
 going	VERB
 to	PART
 rock	VERB
 !	PUNCT
+ 	S0
 Darin	PROPN
 Fisher	PROPN
 wrote	VERB
@@ -3576,6 +3758,7 @@ January	PROPN
 ,	PUNCT
 2005	NUM
 :	PUNCT
+ 	S0
 Me	PRON
 and	CCONJ
 the	DET
@@ -3606,6 +3789,7 @@ Google	PROPN
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 Like	ADP
 Ben	PROPN
 ,	PUNCT
@@ -3636,6 +3820,7 @@ March	PROPN
 ,	PUNCT
 2005	NUM
 :	PUNCT
+ 	S0
 I	PRON
 want	VERB
 to	PART
@@ -3649,6 +3834,7 @@ Ryner	PROPN
 to	ADP
 Google	PROPN
 !	PUNCT
+ 	S0
 Brian	PROPN
 has	AUX
 been	AUX
@@ -3678,6 +3864,7 @@ you	PRON
 on	ADP
 board	NOUN
 !	PUNCT
+ 	S0
 Now	ADV
 ,	PUNCT
 none	NOUN
@@ -3711,6 +3898,7 @@ is	AUX
 behind	ADP
 something	PRON
 .	PUNCT
+ 	S0
 In	ADP
 this	DET
 case	NOUN
@@ -3741,6 +3929,7 @@ Mozilla	PROPN
 Firefox	PROPN
 relationship	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	AUX
@@ -3780,6 +3969,7 @@ by	ADP
 Aaron	PROPN
 McLeran	PROPN
 .	PUNCT
+ 	S0
 In	ADP
 this	DET
 movie	NOUN
@@ -3799,6 +3989,7 @@ media	NOUN
 in	ADP
 2008	NUM
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 one	NUM
@@ -3807,6 +3998,7 @@ thought	NOUN
 provoking	VERB
 film	NOUN
 .	PUNCT
+ 	S0
 Every	DET
 move	NOUN
 Google	PROPN
@@ -3817,6 +4009,7 @@ particular	ADJ
 future	NOUN
 closer	ADV
 .	PUNCT
+ 	S0
 Just	ADV
 one	NUM
 small	ADJ
@@ -3841,6 +4034,7 @@ Aquire	VERB
 """"	PUNCT
 Firefox	PROPN
 .	PUNCT
+ 	S0
 They	PRON
 already	ADV
 have	VERB
@@ -3871,6 +4065,7 @@ thing	NOUN
 is	AUX
 about	ADP
 .	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 inclined	ADJ
@@ -3946,6 +4141,7 @@ firefox	PROPN
 development	NOUN
 team	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 this	DET
@@ -3962,6 +4158,7 @@ source	NOUN
 projects	NOUN
 alive	ADJ
 .	PUNCT
+ 	S0
 Fascinating	ADJ
 viewpoint	NOUN
 of	ADP
@@ -3970,11 +4167,13 @@ future	NOUN
 in	ADP
 Epic	PROPN
 .	PUNCT
+ 	S0
 Thanks	NOUN
 for	ADP
 the	DET
 link	NOUN
 .	PUNCT
+ 	S0
 Malach	PROPN
 ,	PUNCT
 What	PRON
@@ -3983,6 +4182,7 @@ say	VERB
 makes	VERB
 sense	NOUN
 .	PUNCT
+ 	S0
 Acquiring	VERB
 open	ADJ
 source	NOUN
@@ -4006,6 +4206,7 @@ project	NOUN
 will	AUX
 go	VERB
 .	PUNCT
+ 	S0
 It	PRON
 probably	ADV
 gives	VERB
@@ -4031,6 +4232,7 @@ and	CCONJ
 process	NOUN
 mis-matches	NOUN
 .	PUNCT
+ 	S0
 The	DET
 Coalition	PROPN
 decision	NOUN
@@ -4070,6 +4272,7 @@ incompetence	NOUN
 in	ADP
 governance	NOUN
 .	PUNCT
+ 	S0
 How	ADV
 did	AUX
 the	DET
@@ -4102,6 +4305,7 @@ the	DET
 United	PROPN
 States	PROPN
 ?	PUNCT
+ 	S0
 Where	ADV
 it	PRON
 risks	VERB
@@ -4135,6 +4339,7 @@ forces	NOUN
 in	ADP
 country	NOUN
 ?	PUNCT
+ 	S0
 At	ADP
 a	DET
 time	NOUN
@@ -4161,6 +4366,7 @@ to	PART
 get	VERB
 involved	ADJ
 ?	PUNCT
+ 	S0
 One	NUM
 answer	NOUN
 is	VERB
@@ -4176,6 +4382,7 @@ running	VERB
 the	DET
 CPA	PROPN
 .	PUNCT
+ 	S0
 State	PROPN
 is	AUX
 the	DET
@@ -4188,6 +4395,7 @@ affairs	NOUN
 and	CCONJ
 administration	NOUN
 .	PUNCT
+ 	S0
 The	DET
 civilians	NOUN
 in	ADP
@@ -4203,6 +4411,7 @@ blow	VERB
 things	NOUN
 up	ADP
 .	PUNCT
+ 	S0
 Rumsfeld	PROPN
 ,	PUNCT
 Wolfowitz	PROPN
@@ -4238,6 +4447,7 @@ about	ADP
 it	PRON
 )	PUNCT
 .	PUNCT
+ 	S0
 They	PRON
 actively	ADV
 excluded	VERB
@@ -4249,6 +4459,7 @@ like	ADP
 Tom	PROPN
 Warrick	PROPN
 .	PUNCT
+ 	S0
 (	PUNCT
 Only	ADV
 recently	ADV
@@ -4271,6 +4482,7 @@ up	ADP
 the	DET
 mess	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 The	DET
 Neocons	NOUN
@@ -4322,6 +4534,7 @@ into	ADP
 three	NUM
 parts	NOUN
 .	PUNCT
+ 	S0
 The	DET
 Washington	PROPN
 Monthly	PROPN
@@ -4349,6 +4562,7 @@ in	ADP
 the	DET
 CPA	PROPN
 .	PUNCT
+ 	S0
 Sept.	PROPN
 11	PROPN
 Commission	PROPN
@@ -4396,6 +4610,7 @@ the	DET
 Asian	PROPN
 Times	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 long	ADV
@@ -4407,6 +4622,7 @@ of	ADP
 the	DET
 Sadrists	PROPN
 .	PUNCT
+ 	S0
 But	CCONJ
 they	PRON
 have	AUX
@@ -4426,6 +4642,7 @@ in	ADP
 recent	ADJ
 weeks	NOUN
 .	PUNCT
+ 	S0
 Someone	PRON
 in	ADP
 the	DET
@@ -4456,6 +4673,7 @@ people	NOUN
 like	ADP
 Yaqubi	PROPN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 either	CCONJ
@@ -4475,6 +4693,7 @@ be	AUX
 guessed	VERB
 at	ADP
 .	PUNCT
+ 	S0
 There	PRON
 is	VERB
 a	DET
@@ -4519,6 +4738,7 @@ fall	VERB
 into	ADP
 it	PRON
 .	PUNCT
+ 	S0
 But	CCONJ
 sometimes	ADV
 ,	PUNCT
@@ -4536,6 +4756,7 @@ because	ADP
 of	ADP
 X	NOUN
 .	PUNCT
+ 	S0
 So	ADV
 I	PRON
 may	AUX
@@ -4547,6 +4768,7 @@ out	ADV
 with	ADP
 it	PRON
 :	PUNCT
+ 	S0
 It	PRON
 is	AUX
 pretty	ADV
@@ -4577,6 +4799,7 @@ reported	VERB
 of	ADP
 Muqtada	PROPN
 :	PUNCT
+ 	S0
 '	PUNCT
 A	DET
 radical	ADJ
@@ -4609,6 +4832,7 @@ arm	NOUN
 in	ADP
 Iraq	PROPN
 .	PUNCT
+ 	S0
 """"	PUNCT
 I	PRON
 have	AUX
@@ -4655,6 +4879,7 @@ Shiite	ADJ
 group	NOUN
 Hezbollah	PROPN
 .	PUNCT
+ 	S0
 Last	ADJ
 month	NOUN
 ,	PUNCT
@@ -4669,6 +4894,7 @@ ranks	NOUN
 with	ADP
 Hamas	PROPN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Let	VERB
 (	PUNCT
@@ -4712,6 +4938,7 @@ south	ADV
 of	ADP
 Baghdad	PROPN
 .	PUNCT
+ 	S0
 He	PRON
 did	AUX
 comment	VERB
@@ -4723,6 +4950,7 @@ by	ADP
 the	DET
 phrase	NOUN
 .	PUNCT
+ 	S0
 '	PUNCT
 And	CCONJ
 on	ADP
@@ -4765,6 +4993,7 @@ US	PROPN
 soldiers	NOUN
 dead	ADJ
 .	PUNCT
+ 	S0
 The	DET
 Army	PROPN
 is	AUX
@@ -4774,6 +5003,7 @@ forgive	VERB
 or	CCONJ
 forget	VERB
 ;	PUNCT
+ 	S0
 but	CCONJ
 who	PRON
 provoked	VERB
@@ -4781,6 +5011,7 @@ it	PRON
 and	CCONJ
 why	ADV
 ?	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 not	PART
@@ -4805,6 +5036,7 @@ has	AUX
 been	AUX
 doing	VERB
 .	PUNCT
+ 	S0
 Anthony	PROPN
 Shadid	PROPN
 of	ADP
@@ -4825,6 +5057,7 @@ months	NOUN
 be	X
 for	ADV
 .	PUNCT
+ 	S0
 Why	ADV
 were	AUX
 they	PRON
@@ -4833,6 +5066,7 @@ acted	VERB
 on	ADP
 Saturday	PROPN
 ?	PUNCT
+ 	S0
 i	PRON
 am	AUX
 not	PART
@@ -4848,6 +5082,7 @@ and	CCONJ
 boob	VERB
 out	ADP
 .	PUNCT
+ 	S0
 I	PRON
 definitely	ADV
 could	AUX
@@ -4863,6 +5098,7 @@ probably	ADV
 do	VERB
 better	ADV
 .	PUNCT
+ 	S0
 Bryan	PROPN
 ,	PUNCT
 you	PRON
@@ -4871,6 +5107,7 @@ in	ADV
 ,	PUNCT
 right	INTJ
 ?	PUNCT
+ 	S0
 Anybody	PRON
 up	ADV
 for	ADP
@@ -4879,6 +5116,7 @@ hour	NOUN
 after	ADP
 work	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 was	AUX
 thinking	VERB
@@ -4888,6 +5126,7 @@ at	ADP
 around	ADV
 5	NUM
 .	PUNCT
+ 	S0
 Let	VERB
 me	PRON
 know	VERB
@@ -4899,17 +5138,21 @@ what	PRON
 that	PRON
 means	VERB
 ?	PUNCT
+ 	S0
 where	ADV
 did	AUX
 you	PRON
 grow	VERB
 up	ADP
 ?	PUNCT
+ 	S0
 india	PROPN
 ?	PUNCT
+ 	S0
 boob	VERB
 out	ADP
 ?	PUNCT
+ 	S0
 should	AUX
 I	PRON
 be	AUX
@@ -4925,6 +5168,7 @@ what	PRON
 that	PRON
 means	VERB
 ?	PUNCT
+ 	S0
 i	PRON
 am	AUX
 going	VERB
@@ -4938,6 +5182,7 @@ anyone	PRON
 is	AUX
 interested	ADJ
 .	PUNCT
+ 	S0
 jill	PROPN
 allen	PROPN
 finishes	VERB
@@ -4954,6 +5199,7 @@ going	VERB
 to	PART
 party	VERB
 .	PUNCT
+ 	S0
 max	PROPN
 and	CCONJ
 jen	PROPN
@@ -4962,11 +5208,13 @@ looking	VERB
 for	ADP
 you	PRON
 .	PUNCT
+ 	S0
 call	VERB
 them	PRON
 at	ADP
 303-832-8160	NUM
 .	PUNCT
+ 	S0
 they	PRON
 have	AUX
 n't	PART
@@ -4977,6 +5225,7 @@ in	ADP
 a	DET
 while	NOUN
 .	PUNCT
+ 	S0
 Work	VERB
 it	PRON
 into	ADP
@@ -5003,6 +5252,7 @@ have	VERB
 fantastic	ADJ
 friends	NOUN
 .	PUNCT
+ 	S0
 In	ADP
 fact	NOUN
 Peder	PROPN
@@ -5025,9 +5275,11 @@ balls	NOUN
 last	ADJ
 night	NOUN
 .	PUNCT
+ 	S0
 Fucking	ADJ
 bitches	NOUN
 !	PUNCT
+ 	S0
 """"	PUNCT
 i	PRON
 have	VERB
@@ -5039,6 +5291,7 @@ butt	NOUN
 fucking	VERB
 mississippi	PROPN
 .	PUNCT
+ 	S0
 i	PRON
 am	AUX
 not	PART
@@ -5052,6 +5305,7 @@ n't	PART
 tell	VERB
 val	PROPN
 .	PUNCT
+ 	S0
 the	DET
 following	VERB
 weekend	NOUN
@@ -5062,6 +5316,7 @@ ready	ADJ
 to	PART
 rock	VERB
 .	PUNCT
+ 	S0
 i	PRON
 think	VERB
 they	PRON
@@ -5072,6 +5327,7 @@ and	CCONJ
 no	DET
 bite	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 think	VERB
 they	PRON
@@ -5083,6 +5339,7 @@ kicked	VERB
 by	ADP
 cats	NOUN
 .	PUNCT
+ 	S0
 they	PRON
 look	VERB
 like	SCONJ
@@ -5094,6 +5351,7 @@ who	PRON
 were	AUX
 shrunk	VERB
 .	PUNCT
+ 	S0
 you	PRON
 should	AUX
 get	VERB
@@ -5101,6 +5359,7 @@ a	DET
 cocker	NOUN
 spaniel	NOUN
 .	PUNCT
+ 	S0
 no	INTJ
 ,	PUNCT
 i	PRON
@@ -5121,6 +5380,7 @@ taco	PROPN
 bell	PROPN
 dog	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 want	VERB
 it	PRON
@@ -5132,6 +5392,7 @@ small	ADJ
 and	CCONJ
 cute	ADJ
 .	PUNCT
+ 	S0
 i	PRON
 knew	VERB
 someone	PRON
@@ -5145,6 +5406,7 @@ i	PRON
 loved	VERB
 it	PRON
 .	PUNCT
+ 	S0
 why	ADV
 do	AUX
 you	PRON
@@ -5153,10 +5415,12 @@ they	PRON
 are	AUX
 mean	ADJ
 ?	PUNCT
+ 	S0
 are	AUX
 you	PRON
 kidding	VERB
 ?	PUNCT
+ 	S0
 why	ADV
 would	AUX
 you	PRON
@@ -5164,6 +5428,7 @@ want	VERB
 a	DET
 chihuahua	NOUN
 ?	PUNCT
+ 	S0
 those	DET
 dogs	NOUN
 are	AUX
@@ -5171,6 +5436,7 @@ n't	PART
 even	ADV
 friendly	ADJ
 .	PUNCT
+ 	S0
 do	AUX
 you	PRON
 think	VERB
@@ -5184,6 +5450,7 @@ taco	PROPN
 bell	PROPN
 dog	NOUN
 ?	PUNCT
+ 	S0
 """"	PUNCT
 Les	PROPN
 Spahnn	PROPN
@@ -5196,6 +5463,7 @@ spahnn@hnks.com	X
 PM	NOUN
 All	DET
 :	PUNCT
+ 	S0
 It	PRON
 is	AUX
 my	PRON
@@ -5233,6 +5501,7 @@ direct	ADJ
 access	NOUN
 contracts	NOUN
 .	PUNCT
+ 	S0
 The	DET
 premise	NOUN
 with	ADP
@@ -5269,6 +5538,7 @@ must	AUX
 break	VERB
 through	ADP
 .	PUNCT
+ 	S0
 In	ADP
 other	ADJ
 words	NOUN
@@ -5277,6 +5547,7 @@ table	NOUN
 is	AUX
 set	VERB
 .	PUNCT
+ 	S0
 Deal	VERB
 your	PRON
 meal	NOUN
@@ -5287,6 +5558,7 @@ dishes	NOUN
 are	AUX
 located	VERB
 .	PUNCT
+ 	S0
 I.E.	X
 the	DET
 Davis	PROPN
@@ -5333,6 +5605,7 @@ for	ADP
 all	DET
 parties	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 clearly	ADV
 gives	VERB
@@ -5363,12 +5636,14 @@ oppose	VERB
 direct	ADJ
 access	NOUN
 .	PUNCT
+ 	S0
 Power	NOUN
 be	VERB
 where	ADV
 power	NOUN
 lies	VERB
 .	PUNCT
+ 	S0
 you	PRON
 are	AUX
 n't	PART
@@ -5381,6 +5656,7 @@ until	ADP
 sunday	PROPN
 now	ADV
 ?	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 in	ADV
@@ -5434,6 +5710,7 @@ woodrow	PROPN
 s	PART
 tomorrow	NOUN
 ?	PUNCT
+ 	S0
 there	PRON
 will	AUX
 be	VERB
@@ -5462,6 +5739,7 @@ later	ADV
 that	DET
 night	NOUN
 .	PUNCT
+ 	S0
 plus	CCONJ
 we	PRON
 can	AUX
@@ -5470,6 +5748,7 @@ outside	ADV
 watching	VERB
 it	PRON
 .	PUNCT
+ 	S0
 This	DET
 message	NOUN
 is	AUX
@@ -5486,6 +5765,7 @@ or	CCONJ
 confidential	ADJ
 information	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	AUX
@@ -5504,6 +5784,7 @@ delete	VERB
 the	DET
 original	NOUN
 .	PUNCT
+ 	S0
 Any	DET
 other	ADJ
 use	NOUN
@@ -5515,6 +5796,7 @@ you	PRON
 is	AUX
 prohibited	VERB
 .	PUNCT
+ 	S0
 just	ADV
 call	VERB
 me	PRON
@@ -5523,6 +5805,7 @@ my	PRON
 cell	NOUN
 phone	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 am	AUX
 going	VERB
@@ -5536,6 +5819,7 @@ eat	VERB
 and	CCONJ
 drink	VERB
 .	PUNCT
+ 	S0
 what	PRON
 do	AUX
 you	PRON
@@ -5544,6 +5828,7 @@ i	PRON
 am	AUX
 perverted	ADJ
 ?	PUNCT
+ 	S0
 whatever	INTJ
 ,	PUNCT
 you	PRON
@@ -5553,6 +5838,7 @@ perverted	ADJ
 old	ADJ
 man	NOUN
 .	PUNCT
+ 	S0
 you	PRON
 love	VERB
 it	PRON
@@ -5561,6 +5847,7 @@ i	PRON
 come	VERB
 over	ADV
 .	PUNCT
+ 	S0
 i	PRON
 satisfy	VERB
 your	PRON
@@ -5568,6 +5855,7 @@ appetitie	NOUN
 for	ADP
 lovin	NOUN
 .	PUNCT
+ 	S0
 Robert	X
 Bryngelson@AZURIX	X
 08/16/2000	NUM
@@ -5593,6 +5881,7 @@ out	ADV
 ta	ADP
 here	ADV
 !	PUNCT
+ 	S0
 Today	NOUN
 is	AUX
 my	PRON
@@ -5630,6 +5919,7 @@ El	PROPN
 Paso	PROPN
 Energy	PROPN
 .	PUNCT
+ 	S0
 This	PRON
 happened	VERB
 very	ADV
@@ -5650,6 +5940,7 @@ before	SCONJ
 I	PRON
 left	VERB
 .	PUNCT
+ 	S0
 I	PRON
 do	AUX
 n't	PART
@@ -5681,6 +5972,7 @@ or	CCONJ
 at	ADP
 713-664-7478	NUM
 .	PUNCT
+ 	S0
 I	PRON
 enjoyed	VERB
 working	VERB
@@ -5707,9 +5999,11 @@ of	ADP
 the	DET
 best	ADJ
 .	PUNCT
+ 	S0
 Take	VERB
 care	NOUN
 .	PUNCT
+ 	S0
 Rob	PROPN
 Bryngelson	PROPN
 PS	NOUN
@@ -5737,6 +6031,7 @@ beginning	VERB
 around	ADP
 5:00	NUM
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 can	AUX
@@ -5746,6 +6041,7 @@ it	PRON
 please	INTJ
 come	VERB
 !	PUNCT
+ 	S0
 Traci	X
 Warner@ENRON	X
 COMMUNICATIONS	X
@@ -5782,6 +6078,7 @@ H	PROPN
 endowment	NOUN
 proposal	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 will	AUX
 meeting	VERB
@@ -5799,6 +6096,7 @@ you	PRON
 all	DET
 there	ADV
 .	PUNCT
+ 	S0
 Sincerely	ADV
 ,	PUNCT
 Traci	PROPN
@@ -5839,6 +6137,7 @@ blanks	NOUN
 filled	VERB
 in	ADP
 ?	PUNCT
+ 	S0
 Please	INTJ
 send	VERB
 it	PRON
@@ -5850,6 +6149,7 @@ copy	VERB
 to	ADP
 me	PRON
 .	PUNCT
+ 	S0
 Thanks	NOUN
 ,	PUNCT
 Thanks	NOUN
@@ -5872,6 +6172,7 @@ our	PRON
 e-mail	NOUN
 address	NOUN
 .	PUNCT
+ 	S0
 Our	PRON
 new	ADJ
 domain	NOUN
@@ -5879,6 +6180,7 @@ name	NOUN
 is	AUX
 paulhastings.com	X
 .	PUNCT
+ 	S0
 In	ADP
 most	ADJ
 cases	NOUN
@@ -5897,15 +6199,18 @@ name	NOUN
 plus	CCONJ
 @paulhastings.com	NOUN
 .	PUNCT
+ 	S0
 Here	ADV
 are	AUX
 two	NUM
 examples	NOUN
 :	PUNCT
+ 	S0
 janesmith@paulhastings.com	X
 and	CCONJ
 danjones@paulhastings.com	X
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	VERB
@@ -5918,6 +6223,7 @@ us	PRON
 at	ADP
 noc@paulhastings.com	X
 .	PUNCT
+ 	S0
 ==============================================================================	SYM
 """"	PUNCT
 The	DET
@@ -5946,6 +6252,7 @@ or	CCONJ
 privileged	ADJ
 material	NOUN
 .	PUNCT
+ 	S0
 Any	DET
 review	NOUN
 ,	PUNCT
@@ -5980,6 +6287,7 @@ recipient	NOUN
 is	AUX
 prohibited	VERB
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 received	VERB
@@ -5999,6 +6307,7 @@ from	ADP
 all	DET
 computers	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 ==============================================================================	SYM
 Attached	VERB
@@ -6034,7 +6343,9 @@ the	DET
 Turbine	NOUN
 Contract	NOUN
 .	PUNCT
+ 	S0
 ?	PUNCT
+ 	S0
 Do	AUX
 not	PART
 hesitate	VERB
@@ -6045,11 +6356,15 @@ with	ADP
 any	DET
 questions	NOUN
 .	PUNCT
+ 	S0
 ?	PUNCT
+ 	S0
 Best	ADJ
 regards	NOUN
 .	PUNCT
+ 	S0
 ?	PUNCT
+ 	S0
 ______________________	SYM
 John	PROPN
 Staikos	PROPN
@@ -6065,6 +6380,7 @@ E-mail	NOUN
 :?	PUNCT
 johnstaikos@paulhastings.com	X
 ?	PUNCT
+ 	S0
 -	PUNCT
 47K202!.DOC	NOUN
 Sean	PROPN
@@ -6083,6 +6399,7 @@ regarding	VERB
 their	PRON
 RFP	NOUN
 .	PUNCT
+ 	S0
 Bruce	PROPN
 indicated	VERB
 NiMo	PROPN
@@ -6097,6 +6414,7 @@ higher	ADV
 than	ADP
 ENA	PROPN
 .	PUNCT
+ 	S0
 However	ADV
 ,	PUNCT
 he	PRON
@@ -6117,6 +6435,7 @@ fifth	ADV
 highest	ADJ
 bid	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 gave	VERB
 no	DET
@@ -6129,6 +6448,7 @@ the	DET
 highest	ADJ
 bid	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 also	ADV
 said	VERB
@@ -6152,6 +6472,7 @@ NiMo	PROPN
 Tier	NOUN
 Structure	NOUN
 .	PUNCT
+ 	S0
 NiMo	PROPN
 released	VERB
 an	DET
@@ -6175,6 +6496,7 @@ getting	VERB
 that	DET
 RFP	NOUN
 .	PUNCT
+ 	S0
 Phil	PROPN
 if	SCONJ
 you	PRON
@@ -6186,6 +6508,7 @@ and	CCONJ
 distribute	VERB
 ASAP	ADV
 .	PUNCT
+ 	S0
 Thanks	NOUN
 ,	PUNCT
 Sean	PROPN
@@ -6193,6 +6516,7 @@ Here	ADV
 you	PRON
 go	VERB
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	VERB
@@ -6205,6 +6529,7 @@ let	VERB
 me	PRON
 know	VERB
 .	PUNCT
+ 	S0
 Scott	PROPN
 Neal	PROPN
 08/16/2000	NUM
@@ -6247,6 +6572,7 @@ accurate	ADJ
 or	CCONJ
 complete	ADJ
 .	PUNCT
+ 	S0
 Nothing	PRON
 contained	VERB
 herein	ADV
@@ -6272,6 +6598,7 @@ instruments	NOUN
 discussed	VERB
 herein	ADV
 .	PUNCT
+ 	S0
 Any	DET
 opinions	NOUN
 expressed	VERB
@@ -6283,6 +6610,7 @@ of	ADP
 the	DET
 author	NOUN
 .	PUNCT
+ 	S0
 As	ADP
 such	ADJ
 ,	PUNCT
@@ -6316,6 +6644,7 @@ employees	NOUN
 or	CCONJ
 affiliates	NOUN
 .	PUNCT
+ 	S0
 ,	PUNCT
 2000	NUM
 Carr	PROPN
@@ -6346,6 +6675,7 @@ Reader	PROPN
 or	CCONJ
 higher	ADJ
 .	PUNCT
+ 	S0
 Adobe	PROPN
 Acrobat	PROPN
 Reader	PROPN
@@ -6358,11 +6688,13 @@ FREE	ADJ
 from	ADP
 www.adobe.com	X
 .	PUNCT
+ 	S0
 (	PUNCT
 See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 UnleadedStocks.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6370,6 +6702,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 CrudeStocks.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6377,6 +6710,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 HeatingOilStocks.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6384,6 +6718,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 PADDIIstocksCL.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6391,6 +6726,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 PADDIstocksHO.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6398,6 +6734,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 PADDIstocksHU.pdf	NOUN
 )	PUNCT
 (	PUNCT
@@ -6405,6 +6742,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 API.pdf	NOUN
 )	PUNCT
 -	PUNCT
@@ -6445,6 +6783,7 @@ above	ADV
 referenced	VERB
 counterparty	NOUN
 .	PUNCT
+ 	S0
 The	DET
 request	NOUN
 was	AUX
@@ -6460,6 +6799,7 @@ Gas	NOUN
 Transportation	NOUN
 Agreement	NOUN
 .	PUNCT
+ 	S0
 These	DET
 agreements	NOUN
 were	AUX
@@ -6472,6 +6812,7 @@ CCNG	PROPN
 ,	PUNCT
 Inc.	PROPN
 .	PUNCT
+ 	S0
 On	ADP
 or	CCONJ
 about	ADP
@@ -6508,6 +6849,7 @@ CCGM	PROPN
 ,	PUNCT
 L.P.	PROPN
 .	PUNCT
+ 	S0
 Further	ADV
 ,	PUNCT
 she	PRON
@@ -6525,6 +6867,7 @@ reads	VERB
 in	ADP
 part	ADJ
 :	PUNCT
+ 	S0
 Gas	NOUN
 is	AUX
 free	ADJ
@@ -6560,6 +6903,7 @@ subject	ADJ
 to	ADP
 liens	NOUN
 .	PUNCT
+ 	S0
 She	PRON
 was	AUX
 instructed	VERB
@@ -6584,6 +6928,7 @@ of	ADP
 Section	NOUN
 7	NUM
 .	PUNCT
+ 	S0
 Attached	VERB
 find	VERB
 the	DET
@@ -6596,6 +6941,7 @@ in	ADP
 Section	NOUN
 7	NUM
 .	PUNCT
+ 	S0
 Kelly	PROPN
 Cloud	PROPN
 has	AUX
@@ -6608,8 +6954,10 @@ any	DET
 further	ADJ
 questions	NOUN
 .	PUNCT
+ 	S0
 Thanks	NOUN
 .	PUNCT
+ 	S0
 Marlene	PROPN
 D.	PROPN
 Hilliard	PROPN
@@ -6621,6 +6969,7 @@ the	DET
 attached	VERB
 guaranty	NOUN
 .	PUNCT
+ 	S0
 A	DET
 clean	ADJ
 and	CCONJ
@@ -6629,6 +6978,7 @@ version	NOUN
 are	AUX
 attached	VERB
 .	PUNCT
+ 	S0
 I	PRON
 revised	VERB
 the	DET
@@ -6650,6 +7000,7 @@ both	ADV
 previously	ADV
 approved	VERB
 .	PUNCT
+ 	S0
 We	PRON
 are	AUX
 OK	ADJ
@@ -6658,6 +7009,7 @@ execute	VERB
 this	DET
 form	NOUN
 .	PUNCT
+ 	S0
 Let	VERB
 me	PRON
 know	VERB
@@ -6671,8 +7023,10 @@ ahead	ADV
 and	CCONJ
 execute	VERB
 .	PUNCT
+ 	S0
 Thanks	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Townsend	PROPN
 ,	PUNCT
@@ -6692,10 +7046,12 @@ going	VERB
 on	ADP
 dude	NOUN
 ?	PUNCT
+ 	S0
 Antigua	PROPN
 was	AUX
 awesome	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 survived	VERB
 it	PRON
@@ -6703,6 +7059,7 @@ without	ADP
 a	DET
 problem	NOUN
 .	PUNCT
+ 	S0
 Heather	PROPN
 moving	VERB
 in	ADV
@@ -6712,6 +7069,7 @@ a	DET
 different	ADJ
 story	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 did	AUX
 n't	PART
@@ -6730,12 +7088,14 @@ one	NUM
 bedroom	NOUN
 apartment	NOUN
 .	PUNCT
+ 	S0
 How	ADV
 is	AUX
 your	PRON
 love	NOUN
 life	NOUN
 .	PUNCT
+ 	S0
 The	DET
 gal	NOUN
 from	ADP
@@ -6745,18 +7105,21 @@ was	AUX
 pretty	ADV
 hot	ADJ
 .	PUNCT
+ 	S0
 Are	AUX
 you	PRON
 still	ADV
 chasing	VERB
 that	PRON
 ?	PUNCT
+ 	S0
 Let	VERB
 s	PRON
 get	VERB
 together	ADV
 soon	ADV
 .	PUNCT
+ 	S0
 Our	PRON
 extra	ADJ
 bedroom	NOUN
@@ -6764,6 +7127,7 @@ is	AUX
 nicer	ADJ
 now	ADV
 .	PUNCT
+ 	S0
 My	PRON
 old	ADJ
 bed	NOUN
@@ -6773,11 +7137,13 @@ in	ADP
 a	DET
 dumpster	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 smelled	VERB
 like	ADP
 shit	NOUN
 .	PUNCT
+ 	S0
 Talk	VERB
 to	ADP
 you	PRON
@@ -6788,18 +7154,21 @@ is	AUX
 it	PRON
 going	VERB
 ?	PUNCT
+ 	S0
 Did	AUX
 you	PRON
 survive	VERB
 the	DET
 honeymoon	NOUN
 ?	PUNCT
+ 	S0
 These	PRON
 look	VERB
 fine	ADJ
 to	ADP
 me	PRON
 .	PUNCT
+ 	S0
 Go	VERB
 ahead	ADV
 and	CCONJ
@@ -6811,6 +7180,7 @@ you	PRON
 are	AUX
 ready	ADJ
 .	PUNCT
+ 	S0
 Joan	PROPN
 Woodson	PROPN
 08/10/2000	NUM
@@ -6821,11 +7191,13 @@ Investment	PROPN
 Partners	PROPN
 Congratulations	NOUN
 !	PUNCT
+ 	S0
 You	PRON
 've	AUX
 all	ADV
 won	VERB
 !	PUNCT
+ 	S0
 ...	PUNCT
 Now	ADV
 comes	VERB
@@ -6853,22 +7225,27 @@ all	DET
 who	PRON
 volunteered	VERB
 .	PUNCT
+ 	S0
 You	PRON
 will	AUX
 remain	VERB
 as	ADP
 alternates	NOUN
 .	PUNCT
+ 	S0
 Analyst	NOUN
 Team	NOUN
 Participants	NOUN
 :	PUNCT
+ 	S0
 Analyst	NOUN
 Team	NOUN
 1	NUM
 :	PUNCT
+ 	S0
 Coach	NOUN
 :	PUNCT
+ 	S0
 Lisa	PROPN
 Gilette	PROPN
 Kristen	PROPN
@@ -6886,8 +7263,10 @@ Analyst	NOUN
 Team	NOUN
 2	NUM
 :	PUNCT
+ 	S0
 Coach	NOUN
 :	PUNCT
+ 	S0
 Doug	PROPN
 Sewell	PROPN
 Jeffrey	PROPN
@@ -6905,12 +7284,15 @@ Associate	NOUN
 Team	NOUN
 Participants	NOUN
 :	PUNCT
+ 	S0
 Associate	NOUN
 Team	NOUN
 1	NUM
 :	PUNCT
+ 	S0
 Coach	NOUN
 :	PUNCT
+ 	S0
 Ben	PROPN
 Markey	PROPN
 Mary	PROPN
@@ -6931,8 +7313,10 @@ A	NOUN
 Team	NOUN
 2	NUM
 :	PUNCT
+ 	S0
 Coach	NOUN
 :	PUNCT
+ 	S0
 Melanie	PROPN
 King	PROPN
 Brandon	PROPN
@@ -6956,6 +7340,7 @@ Mundim	PROPN
 Associate	NOUN
 Alternates	NOUN
 :	PUNCT
+ 	S0
 Heather	PROPN
 Johnson	PROPN
 ,	PUNCT
@@ -6979,15 +7364,18 @@ FOR	ADP
 UNITED	PROPN
 WAY	PROPN
 ?	PUNCT
+ 	S0
 We	PRON
 hope	VERB
 you	PRON
 do	VERB
 !	PUNCT
+ 	S0
 How	ADV
 to	PART
 Pledge	VERB
 :	PUNCT
+ 	S0
 This	DET
 year	NOUN
 it	PRON
@@ -6999,6 +7387,7 @@ make	VERB
 your	PRON
 contribution	NOUN
 .	PUNCT
+ 	S0
 Simply	ADV
 type	VERB
 in	ADV
@@ -7026,6 +7415,7 @@ the	DET
 address	NOUN
 field	NOUN
 .	PUNCT
+ 	S0
 Either	DET
 option	NOUN
 should	AUX
@@ -7041,9 +7431,11 @@ Way	PROPN
 Campaign	NOUN
 site	NOUN
 .	PUNCT
+ 	S0
 PLEASE	INTJ
 NOTE	VERB
 :	PUNCT
+ 	S0
 Your	PRON
 pledge	NOUN
 is	VERB
@@ -7057,13 +7449,16 @@ only	ADV
 takes	VERB
 minutes	NOUN
 .	PUNCT
+ 	S0
 No	DET
 physical	ADJ
 pledge	NOUN
 cards	NOUN
 .	PUNCT
+ 	S0
 Questions	NOUN
 :	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	VERB
@@ -7094,6 +7489,7 @@ Mayfield	PROPN
 3-3264	NUM
 )	PUNCT
 .	PUNCT
+ 	S0
 you	PRON
 know	VERB
 that	SCONJ
@@ -7104,6 +7500,7 @@ matt	PROPN
 are	AUX
 out	ADV
 ?	PUNCT
+ 	S0
 Game	NOUN
 tonight	NOUN
 at	ADP
@@ -7117,6 +7514,7 @@ kick	VERB
 some	DET
 ass	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 have	AUX
 not	PART
@@ -7137,6 +7535,7 @@ stay	VERB
 in	ADP
 town	NOUN
 .	PUNCT
+ 	S0
 the	DET
 weather	NOUN
 is	AUX
@@ -7151,6 +7550,7 @@ just	ADV
 blowing	VERB
 smoke	NOUN
 .	PUNCT
+ 	S0
 Christa	PROPN
 Winfrey	PROPN
 08/08/2000	NUM
@@ -7162,6 +7562,7 @@ heard	VERB
 from	ADP
 anyone	PRON
 ?	PUNCT
+ 	S0
 also	ADV
 ,	PUNCT
 what	PRON
@@ -7174,6 +7575,7 @@ weather	NOUN
 this	DET
 weekend	NOUN
 ?	PUNCT
+ 	S0
 is	AUX
 it	PRON
 supposed	VERB
@@ -7181,6 +7583,7 @@ to	PART
 be	AUX
 storming	VERB
 ?	PUNCT
+ 	S0
 by	ADP
 the	DET
 way	NOUN
@@ -7198,6 +7601,7 @@ by	ADP
 year	NOUN
 end	NOUN
 .	PUNCT
+ 	S0
 Your	PRON
 father	NOUN
 never	ADV
@@ -7210,6 +7614,7 @@ can	AUX
 I	PRON
 say	VERB
 ?	PUNCT
+ 	S0
 But	CCONJ
 ,	PUNCT
 I	PRON
@@ -7219,16 +7624,19 @@ happy	ADJ
 for	ADP
 you	PRON
 !	PUNCT
+ 	S0
 How	ADV
 are	AUX
 you	PRON
 ?	PUNCT
+ 	S0
 Any	DET
 news	NOUN
 on	ADP
 Aunt	PROPN
 Toni	PROPN
 ?	PUNCT
+ 	S0
 LU	INTJ
 -	PUNCT
 M	PROPN
@@ -7239,6 +7647,7 @@ all	DET
 is	AUX
 well	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 meant	VERB
 to	PART
@@ -7263,6 +7672,7 @@ self	NOUN
 important	ADJ
 asses	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 n't	PART
@@ -7275,6 +7685,7 @@ life	NOUN
 at	ADP
 work	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 all	ADV
@@ -7282,21 +7693,26 @@ about	ADP
 the	DET
 $$$	NOUN
 .	PUNCT
+ 	S0
 Work	VERB
 hard	ADV
 .	PUNCT
+ 	S0
 Make	VERB
 $$$	NOUN
 .	PUNCT
+ 	S0
 Retire	VERB
 young	ADJ
 .	PUNCT
+ 	S0
 Things	NOUN
 with	ADP
 me	PRON
 are	AUX
 great	ADJ
 .	PUNCT
+ 	S0
 Moving	VERB
 back	ADV
 to	ADP
@@ -7327,9 +7743,11 @@ got	VERB
 ta	PART
 go	VERB
 .	PUNCT
+ 	S0
 Take	VERB
 care	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 do	AUX
 n't	PART
@@ -7353,6 +7771,7 @@ soul	NOUN
 searching	VERB
 article	NOUN
 .	PUNCT
+ 	S0
 Thanks	NOUN
 for	SCONJ
 thinking	VERB
@@ -7363,12 +7782,14 @@ send	VERB
 it	PRON
 to	ADP
 .	PUNCT
+ 	S0
 I	PRON
 really	ADV
 enjoyed	VERB
 reading	VERB
 it	PRON
 .	PUNCT
+ 	S0
 We	PRON
 certainly	ADV
 fit	VERB
@@ -7379,6 +7800,7 @@ of	ADP
 the	DET
 article	NOUN
 .	PUNCT
+ 	S0
 There	PRON
 are	VERB
 a	DET
@@ -7391,12 +7813,14 @@ which	PRON
 working	VERB
 through	ADV
 .	PUNCT
+ 	S0
 It	PRON
 s	AUX
 all	ADV
 interesting	ADJ
 stuff	NOUN
 .	PUNCT
+ 	S0
 How	ADV
 are	AUX
 things	NOUN
@@ -7404,16 +7828,19 @@ going	VERB
 with	ADP
 you	PRON
 ?	PUNCT
+ 	S0
 Are	AUX
 you	PRON
 enjoying	VERB
 Houston	PROPN
 ?	PUNCT
+ 	S0
 London	PROPN
 has	AUX
 been	AUX
 great	ADJ
 .	PUNCT
+ 	S0
 Brokering	VERB
 over	ADP
 here	ADV
@@ -7422,6 +7849,7 @@ been	AUX
 pretty	ADV
 rewarding	ADJ
 .	PUNCT
+ 	S0
 Traders	NOUN
 over	ADP
 here	ADV
@@ -7436,6 +7864,7 @@ for	ADP
 other	ADJ
 humans	NOUN
 .	PUNCT
+ 	S0
 Catriona	PROPN
 is	AUX
 well	ADJ
@@ -7450,6 +7879,7 @@ job	NOUN
 in	ADP
 PR	NOUN
 .	PUNCT
+ 	S0
 Keep	VERB
 in	ADP
 touch	NOUN
@@ -7486,6 +7916,7 @@ in	ADP
 my	PRON
 work	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 all	ADV
@@ -7493,12 +7924,14 @@ about	ADP
 the	DET
 $$$	NOUN
 .	PUNCT
+ 	S0
 Work	VERB
 hard	ADV
 and	CCONJ
 retire	VERB
 early	ADV
 .	PUNCT
+ 	S0
 Cheers	NOUN
 Chris	PROPN
 P.S.	NOUN
@@ -7513,6 +7946,7 @@ about	ADV
 a	DET
 month	NOUN
 .	PUNCT
+ 	S0
 Enron	PROPN
 continues	VERB
 to	PART
@@ -7525,6 +7959,7 @@ around	ADV
 at	ADP
 will	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 actually	ADV
@@ -7534,6 +7969,7 @@ forward	ADV
 to	ADP
 it	PRON
 .	PUNCT
+ 	S0
 let	VERB
 's	PRON
 discuss	VERB
@@ -7545,6 +7981,7 @@ amstel	PROPN
 lights	PROPN
 together	ADV
 .	PUNCT
+ 	S0
 Jolene	PROPN
 Harvey	PROPN
 05/22/2001	NUM
@@ -7559,6 +7996,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 TEXT.htm	NOUN
 )	PUNCT
 ********************************	PUNCT
@@ -7586,6 +8024,7 @@ privileged	ADJ
 or	CCONJ
 confidential	ADJ
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 are	AUX
@@ -7607,6 +8046,7 @@ transmittal	NOUN
 in	ADP
 error	NOUN
 ;	PUNCT
+ 	S0
 any	DET
 review	NOUN
 ,	PUNCT
@@ -7622,6 +8062,7 @@ is	AUX
 strictly	ADV
 prohibited	VERB
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 have	AUX
@@ -7662,14 +8103,17 @@ all	DET
 its	PRON
 attachments	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 .	PUNCT
+ 	S0
 -	PUNCT
 TEXT.htm	NOUN
 <<	PUNCT
 File	NOUN
 :	PUNCT
+ 	S0
 TEXT.htm	NOUN
 >>	PUNCT
 I	PRON
@@ -7683,6 +8127,7 @@ a	DET
 hover	NOUN
 vehicle	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 might	AUX
 just	ADV
@@ -7699,6 +8144,7 @@ around	ADV
 all	DET
 winter	NOUN
 .	PUNCT
+ 	S0
 How	ADV
 about	ADP
 skidoo	NOUN
@@ -7716,6 +8162,7 @@ Lexus	PROPN
 IS	PROPN
 300	NUM
 .	PUNCT
+ 	S0
 Not	PART
 sure	ADJ
 if	SCONJ
@@ -7734,8 +8181,10 @@ for	ADP
 the	DET
 winter	NOUN
 .	PUNCT
+ 	S0
 Jackass	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 have	AUX
 always	ADV
@@ -7751,6 +8200,7 @@ and	CCONJ
 harmonious	ADJ
 relationships	NOUN
 .	PUNCT
+ 	S0
 Your	PRON
 ultimate	ADJ
 goal	NOUN
@@ -7776,6 +8226,7 @@ and	CCONJ
 mutual	ADJ
 trust	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 has	AUX
 often	ADV
@@ -7809,6 +8260,7 @@ possibly	ADV
 soon	ADV
 will	AUX
 .	PUNCT
+ 	S0
 In	ADP
 the	DET
 past	NOUN
@@ -7831,6 +8283,7 @@ to	PART
 do	VERB
 without	ADP
 .	PUNCT
+ 	S0
 You	PRON
 have	AUX
 now	ADV
@@ -7859,6 +8312,7 @@ considerable	ADJ
 self	NOUN
 esteem	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 wear	VERB
 your	PRON
@@ -7938,6 +8392,7 @@ holding	VERB
 you	PRON
 back	ADV
 .	PUNCT
+ 	S0
 There	PRON
 is	VERB
 no	DET
@@ -7945,6 +8400,7 @@ subterfuge	NOUN
 in	ADP
 you	PRON
 .	PUNCT
+ 	S0
 You	PRON
 are	AUX
 a	DET
@@ -7985,6 +8441,7 @@ based	VERB
 on	ADP
 understanding	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 are	AUX
 your	PRON
@@ -8004,6 +8461,7 @@ your	PRON
 own	ADJ
 convictions	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 have	VERB
 no	DET
@@ -8027,6 +8485,7 @@ straight	ADJ
 dealing	NOUN
 """"	PUNCT
 .	PUNCT
+ 	S0
 You	PRON
 wish	VERB
 to	PART
@@ -8103,6 +8562,7 @@ my	PRON
 outlook	PROPN
 )	PUNCT
 .	PUNCT
+ 	S0
 Raw	ADJ
 data	NOUN
 is	AUX
@@ -8117,6 +8577,7 @@ to	ADP
 the	DET
 right	NOUN
 .	PUNCT
+ 	S0
 Let	VERB
 me	PRON
 know	VERB
@@ -8126,8 +8587,10 @@ have	VERB
 any	DET
 questions	NOUN
 .	PUNCT
+ 	S0
 Vladi	PROPN
 .	PUNCT
+ 	S0
 Hey	INTJ
 Vladi	PROPN
 ,	PUNCT
@@ -8149,6 +8612,7 @@ Lavo	PROPN
 spread	NOUN
 analysis	NOUN
 ?	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 do	VERB
@@ -8159,8 +8623,10 @@ me	PRON
 a	DET
 copy	NOUN
 ?	PUNCT
+ 	S0
 Thanks	NOUN
 .	PUNCT
+ 	S0
 John	PROPN
 Attached	VERB
 is	AUX
@@ -8193,6 +8659,7 @@ Houston	PROPN
 Imperial	ADJ
 Ballroom	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 are	AUX
@@ -8225,6 +8692,7 @@ event	NOUN
 at	ADP
 http://home.enron.com/employeemeeting	X
 .	PUNCT
+ 	S0
 Constance	PROPN
 ,	PUNCT
 I	PRON
@@ -8246,6 +8714,7 @@ my	PRON
 timesheet	NOUN
 yet	ADV
 .	PUNCT
+ 	S0
 I	PRON
 tried	VERB
 to	PART
@@ -8265,6 +8734,7 @@ is	AUX
 too	ADV
 complicated	ADJ
 .	PUNCT
+ 	S0
 Is	AUX
 it	PRON
 possible	ADJ
@@ -8282,15 +8752,18 @@ the	DET
 vacation	NOUN
 time	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 would	AUX
 really	ADV
 appreciate	VERB
 that	PRON
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 .	PUNCT
+ 	S0
 Vladi	PROPN
 Pimenov	PROPN
 ext.	NOUN
@@ -8329,6 +8802,7 @@ review	NOUN
 and	CCONJ
 consideration	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 anticipate	VERB
 completing	VERB
@@ -8347,6 +8821,7 @@ you	PRON
 by	ADP
 Monday	PROPN
 .	PUNCT
+ 	S0
 In	ADP
 addition	NOUN
 ,	PUNCT
@@ -8390,6 +8865,7 @@ can	AUX
 speak	VERB
 to	ADP
 ?	PUNCT
+ 	S0
 Greatly	ADV
 appreciate	VERB
 your	PRON
@@ -8399,6 +8875,7 @@ to	ADP
 this	DET
 inquiry	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 look	VERB
 forward	ADV
@@ -8409,6 +8886,7 @@ on	ADP
 the	DET
 GISB	NOUN
 .	PUNCT
+ 	S0
 Regards	NOUN
 ,	PUNCT
 Vangie	PROPN
@@ -8449,6 +8927,7 @@ problems	NOUN
 this	DET
 morning	NOUN
 ?	PUNCT
+ 	S0
 Myself	PRON
 and	CCONJ
 Credit	NOUN
@@ -8466,8 +8945,10 @@ voice	NOUN
 mail	NOUN
 (	PUNCT
 ?	PUNCT
+ 	S0
 )	PUNCT
 .	PUNCT
+ 	S0
 Further	ADV
 to	ADP
 our	PRON
@@ -8479,6 +8960,7 @@ attached	VERB
 sample	NOUN
 agreements	NOUN
 .	PUNCT
+ 	S0
 Upon	ADP
 your	PRON
 review	NOUN
@@ -8501,11 +8983,13 @@ regarding	VERB
 this	DET
 matter	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 See	VERB
 attached	ADJ
 file	NOUN
 :	PUNCT
+ 	S0
 Constellation	NOUN
 Power	X
 (	X
@@ -8519,6 +9003,7 @@ See	VERB
 attached	VERB
 file	NOUN
 :	PUNCT
+ 	S0
 Sam3102.doc	NOUN
 )	PUNCT
 Regards	NOUN
@@ -8545,11 +9030,13 @@ to	ADP
 that	DET
 area	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 will	AUX
 contact	VERB
 you	PRON
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 in	ADP
@@ -8561,6 +9048,7 @@ your	PRON
 special	ADJ
 provisions	NOUN
 .	PUNCT
+ 	S0
 Best	ADJ
 regards	NOUN
 ,	PUNCT
@@ -8584,6 +9072,7 @@ in	ADP
 the	DET
 directory	NOUN
 .	PUNCT
+ 	S0
 Debra	PROPN
 Perlingiere	PROPN
 Please	INTJ
@@ -8600,6 +9089,7 @@ ENA	PROPN
 as	ADV
 well	ADV
 ?	PUNCT
+ 	S0
 Thx	NOUN
 dp	PROPN
 Debra	PROPN
@@ -8626,6 +9116,7 @@ City	NOUN
 of	ADP
 Springfield	PROPN
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -8636,6 +9127,7 @@ need	VERB
 anything	PRON
 else	ADJ
 .	PUNCT
+ 	S0
 dp	PROPN
 Debra	PROPN
 Perlingiere	PROPN
@@ -8649,6 +9141,7 @@ of	ADP
 the	DET
 GISB	NOUN
 .	PUNCT
+ 	S0
 As	SCONJ
 you	PRON
 see	VERB
@@ -8662,6 +9155,7 @@ in	ADP
 asset	NOUN
 purchase	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -8673,6 +9167,7 @@ like	VERB
 to	PART
 proceed	VERB
 .	PUNCT
+ 	S0
 Best	ADJ
 regards	NOUN
 ,	PUNCT
@@ -8710,6 +9205,7 @@ in	ADP
 several	ADJ
 sections	NOUN
 .	PUNCT
+ 	S0
 Could	AUX
 this	PRON
 be	VERB
@@ -8718,6 +9214,7 @@ you	PRON
 r	AUX
 referencing	VERB
 ?	PUNCT
+ 	S0
 Regards	NOUN
 ,	PUNCT
 Debra	PROPN
@@ -8730,6 +9227,7 @@ Article	NOUN
 Masters	NOUN
 below	ADV
 .	PUNCT
+ 	S0
 Dp	PROPN
 Debra	PROPN
 Perlingiere	PROPN
@@ -8741,6 +9239,7 @@ fine	ADJ
 to	ADP
 me	PRON
 .	PUNCT
+ 	S0
 Go	VERB
 ahead	ADV
 and	CCONJ
@@ -8752,6 +9251,7 @@ you	PRON
 are	AUX
 ready	ADJ
 .	PUNCT
+ 	S0
 Debra	PROPN
 Perlingiere	PROPN
 03/27/2001	NUM
@@ -8784,6 +9284,7 @@ sending	VERB
 execution	NOUN
 papers	NOUN
 .	PUNCT
+ 	S0
 Best	ADJ
 regards	NOUN
 ,	PUNCT
@@ -8794,6 +9295,7 @@ Debra	PROPN
 Perlingiere	PROPN
 Jill	PROPN
 :	PUNCT
+ 	S0
 As	SCONJ
 discussed	VERB
 ,	PUNCT
@@ -8805,6 +9307,7 @@ draft	NOUN
 for	ADP
 Pioneer	PROPN
 .	PUNCT
+ 	S0
 As	SCONJ
 you	PRON
 can	AUX
@@ -8820,6 +9323,7 @@ for	ADP
 ENA	PROPN
 Upstream	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 able	ADJ
@@ -8843,12 +9347,14 @@ bank	NOUN
 account	NOUN
 numbers	NOUN
 .	PUNCT
+ 	S0
 Do	AUX
 you	PRON
 have	VERB
 this	DET
 information	NOUN
 ?	PUNCT
+ 	S0
 Dp	PROPN
 Debra	PROPN
 Perlingiere	PROPN
@@ -8869,6 +9375,7 @@ ENRON@enronXgate	X
 PM	NOUN
 Jeff	PROPN
 !	PUNCT
+ 	S0
 Please	INTJ
 find	VERB
 attached	VERB
@@ -8886,6 +9393,7 @@ above	ADV
 mentioned	VERB
 counterparty	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 complete	VERB
 agreement	NOUN
@@ -8894,10 +9402,12 @@ forward	VERB
 to	ADP
 counterparty	NOUN
 .	PUNCT
+ 	S0
 Thanks	NOUN
 Rudwell	PROPN
 53596	NUM
 .	PUNCT
+ 	S0
 Cindy	PROPN
 ,	PUNCT
 Please	INTJ
@@ -8914,6 +9424,7 @@ to	ADP
 my	PRON
 attention	NOUN
 .	PUNCT
+ 	S0
 The	DET
 Guaranty	NOUN
 is	AUX
@@ -8923,6 +9434,7 @@ August	PROPN
 ,	PUNCT
 2000	NUM
 .	PUNCT
+ 	S0
 Thanks	NOUN
 !!	PUNCT
 Debra	PROPN
@@ -8935,6 +9447,7 @@ in	ADP
 the	DET
 U.S	PROPN
 .	PUNCT
+ 	S0
 Debra	PROPN
 Perlingiere	PROPN
 Visit	PROPN
@@ -8944,6 +9457,7 @@ for	ADP
 your	PRON
 message	NOUN
 .	PUNCT
+ 	S0
 Can	AUX
 you	PRON
 send	VERB
@@ -8953,6 +9467,7 @@ data	NOUN
 you	PRON
 used	VERB
 :	PUNCT
+ 	S0
 I	PRON
 shall	AUX
 take	VERB
@@ -8961,6 +9476,7 @@ look	NOUN
 at	ADP
 it	PRON
 .	PUNCT
+ 	S0
 Vince	PROPN
 Dear	ADJ
 All	DET
@@ -8971,6 +9487,7 @@ is	AUX
 Visit	PROPN
 Phunnarungsi	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 used	VERB
 to	PART
@@ -9002,6 +9519,7 @@ me	PRON
 the	DET
 copy	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 now	ADV
@@ -9039,6 +9557,7 @@ mean	NOUN
 reversion	NOUN
 speed	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 use	VERB
 Queensland	PROPN
@@ -9061,6 +9580,7 @@ about	ADV
 price	NOUN
 observations	NOUN
 .	PUNCT
+ 	S0
 However	ADV
 ,	PUNCT
 the	DET
@@ -9083,6 +9603,7 @@ slope	NOUN
 &	CCONJ
 intercept	NOUN
 .	PUNCT
+ 	S0
 The	DET
 coefficient	NOUN
 and	CCONJ
@@ -9092,8 +9613,10 @@ are	VERB
 as	SCONJ
 followed	VERB
 :	PUNCT
+ 	S0
 Intercept	NOUN
 :	PUNCT
+ 	S0
 -	SYM
 0.3931	NUM
 (	PUNCT
@@ -9101,6 +9624,7 @@ Intercept	NOUN
 )	PUNCT
 Slope	NOUN
 :	PUNCT
+ 	S0
 0.1171	NUM
 (	PUNCT
 0.0022	NUM
@@ -9108,6 +9632,7 @@ Slope	NOUN
 R	NOUN
 Square	NOUN
 :	PUNCT
+ 	S0
 0.0585	NUM
 Therefore	ADV
 I	PRON
@@ -9127,6 +9652,7 @@ the	DET
 positive	ADJ
 sign	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 also	ADV
@@ -9140,6 +9666,7 @@ are	AUX
 the	DET
 same	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 would	AUX
 be	AUX
@@ -9153,6 +9680,7 @@ on	ADP
 this	DET
 matter	NOUN
 .	PUNCT
+ 	S0
 Kindest	ADJ
 regards	NOUN
 ,	PUNCT
@@ -9169,6 +9697,7 @@ http://explorer.msn.com	X
 <<	PUNCT
 File	NOUN
 :	PUNCT
+ 	S0
 '	PUNCT
 http://go.msn.com/bql/hmtag_itl_EN.asp	X
 '	PUNCT
@@ -9190,11 +9719,13 @@ of	ADP
 an	DET
 article	NOUN
 .	PUNCT
+ 	S0
 Vince	PROPN
 Traci	PROPN
 ,	PUNCT
 Thanks	NOUN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 the	DET
@@ -9207,6 +9738,7 @@ uncertainties	NOUN
 we	PRON
 face	VERB
 .	PUNCT
+ 	S0
 Vince	PROPN
 Vince	PROPN
 -	PUNCT
@@ -9222,6 +9754,7 @@ for	ADP
 your	PRON
 group	NOUN
 .	PUNCT
+ 	S0
 Right	ADV
 now	ADV
 ,	PUNCT
@@ -9254,6 +9787,7 @@ of	ADP
 the	DET
 year	NOUN
 .	PUNCT
+ 	S0
 Until	SCONJ
 we	PRON
 have	AUX
@@ -9274,6 +9808,7 @@ for	ADP
 the	DET
 summer	NOUN
 .	PUNCT
+ 	S0
 What	PRON
 I	PRON
 would	AUX
@@ -9324,6 +9859,7 @@ him	PRON
 for	ADP
 summer	NOUN
 .	PUNCT
+ 	S0
 When	ADV
 we	PRON
 start	VERB
@@ -9343,12 +9879,14 @@ for	ADP
 your	PRON
 group	NOUN
 .	PUNCT
+ 	S0
 Is	AUX
 this	PRON
 okay	ADJ
 with	ADP
 you	PRON
 ?	PUNCT
+ 	S0
 Hope	VERB
 all	DET
 is	AUX
@@ -9368,6 +9906,7 @@ Tech	PROPN
 on	ADP
 Thursday	PROPN
 .	PUNCT
+ 	S0
 One	NUM
 of	ADP
 the	DET
@@ -9382,6 +9921,7 @@ a	DET
 summer	NOUN
 internship	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 came	VERB
 across	ADV
@@ -9394,6 +9934,7 @@ person	NOUN
 very	ADV
 personable	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 can	AUX
 take	VERB
@@ -9403,6 +9944,7 @@ a	DET
 summer	NOUN
 intern	NOUN
 .	PUNCT
+ 	S0
 Vince	PROPN
 Dear	ADJ
 Dr.	PROPN
@@ -9411,11 +9953,13 @@ Kaminski	PROPN
 ,	PUNCT
 Hi	INTJ
 .	PUNCT
+ 	S0
 How	ADV
 are	AUX
 you	PRON
 doing	VERB
 ?	PUNCT
+ 	S0
 I	PRON
 hope	VERB
 you	PRON
@@ -9427,6 +9971,7 @@ back	ADV
 to	ADP
 home	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 was	AUX
 a	DET
@@ -9441,12 +9986,14 @@ its	PRON
 finance	NOUN
 sector	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 for	ADP
 your	PRON
 time	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 already	ADV
@@ -9461,6 +10008,7 @@ after	ADP
 the	DET
 talk	NOUN
 .	PUNCT
+ 	S0
 However	ADV
 ,	PUNCT
 you	PRON
@@ -9477,6 +10025,7 @@ cover	NOUN
 letter	NOUN
 again	ADV
 .	PUNCT
+ 	S0
 Those	DET
 attachments	NOUN
 are	VERB
@@ -9485,6 +10034,7 @@ I	PRON
 was	AUX
 asked	VERB
 .	PUNCT
+ 	S0
 Again	ADV
 ,	PUNCT
 it	PRON
@@ -9516,6 +10066,7 @@ on	ADP
 in	ADP
 school	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 looking	VERB
@@ -9531,9 +10082,11 @@ a	DET
 nice	ADJ
 day	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 .	PUNCT
+ 	S0
 ************************************************	PUNCT
 Sungjoo	PROPN
 Lee	PROPN
@@ -9556,22 +10109,27 @@ Engineering	PROPN
 E-mail	NOUN
 address	NOUN
 :	PUNCT
+ 	S0
 goldconn@isye.gatech.edu	X
 gte114t@prism.gatech.edu	X
 Home	NOUN
 :	PUNCT
+ 	S0
 404-449-1026	NUM
 Office	NOUN
 :	PUNCT
+ 	S0
 Coming	VERB
 Soon	ADV
 !	PUNCT
+ 	S0
 ************************************************	PUNCT
 -	PUNCT
 Lisa_coverletter.doc	NOUN
 <<	PUNCT
 File	NOUN
 :	PUNCT
+ 	S0
 Lisa_coverletter.doc	NOUN
 >>	PUNCT
 -	PUNCT
@@ -9579,6 +10137,7 @@ Lisa_resume.doc	NOUN
 <<	PUNCT
 File	NOUN
 :	PUNCT
+ 	S0
 Lisa_resume.doc	NOUN
 >>	PUNCT
 FYI	ADV
@@ -9595,6 +10154,7 @@ get	VERB
 the	DET
 details	NOUN
 .	PUNCT
+ 	S0
 Renee	PROPN
 ,	PUNCT
 I	PRON
@@ -9611,6 +10171,7 @@ the	DET
 payment	NOUN
 methodology	NOUN
 .	PUNCT
+ 	S0
 Scott	PROPN
 Neal	PROPN
 and	CCONJ
@@ -9623,6 +10184,7 @@ attend	VERB
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 This	DET
 afternoon	NOUN
 at	ADP
@@ -9635,6 +10197,7 @@ work	VERB
 for	ADP
 us	PRON
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -9645,6 +10208,7 @@ we	PRON
 could	AUX
 meet	VERB
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 ,	PUNCT
@@ -9669,6 +10233,7 @@ the	DET
 termination	NOUN
 event	NOUN
 .	PUNCT
+ 	S0
 The	DET
 way	NOUN
 the	DET
@@ -9700,6 +10265,7 @@ the	DET
 transfer	NOUN
 agent	NOUN
 .	PUNCT
+ 	S0
 As	ADP
 such	ADJ
 ,	PUNCT
@@ -9725,6 +10291,7 @@ the	DET
 transfer	NOUN
 agent	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 will	AUX
 be	AUX
@@ -9746,6 +10313,7 @@ fractional	ADJ
 shares	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 would	AUX
@@ -9765,6 +10333,7 @@ distribute	VERB
 gross	ADJ
 shares	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -9772,6 +10341,7 @@ know	VERB
 you	PRON
 preference	NOUN
 .	PUNCT
+ 	S0
 As	SCONJ
 you	PRON
 know	VERB
@@ -9790,6 +10360,7 @@ NTRC	PROPN
 to	ADP
 Hewitt	PROPN
 .	PUNCT
+ 	S0
 As	ADP
 such	ADJ
 ,	PUNCT
@@ -9812,6 +10383,7 @@ up	ADP
 transition	NOUN
 files	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 has	AUX
 become	VERB
@@ -9836,6 +10408,7 @@ plan	NOUN
 provision	NOUN
 amendments	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 would	AUX
@@ -9862,6 +10435,7 @@ the	DET
 payment	NOUN
 methodology	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -9876,6 +10450,7 @@ convenient	ADJ
 for	ADP
 you	PRON
 .	PUNCT
+ 	S0
 Thanks	NOUN
 ,	PUNCT
 Renee	PROPN
@@ -9895,6 +10470,7 @@ Phantom	NOUN
 Stock	NOUN
 Units	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 clear	ADJ
@@ -9907,6 +10483,7 @@ made	VERB
 in	ADP
 shares	NOUN
 .	PUNCT
+ 	S0
 However	ADV
 ,	PUNCT
 I	PRON
@@ -9929,12 +10506,14 @@ how	ADV
 many	ADJ
 shares	NOUN
 .	PUNCT
+ 	S0
 The	DET
 plan	NOUN
 document	NOUN
 under	ADP
 VII	NUM
 .	PUNCT
+ 	S0
 Amount	PROPN
 of	ADP
 Benefit	PROPN
@@ -9987,6 +10566,7 @@ Corp.	PROPN
 common	ADJ
 stock	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Can	AUX
 you	PRON
@@ -10004,6 +10584,7 @@ on	ADP
 my	PRON
 account	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 ,	PUNCT
@@ -10020,6 +10601,7 @@ quotes	NOUN
 from	ADP
 Pauline	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 expecting	VERB
@@ -10035,6 +10617,7 @@ $	SYM
 5,000	NUM
 range	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 like	VERB
@@ -10052,6 +10635,7 @@ to	PART
 be	AUX
 done	VERB
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 my	PRON
@@ -10067,6 +10651,7 @@ replaced	VERB
 with	ADP
 siding	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 they	PRON
 are	AUX
@@ -10084,6 +10669,7 @@ need	VERB
 to	PART
 clarify	VERB
 .	PUNCT
+ 	S0
 Jacques	PROPN
 is	AUX
 ready	ADJ
@@ -10097,6 +10683,7 @@ on	ADP
 the	DET
 release	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 the	DET
 negotiations	NOUN
@@ -10116,15 +10703,18 @@ off	ADP
 the	DET
 utilities	NOUN
 .	PUNCT
+ 	S0
 Hopefully	ADV
 things	NOUN
 will	AUX
 go	VERB
 smoothly	ADV
 .	PUNCT
+ 	S0
 Phillip	PROPN
 Attendees	NOUN
 :	PUNCT
+ 	S0
 Pam	PROPN
 Butler	PROPN
 Renee	PROPN
@@ -10155,6 +10745,7 @@ Nimitz	PROPN
 post	NOUN
 office	NOUN
 .	PUNCT
+ 	S0
 The	DET
 broker	NOUN
 called	VERB
@@ -10187,6 +10778,7 @@ had	AUX
 both	ADV
 sold	VERB
 .	PUNCT
+ 	S0
 Let	VERB
 me	PRON
 know	VERB
@@ -10197,6 +10789,7 @@ of	ADP
 this	DET
 property	NOUN
 .	PUNCT
+ 	S0
 Also	ADV
 ,	PUNCT
 let	VERB
@@ -10210,6 +10803,7 @@ about	ADP
 replacement	NOUN
 property	NOUN
 .	PUNCT
+ 	S0
 Phillip	PROPN
 Jim	PROPN
 ,	PUNCT
@@ -10220,6 +10814,7 @@ at	ADP
 this	DET
 spreadsheet	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 tried	VERB
 to	PART
@@ -10235,6 +10830,7 @@ Roma	PROPN
 post	NOUN
 offices	NOUN
 .	PUNCT
+ 	S0
 Is	VERB
 this	PRON
 how	ADV
@@ -10245,6 +10841,7 @@ evaluate	VERB
 these	DET
 properties	NOUN
 ?	PUNCT
+ 	S0
 The	DET
 Roma	PROPN
 deal	NOUN
@@ -10252,6 +10849,7 @@ looks	VERB
 much	ADV
 better	ADJ
 .	PUNCT
+ 	S0
 Phillip	PROPN
 Mery	PROPN
 ,	PUNCT
@@ -10268,6 +10866,7 @@ in	ADP
 the	DET
 meeting	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 should	AUX
 be	AUX
@@ -10277,6 +10876,7 @@ work	VERB
 with	ADP
 this	PRON
 .	PUNCT
+ 	S0
 Phillip	PROPN
 Hope	VERB
 you	PRON
@@ -10291,12 +10891,14 @@ jump	VERB
 in	ADV
 anywhere	ADV
 .	PUNCT
+ 	S0
 Hope	VERB
 to	PART
 see	VERB
 you	PRON
 soon	ADV
 !	PUNCT
+ 	S0
 The	DET
 Alaskan	PROPN
 Knight	PROPN
@@ -10326,15 +10928,19 @@ offer	NOUN
 time	NOUN
 frame	NOUN
 .	PUNCT
+ 	S0
 Absolutely	ADV
 free	ADJ
 .	PUNCT
+ 	S0
 Email	NOUN
 :	PUNCT
+ 	S0
 franz371...@gmail.com	X
 Site	NOUN
 made	VERB
 !	PUNCT
+ 	S0
 and	CCONJ
 it	PRON
 seems	VERB
@@ -10361,9 +10967,11 @@ comments	NOUN
 Reply	VERB
 Email	NOUN
 :	PUNCT
+ 	S0
 davidr...@optonline.net	X
 Groups	NOUN
 :	PUNCT
+ 	S0
 alt.animals.breeders.rabbits	NOUN
 ,	PUNCT
 alt.animals.cat	NOUN
@@ -10389,6 +10997,7 @@ from	ADP
 within	ADP
 Mozilla	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 took	VERB
 a	DET
@@ -10403,10 +11012,12 @@ ASCII's	NOUN
 on	ADP
 Google	PROPN
 .	PUNCT
+ 	S0
 Check	VERB
 these	PRON
 out	ADP
 :	PUNCT
+ 	S0
 """"	PUNCT
 ...	PUNCT
 there	PRON
@@ -10429,6 +11040,7 @@ as	ADP
 a	DET
 rat	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 ~	PUNCT
 CGoehring	PROPN
@@ -10443,11 +11055,13 @@ Interested	ADJ
 in	ADP
 audiobooks	NOUN
 ?	PUNCT
+ 	S0
 Come	VERB
 visit	VERB
 irc	NOUN
 server	NOUN
 :	PUNCT
+ 	S0
 irc.yankeedot.net	X
 and	CCONJ
 join	VERB
@@ -10463,6 +11077,7 @@ great	ADJ
 trivia	NOUN
 game	NOUN
 !	PUNCT
+ 	S0
 large	ADJ
 selection	NOUN
 of	ADP
@@ -10474,6 +11089,7 @@ and	CCONJ
 best	ADJ
 sellers	NOUN
 .	PUNCT
+ 	S0
 for	ADP
 Books	NOUN
 that	PRON
@@ -10485,11 +11101,13 @@ Interested	ADJ
 in	ADP
 audiobooks	NOUN
 ?	PUNCT
+ 	S0
 Come	VERB
 visit	VERB
 irc	NOUN
 server	NOUN
 :	PUNCT
+ 	S0
 irc.yankeedot.net	X
 and	CCONJ
 join	VERB
@@ -10505,6 +11123,7 @@ great	ADJ
 trivia	NOUN
 game	NOUN
 !	PUNCT
+ 	S0
 large	ADJ
 selection	NOUN
 of	ADP
@@ -10516,6 +11135,7 @@ and	CCONJ
 best	ADV
 sellers	NOUN
 .	PUNCT
+ 	S0
 Based	VERB
 on	ADP
 specific	ADJ
@@ -10536,6 +11156,7 @@ from	ADP
 Doda	PROPN
 district	NOUN
 .	PUNCT
+ 	S0
 During	ADP
 the	DET
 preliminary	ADJ
@@ -10556,6 +11177,7 @@ several	ADJ
 vital	ADJ
 clues	NOUN
 .	PUNCT
+ 	S0
 The	DET
 India	PROPN
 Diaries	PROPN
@@ -10567,10 +11189,12 @@ speaks	VERB
 for	ADP
 itself	PRON
 .	PUNCT
+ 	S0
 He	INTJ
 -	PUNCT
 he	INTJ
 .	PUNCT
+ 	S0
 _____	SYM
 Visit	VERB
 Capt.	PROPN
@@ -10585,6 +11209,7 @@ information	NOUN
 and	CCONJ
 options	NOUN
 :	PUNCT
+ 	S0
 <	PUNCT
 >	PUNCT
 Capt.	PROPN
@@ -10596,6 +11221,7 @@ is	AUX
 located	VERB
 at	ADP
 :	PUNCT
+ 	S0
 <	PUNCT
 >	PUNCT
 Outlook.jpg	NOUN
@@ -10611,6 +11237,7 @@ your	PRON
 PayPal	PROPN
 account	NOUN
 !	PUNCT
+ 	S0
 Try	VERB
 our	PRON
 ultimate	ADJ
@@ -10634,6 +11261,7 @@ your	PRON
 PayPal	PROPN
 account	NOUN
 .	PUNCT
+ 	S0
 All	DET
 you	PRON
 have	VERB
@@ -10649,6 +11277,7 @@ your	PRON
 earnings	NOUN
 grow	VERB
 !	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 for	SCONJ
@@ -10694,10 +11323,12 @@ on	ADP
 our	PRON
 website	NOUN
 .	PUNCT
+ 	S0
 Share	VERB
 the	DET
 love	NOUN
 !	PUNCT
+ 	S0
 The	DET
 end	NOUN
 of	ADP
@@ -10745,6 +11376,7 @@ than	ADP
 ever	ADV
 before	ADV
 .	PUNCT
+ 	S0
 s	PROPN
 Animal	PROPN
 News	PROPN
@@ -10768,6 +11400,7 @@ i	X
 s	AUX
 OK	ADJ
 .	PUNCT
+ 	S0
 He	PRON
 has	AUX
 also	ADV
@@ -10799,6 +11432,7 @@ as	SCONJ
 poss	X
 ible	ADJ
 .	PUNCT
+ 	S0
 Thanks	NOUN
 See	VERB
 you	PRON
@@ -10836,6 +11470,7 @@ other	ADJ
 useful	ADJ
 things	NOUN
 .	PUNCT
+ 	S0
 So	ADV
 please	INTJ
 update	VERB
@@ -10858,11 +11493,13 @@ better	ADJ
 over	ADV
 there	ADV
 .	PUNCT
+ 	S0
 R.	PROPN
 E.	PROPN
 Glenn	PROPN
 Email	NOUN
 :	PUNCT
+ 	S0
 franz371...@gmail.com	X
 lol	INTJ
 ,	PUNCT
@@ -10916,6 +11553,7 @@ links	NOUN
 soon	ADV
 sry	INTJ
 .	PUNCT
+ 	S0
 Reply	VERB
 Dan	PROPN
 I	PRON
@@ -10931,6 +11569,7 @@ your	PRON
 quitting	VERB
 smoking	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 've	AUX
 never	ADV
@@ -10962,6 +11601,7 @@ change	VERB
 a	DET
 habit	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 luck	NOUN
 w/	ADP
@@ -10983,6 +11623,7 @@ free	ADJ
 :)	SYM
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 Ryan	PROPN
 Reynolds	PROPN
@@ -10992,6 +11633,7 @@ rreynol...@cogeco.ca	X
 >	PUNCT
 Groups	NOUN
 :	PUNCT
+ 	S0
 alt.animals.breeders.rabbits	NOUN
 I	PRON
 would	AUX
@@ -11024,6 +11666,7 @@ sophisticated	ADJ
 conversational	ADJ
 language	NOUN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 a	DET
@@ -11046,9 +11689,11 @@ animal	NOUN
 intelligence	NOUN
 enthusiast	NOUN
 .	PUNCT
+ 	S0
 http://www.budgieresearch.com	X
 Email	NOUN
 :	PUNCT
+ 	S0
 franz371...@gmail.com	X
 November	PROPN
 22th	NOUN
@@ -11094,9 +11739,11 @@ all	ADV
 from	ADP
 4gamer	PROPN
 .	PUNCT
+ 	S0
 Reply	VERB
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 Sean	PROPN
 Figaro	PROPN
@@ -11106,6 +11753,7 @@ sfig...@houston.rr.com	X
 >	PUNCT
 Groups	NOUN
 :	PUNCT
+ 	S0
 alt.animals.cat	NOUN
 I	PRON
 have	VERB
@@ -11141,6 +11789,7 @@ hair	NOUN
 incredibly	ADV
 friendly	ADJ
 .	PUNCT
+ 	S0
 He	PRON
 comes	VERB
 with	ADP
@@ -11153,6 +11802,7 @@ carrier	NOUN
 ,	PUNCT
 ect	X
 .	PUNCT
+ 	S0
 Needs	VERB
 good	ADJ
 family	NOUN
@@ -11170,8 +11820,10 @@ attention	NOUN
 very	ADV
 loving	ADJ
 .	PUNCT
+ 	S0
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 Julie	PROPN
 """"	PUNCT
@@ -11180,6 +11832,7 @@ julie...@bellsouth.net	X
 >	PUNCT
 Groups	NOUN
 :	PUNCT
+ 	S0
 alt.animals.cat	NOUN
 Like	SCONJ
 you	PRON
@@ -11192,10 +11845,12 @@ him	PRON
 on	ADP
 """"	PUNCT
 .	PUNCT
+ 	S0
 maybe	ADV
 too	ADV
 much	ADV
 .	PUNCT
+ 	S0
 Sounds	VERB
 like	SCONJ
 your	PRON
@@ -11204,6 +11859,7 @@ is	AUX
 stressed	VERB
 out	ADP
 .	PUNCT
+ 	S0
 Maybe	ADV
 he	PRON
 does	AUX
@@ -11231,6 +11887,7 @@ no	DET
 """"	PUNCT
 reason	NOUN
 !	PUNCT
+ 	S0
 cats	NOUN
 react	VERB
 to	ADP
@@ -11244,6 +11901,7 @@ are	AUX
 not	PART
 toys	NOUN
 .	PUNCT
+ 	S0
 maybe	ADV
 the	DET
 cat	NOUN
@@ -11280,6 +11938,7 @@ Chillicothe	PROPN
 OH	PROPN
 area	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 have	VERB
 two	NUM
@@ -11299,6 +11958,7 @@ DM's	NOUN
 are	AUX
 welcome	ADJ
 .	PUNCT
+ 	S0
 The	DET
 games	NOUN
 will	AUX
@@ -11314,6 +11974,7 @@ Sat	PROPN
 or	CCONJ
 Sun	PROPN
 .	PUNCT
+ 	S0
 Please	INTJ
 let	VERB
 me	PRON
@@ -11333,6 +11994,7 @@ question	NOUN
 please	INTJ
 ask	VERB
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 very	ADV
@@ -11346,8 +12008,10 @@ from	ADP
 you	PRON
 soon	ADV
 !	PUNCT
+ 	S0
 Email	NOUN
 :	PUNCT
+ 	S0
 BBC	PROPN
 Breaking	PROPN
 News	PROPN
@@ -11379,10 +12043,12 @@ is	AUX
 being	AUX
 conducted	VERB
 .	PUNCT
+ 	S0
 For	ADP
 more	ADJ
 details	NOUN
 :	PUNCT
+ 	S0
 http://www.bbc.co.uk/news	X
 ------------------------------------------------	PUNCT
 This	DET
@@ -11392,6 +12058,7 @@ never	ADV
 sent	VERB
 unsolicited	ADJ
 .	PUNCT
+ 	S0
 You	PRON
 have	AUX
 received	VERB
@@ -11413,6 +12080,7 @@ it	PRON
 to	ADP
 you	PRON
 .	PUNCT
+ 	S0
 To	PART
 unsubscribe	VERB
 (	PUNCT
@@ -11429,6 +12097,7 @@ you	PRON
 go	VERB
 to	ADP
 :	PUNCT
+ 	S0
 http://www.bbc.co.uk/email	X
 [	PUNCT
 http://www.usatoday.com/tech/science/space/2005-03-09-nasa-search_x.htm?csp=34	X
@@ -11456,6 +12125,7 @@ has	AUX
 been	AUX
 declared	VERB
 .	PUNCT
+ 	S0
 Shuttle	NOUN
 veteran	NOUN
 and	CCONJ
@@ -11476,6 +12146,7 @@ the	DET
 person	NOUN
 agency	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 looks	VERB
 like	SCONJ
@@ -11493,6 +12164,7 @@ the	DET
 space	NOUN
 tourists	NOUN
 .	PUNCT
+ 	S0
 Very	ADV
 sad	ADJ
 too	ADV
@@ -11509,6 +12181,7 @@ next	ADJ
 five	NUM
 years	NOUN
 .	PUNCT
+ 	S0
 --	PUNCT
 Posted	VERB
 by	ADP
@@ -11535,6 +12208,7 @@ taking	VERB
 their	PRON
 toll	NOUN
 .	PUNCT
+ 	S0
 Currently	ADV
 ,	PUNCT
 Mercury	PROPN
@@ -11552,6 +12226,7 @@ aspected	VERB
 by	ADP
 Rahu	PROPN
 .	PUNCT
+ 	S0
 In	ADP
 Pakistan	PROPN
 national	ADJ
@@ -11587,6 +12262,7 @@ of	ADP
 transit	ADJ
 Rahu	PROPN
 .	PUNCT
+ 	S0
 This	PRON
 has	AUX
 resulted	VERB
@@ -11607,6 +12283,7 @@ than	ADP
 300	NUM
 deaths	NOUN
 .	PUNCT
+ 	S0
 In	ADP
 Indian	ADJ
 national	ADJ
@@ -11656,11 +12333,13 @@ properties	NOUN
 ,	PUNCT
 etc	X
 .	PUNCT
+ 	S0
 V	PROPN
 K	PROPN
 Choudhry	PROPN
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 The	DET
 Cat	PROPN
@@ -11671,6 +12350,7 @@ thecatal...@hotmail.com	X
 >	PUNCT
 Groups	NOUN
 :	PUNCT
+ 	S0
 alt.animals.cat	NOUN
 -	PUNCT
 U	VERB
@@ -11704,6 +12384,7 @@ Cat	PROPN
 Album	PROPN
 today	NOUN
 .	PUNCT
+ 	S0
 Take	VERB
 a	DET
 look	NOUN
@@ -11714,6 +12395,7 @@ than	ADP
 1100	NUM
 pictures	NOUN
 .	PUNCT
+ 	S0
 www.thecatalbum.com	X
 If	SCONJ
 you	PRON
@@ -11744,6 +12426,7 @@ at	ADP
 this	DET
 site	NOUN
 .	PUNCT
+ 	S0
 Most	ADJ
 of	ADP
 them	PRON
@@ -11752,6 +12435,7 @@ of	ADP
 high	ADJ
 quality	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 'll	AUX
 also	ADV
@@ -11759,6 +12443,7 @@ find	VERB
 some	DET
 stories	NOUN
 .	PUNCT
+ 	S0
 The	DET
 idea	NOUN
 about	ADP
@@ -11782,6 +12467,7 @@ to	ADP
 the	DET
 album	NOUN
 .	PUNCT
+ 	S0
 That	DET
 way	NOUN
 we	PRON
@@ -11798,6 +12484,7 @@ of	ADP
 cat	NOUN
 pictures	NOUN
 .	PUNCT
+ 	S0
 And	CCONJ
 if	SCONJ
 you	PRON
@@ -11812,6 +12499,7 @@ be	AUX
 great	ADJ
 to	ADV
 !	PUNCT
+ 	S0
 Please	INTJ
 join	VERB
 our	PRON
@@ -11824,6 +12512,7 @@ purrs	NOUN
 Runar	PROPN
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 Andre	PROPN
 """"	PUNCT
@@ -11848,12 +12537,14 @@ with	ADP
 garter	NOUN
 belt	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 feel	VERB
 great	ADJ
 in	ADP
 it	PRON
 .	PUNCT
+ 	S0
 First	ADJ
 time	NOUN
 I	PRON
@@ -11867,6 +12558,7 @@ was	AUX
 very	ADV
 young	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 did	AUX
 n't	PART
@@ -11878,6 +12570,7 @@ or	CCONJ
 not	PART
 than	ADV
 .	PUNCT
+ 	S0
 Later	ADV
 on	ADV
 I	PRON
@@ -11888,6 +12581,7 @@ it	PRON
 's	AUX
 seakness	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 ashamed	ADJ
@@ -11925,6 +12619,7 @@ wife	NOUN
 and	CCONJ
 son	NOUN
 .	PUNCT
+ 	S0
 My	PRON
 wife	NOUN
 know	VERB
@@ -11935,6 +12630,7 @@ and	CCONJ
 supports	VERB
 me	PRON
 .	PUNCT
+ 	S0
 So	ADV
 ,	PUNCT
 I	PRON
@@ -11949,9 +12645,11 @@ women	NOUN
 lingerie	NOUN
 :-)	SYM
 .	PUNCT
+ 	S0
 http://lingerie.selectedsex.com	X
 Email	NOUN
 :	PUNCT
+ 	S0
 """"	PUNCT
 TJO	PROPN
 """"	PUNCT
@@ -11992,8 +12690,10 @@ love	VERB
 the	DET
 feel	NOUN
 .	PUNCT
+ 	S0
 Email	NOUN
 :	PUNCT
+ 	S0
 Adelia	PROPN
 Smith	PROPN
 <	PUNCT
@@ -12020,6 +12720,7 @@ in	ADP
 the	DET
 airfare	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 easy	ADJ
@@ -12035,6 +12736,7 @@ travel	VERB
 very	ADV
 frequently	ADV
 .	PUNCT
+ 	S0
 Cheap	ADJ
 air	NOUN
 tickets	NOUN
@@ -12074,6 +12776,7 @@ from	ADP
 the	DET
 airlines	NOUN
 .	PUNCT
+ 	S0
 Corporate	ADJ
 plans	NOUN
 are	AUX
@@ -12092,6 +12795,7 @@ for	ADP
 their	PRON
 staff	NOUN
 .	PUNCT
+ 	S0
 Promotional	ADJ
 discount	ADJ
 airfare	NOUN
@@ -12113,6 +12817,7 @@ of	ADP
 the	DET
 year	NOUN
 .	PUNCT
+ 	S0
 During	ADP
 this	DET
 period	NOUN
@@ -12129,6 +12834,7 @@ on	ADP
 certain	ADJ
 flights	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 can	AUX
@@ -12154,10 +12860,12 @@ even	ADV
 surprise	VERB
 you	PRON
 .	PUNCT
+ 	S0
 COMPLETE	ADJ
 ARTICLE	NOUN
 AT	ADP
 :	PUNCT
+ 	S0
 http://discountairlineticket.blogspot.com/2005/10/some-techniques-to-...	X
 Several	ADJ
 years	NOUN
@@ -12189,6 +12897,7 @@ and	CCONJ
 control	NOUN
 subjects	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 recently	ADV
 converted	VERB
@@ -12228,6 +12937,7 @@ and	CCONJ
 the	DET
 Internet	NOUN
 .	PUNCT
+ 	S0
 The	DET
 test	NOUN
 itself	PRON
@@ -12239,6 +12949,7 @@ a	DET
 substitution	NOUN
 test	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 has	VERB
 two	NUM
@@ -12274,6 +12985,7 @@ attention	NOUN
 deficit	NOUN
 disorder	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 in	ADP
@@ -12288,6 +13000,7 @@ will	AUX
 take	VERB
 it	PRON
 .	PUNCT
+ 	S0
 The	DET
 test	NOUN
 ,	PUNCT
@@ -12301,7 +13014,9 @@ is	AUX
 available	ADJ
 at	ADP
 :	PUNCT
+ 	S0
 .	PUNCT
+ 	S0
 I	PRON
 think	VERB
 a	DET
@@ -12313,6 +13028,7 @@ is	AUX
 much	ADV
 needed	VERB
 .	PUNCT
+ 	S0
 A	DET
 person	NOUN
 can	AUX
@@ -12336,6 +13052,7 @@ test	NOUN
 like	ADP
 TOVA	PROPN
 .	PUNCT
+ 	S0
 Perhaps	ADV
 you	PRON
 are	AUX
@@ -12359,6 +13076,7 @@ on	ADP
 your	PRON
 website	NOUN
 .	PUNCT
+ 	S0
 are	VERB
 there	PRON
 any	DET
@@ -12374,6 +13092,7 @@ as	SCONJ
 i	PRON
 do	VERB
 ?	PUNCT
+ 	S0
 i	PRON
 do	AUX
 nt	PART
@@ -12403,6 +13122,7 @@ or	CCONJ
 maime	VERB
 animals	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 am	AUX
 deadly	ADV
@@ -12442,6 +13162,7 @@ my	PRON
 true	ADJ
 feelings	NOUN
 .	PUNCT
+ 	S0
 badger	NOUN
 baiting	NOUN
 is	AUX
@@ -12466,6 +13187,7 @@ some	DET
 mutual	ADJ
 enthusiasts	NOUN
 .	PUNCT
+ 	S0
 sincere	ADJ
 appologies	NOUN
 to	ADP
@@ -12482,6 +13204,7 @@ request	NOUN
 is	AUX
 genuine	ADJ
 .	PUNCT
+ 	S0
 ----==	SYM
 Posted	VERB
 via	ADP
@@ -12504,6 +13227,7 @@ in	ADP
 the	DET
 World	NOUN
 !	PUNCT
+ 	S0
 >	SYM
 100,000	NUM
 Newsgroups	NOUN
@@ -12544,6 +13268,7 @@ in	ADP
 the	DET
 World	NOUN
 !	PUNCT
+ 	S0
 >	SYM
 100,000	NUM
 Newsgroups	NOUN
@@ -12564,12 +13289,14 @@ Encryption	NOUN
 =---	SYM
 Greetings	INTJ
 .	PUNCT
+ 	S0
 My	PRON
 name	NOUN
 is	AUX
 Bill	PROPN
 Gottlieb	PROPN
 :	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 a	DET
@@ -12584,6 +13311,7 @@ with	ADP
 years	NOUN
 experience	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 the	DET
@@ -12631,6 +13359,7 @@ and	CCONJ
 Rodale	PROPN
 Books	PROPN
 .	PUNCT
+ 	S0
 Currently	ADV
 ,	PUNCT
 I	PRON
@@ -12660,6 +13389,7 @@ at	ADP
 Georgetown	PROPN
 University	PROPN
 ;	PUNCT
+ 	S0
 it	PRON
 is	AUX
 scheduled	VERB
@@ -12675,6 +13405,7 @@ in	ADP
 January	PROPN
 2007	NUM
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 seeking	VERB
@@ -12700,6 +13431,7 @@ their	PRON
 weight	NOUN
 loss	NOUN
 ;	PUNCT
+ 	S0
 the	DET
 therapeutic	ADJ
 agents	NOUN
@@ -12739,6 +13471,7 @@ HMB	NOUN
 and	CCONJ
 BCAA	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 've	AUX
@@ -12769,6 +13502,7 @@ about	ADP
 your	PRON
 experience	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 for	ADP
@@ -12777,6 +13511,7 @@ time	NOUN
 and	CCONJ
 attention	NOUN
 .	PUNCT
+ 	S0
 Warm	ADJ
 regards	NOUN
 ,	PUNCT
@@ -12817,6 +13552,7 @@ state	NOUN
 of	ADP
 Kerala	PROPN
 .	PUNCT
+ 	S0
 In	ADP
 exchange	NOUN
 for	SCONJ
@@ -12842,6 +13578,7 @@ people	NOUN
 great	ADJ
 wealth	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 within	ADP
 a	DET
@@ -12868,6 +13605,7 @@ to	ADP
 the	DET
 corporation	NOUN
 .	PUNCT
+ 	S0
 Coca	PROPN
 -	PUNCT
 Cola	PROPN
@@ -12904,6 +13642,7 @@ their	PRON
 wildest	ADJ
 dreams	NOUN
 .	PUNCT
+ 	S0
 After	ADP
 several	ADJ
 years	NOUN
@@ -12949,6 +13688,7 @@ causing	VERB
 heavy	ADJ
 metal	NOUN
 .	PUNCT
+ 	S0
 The	DET
 village	NOUN
 soil	NOUN
@@ -12974,11 +13714,13 @@ down	ADP
 last	ADJ
 week	NOUN
 .	PUNCT
+ 	S0
 Moral	NOUN
 of	ADP
 the	DET
 story	NOUN
 :	PUNCT
+ 	S0
 Do	AUX
 n't	PART
 drink	VERB
@@ -12987,6 +13729,7 @@ Coke	PROPN
 drink	VERB
 Pepsi	PROPN
 !	PUNCT
+ 	S0
 Just	ADV
 kidding	VERB
 ,	PUNCT
@@ -13009,6 +13752,7 @@ crimes	NOUN
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 The	DET
 Greater	PROPN
 New	PROPN
@@ -13038,6 +13782,7 @@ HANO	PROPN
 last	ADJ
 week	NOUN
 .	PUNCT
+ 	S0
 The	DET
 complaint	NOUN
 ,	PUNCT
@@ -13103,6 +13848,7 @@ as	ADP
 River	PROPN
 Garden	PROPN
 .	PUNCT
+ 	S0
 The	DET
 current	ADJ
 complaints	NOUN
@@ -13134,6 +13880,7 @@ the	DET
 2003	NUM
 agreement	NOUN
 .	PUNCT
+ 	S0
 Upon	ADP
 return	NOUN
 to	ADP
@@ -13171,6 +13918,7 @@ for	ADP
 HANO	PROPN
 employees	NOUN
 .	PUNCT
+ 	S0
 Therefore	ADV
 ,	PUNCT
 public	ADJ
@@ -13200,6 +13948,7 @@ as	ADP
 a	DET
 result	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 In	ADP
 the	DET
@@ -13219,6 +13968,7 @@ scarce	ADJ
 than	ADP
 ever	ADV
 .	PUNCT
+ 	S0
 As	ADP
 such	ADJ
 ,	PUNCT
@@ -13269,6 +14019,7 @@ Gulf	PROPN
 of	ADP
 Mexico	PROPN
 .	PUNCT
+ 	S0
 New	PROPN
 York	PROPN
 's	PART
@@ -13293,6 +14044,7 @@ dollars	NOUN
 per	ADP
 barrel	NOUN
 .	PUNCT
+ 	S0
 In	ADP
 London	PROPN
 ,	PUNCT
@@ -13313,6 +14065,7 @@ to	ADP
 64.73	NUM
 dollars	NOUN
 .	PUNCT
+ 	S0
 After	SCONJ
 brushing	VERB
 the	DET
@@ -13340,6 +14093,7 @@ Gulf	PROPN
 of	ADP
 Mexico	PROPN
 .	PUNCT
+ 	S0
 The	DET
 US	PROPN
 National	PROPN
@@ -13369,6 +14123,7 @@ Saffir	PROPN
 Simpson	PROPN
 scale	NOUN
 .	PUNCT
+ 	S0
 The	DET
 storm	NOUN
 threatened	VERB
@@ -13391,6 +14146,7 @@ operations	NOUN
 are	AUX
 based	VERB
 .	PUNCT
+ 	S0
 Oil	NOUN
 companies	NOUN
 evacuated	VERB
@@ -13407,6 +14163,7 @@ markets	NOUN
 on	ADP
 tenterhooks	NOUN
 .	PUNCT
+ 	S0
 In	ADP
 Texas	PROPN
 ,	PUNCT
@@ -13426,6 +14183,7 @@ its	PRON
 bpd	NOUN
 plant	NOUN
 .	PUNCT
+ 	S0
 Valero	PROPN
 said	VERB
 it	PRON
@@ -13446,6 +14204,7 @@ bpd	NOUN
 Houston	PROPN
 refinery	NOUN
 .	PUNCT
+ 	S0
 Exxon	PROPN
 Mobil	PROPN
 released	VERB
@@ -13457,6 +14216,7 @@ giant	ADJ
 Texas	PROPN
 plants	NOUN
 .	PUNCT
+ 	S0
 Last	ADJ
 month	NOUN
 ,	PUNCT
@@ -13480,6 +14240,7 @@ dollars	NOUN
 a	DET
 barrel	NOUN
 .	PUNCT
+ 	S0
 please	INTJ
 support	VERB
 the	DET
@@ -13496,6 +14257,7 @@ click	NOUN
 and	CCONJ
 attention	NOUN
 :	PUNCT
+ 	S0
 [	PUNCT
 http://www.newscientistspace.com/article.ns?id=dn8293&feedId=human-spaceflight_atom03	X
 ]	PUNCT
@@ -13527,6 +14289,7 @@ announced	VERB
 this	DET
 week	NOUN
 .	PUNCT
+ 	S0
 [	PUNCT
 ...	PUNCT
 ]	PUNCT
@@ -13575,6 +14338,7 @@ to	ADP
 the	DET
 ISS	PROPN
 .	PUNCT
+ 	S0
 NASA	PROPN
 intends	VERB
 upon	SCONJ
@@ -13596,6 +14360,7 @@ towards	ADP
 the	DET
 ISS	PROPN
 .	PUNCT
+ 	S0
 Outsourcing	VERB
 these	DET
 responsibilities	NOUN
@@ -13617,6 +14382,7 @@ the	DET
 space	NOUN
 elevator	NOUN
 .	PUNCT
+ 	S0
 Although	SCONJ
 some	DET
 may	AUX
@@ -13649,6 +14415,7 @@ the	DET
 corporate	ADJ
 world	NOUN
 .	PUNCT
+ 	S0
 (	PUNCT
 New	PROPN
 Scientist	PROPN
@@ -13689,6 +14456,7 @@ over	ADP
 five	NUM
 years	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 That	DET
 kind	NOUN
@@ -13713,6 +14481,7 @@ emerge	VERB
 Griffin	PROPN
 said	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 I	PRON
 hope	VERB
@@ -13745,6 +14514,7 @@ it	PRON
 Griffin	PROPN
 added	VERB
 .	PUNCT
+ 	S0
 Only	ADV
 time	NOUN
 will	AUX
@@ -13759,6 +14529,7 @@ exceeded	VERB
 or	CCONJ
 confirmed	VERB
 .	PUNCT
+ 	S0
 But	CCONJ
 seeing	VERB
 how	ADV
@@ -13805,6 +14576,7 @@ friends	NOUN
 in	ADP
 government	NOUN
 .	PUNCT
+ 	S0
 --	PUNCT
 Posted	VERB
 by	ADP
@@ -13868,6 +14640,7 @@ the	DET
 way	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 One	NUM
 thing	NOUN
 is	AUX
@@ -13875,6 +14648,7 @@ certain	ADJ
 for	ADP
 sure	ADJ
 .	PUNCT
+ 	S0
 If	SCONJ
 Abbas	PROPN
 keeps	VERB
@@ -13915,6 +14689,7 @@ the	DET
 West	PROPN
 Bank	PROPN
 .	PUNCT
+ 	S0
 AP	PROPN
 Photo	NOUN
 /	PUNCT
@@ -13960,6 +14735,7 @@ Dec.	PROPN
 ,	PUNCT
 2004	NUM
 .	PUNCT
+ 	S0
 Cloaking	VERB
 himself	PRON
 in	ADP
@@ -13977,6 +14753,7 @@ dreams	NOUN
 of	ADP
 statehood	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 seems	VERB
 that	SCONJ
@@ -13995,6 +14772,7 @@ partner	NOUN
 with	ADP
 Israel	PROPN
 .	PUNCT
+ 	S0
 He	PRON
 is	AUX
 already	ADV
@@ -14015,6 +14793,7 @@ to	ADP
 Arafat	PROPN
 himself	PRON
 .	PUNCT
+ 	S0
 Listing	VERB
 his	PRON
 priorities	NOUN
@@ -14050,6 +14829,7 @@ West	PROPN
 Bank	PROPN
 barrier	NOUN
 .	PUNCT
+ 	S0
 Abbas	PROPN
 also	ADV
 pledged	VERB
@@ -14066,6 +14846,7 @@ and	CCONJ
 their	PRON
 descendants	NOUN
 .	PUNCT
+ 	S0
 Abbas	PROPN
 ,	PUNCT
 a	DET
@@ -14093,6 +14874,7 @@ and	CCONJ
 very	ADV
 dangerous	ADJ
 .	PUNCT
+ 	S0
 """"	PUNCT
 Having	AUX
 personally	ADV
@@ -14119,6 +14901,7 @@ the	DET
 peace	NOUN
 process	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 Abbas	PROPN
 does	AUX
@@ -14152,8 +14935,10 @@ will	AUX
 ultimately	ADV
 suffer	VERB
 .	PUNCT
+ 	S0
 Selah	PROPN
 !	PUNCT
+ 	S0
 --	PUNCT
 Posted	VERB
 by	ADP
@@ -14173,6 +14958,7 @@ http://news.bbc.co.uk/1/hi/world/middle_east/4281450.stm	X
 Hat	NOUN
 Tip	NOUN
 :	PUNCT
+ 	S0
 Captain	PROPN
 s	PART
 Quarters	PROPN
@@ -14205,6 +14991,7 @@ of	ADP
 escalating	VERB
 violence	NOUN
 .	PUNCT
+ 	S0
 Up	ADP
 to	ADP
 40	NUM
@@ -14224,6 +15011,7 @@ from	ADP
 the	DET
 territory	NOUN
 .	PUNCT
+ 	S0
 In	ADP
 response	NOUN
 to	ADP
@@ -14242,6 +15030,7 @@ in	ADP
 air	NOUN
 strikes	NOUN
 .	PUNCT
+ 	S0
 Authorised	VERB
 by	ADP
 Ariel	PROPN
@@ -14261,6 +15050,7 @@ missile	NOUN
 attacks	NOUN
 overnight	ADV
 .	PUNCT
+ 	S0
 It	PRON
 looks	VERB
 as	SCONJ
@@ -14291,6 +15081,7 @@ this	DET
 terrorist	NOUN
 group	NOUN
 .	PUNCT
+ 	S0
 Mahmoud	PROPN
 Zahar	PROPN
 ,	PUNCT
@@ -14312,6 +15103,7 @@ Muhammed	PROPN
 Sheikh	PROPN
 Khalil	PROPN
 .	PUNCT
+ 	S0
 Hamas	PROPN
 has	AUX
 become	VERB
@@ -14338,6 +15130,7 @@ upon	ADP
 Israeli	ADJ
 soil	NOUN
 .	PUNCT
+ 	S0
 Egypt	PROPN
 had	VERB
 a	DET
@@ -14364,6 +15157,7 @@ of	ADP
 Islamic	PROPN
 Jihad	PROPN
 .	PUNCT
+ 	S0
 (	PUNCT
 Jerusalem	PROPN
 Post	PROPN
@@ -14402,6 +15196,7 @@ Islamic	PROPN
 Jihad	PROPN
 official	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 But	CCONJ
 it	PRON
@@ -14414,6 +15209,7 @@ own	ADJ
 political	ADJ
 agenda	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 [	PUNCT
 ...	PUNCT
@@ -14444,6 +15240,7 @@ infrastructure	NOUN
 Habib	PROPN
 said	VERB
 .	PUNCT
+ 	S0
 """"	PUNCT
 Hamas	PROPN
 remains	VERB
@@ -14469,6 +15266,7 @@ pursue	VERB
 its	PRON
 aggression	NOUN
 .	PUNCT
+ 	S0
 Israel	PROPN
 wants	VERB
 to	PART
@@ -14479,6 +15277,7 @@ toward	ADP
 civil	ADJ
 war	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Islamic	PROPN
 Jihad	PROPN
@@ -14503,6 +15302,7 @@ a	DET
 vast	ADJ
 battlefield	NOUN
 .	PUNCT
+ 	S0
 """"	PUNCT
 Unless	SCONJ
 President	PROPN
@@ -14554,6 +15354,7 @@ inability	NOUN
 to	PART
 act	VERB
 .	PUNCT
+ 	S0
 --	PUNCT
 Posted	VERB
 by	ADP
@@ -14575,6 +15376,7 @@ a	DET
 small	ADJ
 country	NOUN
 ?	PUNCT
+ 	S0
 Iguazu	PROPN
 is	AUX
 NOT	PART
@@ -14596,6 +15398,7 @@ in	ADP
 your	PRON
 country	NOUN
 ?	PUNCT
+ 	S0
 $	SYM
 5.76	NUM
 For	ADP
@@ -14614,6 +15417,7 @@ eat	VERB
 in	ADP
 Miramar	PROPN
 ?	PUNCT
+ 	S0
 Argentinian	ADJ
 foods	NOUN
 of	ADV
@@ -14621,8 +15425,10 @@ course	ADV
 ,	PUNCT
 LMAO	INTJ
 .	PUNCT
+ 	S0
 lol	INTJ
 !	PUNCT
+ 	S0
 seafood	NOUN
 you	PRON
 mean	VERB
@@ -14670,6 +15476,7 @@ in	ADP
 Buenos	PROPN
 Aires	PROPN
 ?	PUNCT
+ 	S0
 I	PRON
 will	AUX
 be	AUX
@@ -14677,6 +15484,7 @@ vacationing	VERB
 there	ADV
 Yes	INTJ
 .	PUNCT
+ 	S0
 There	PRON
 are	VERB
 several	ADJ
@@ -14686,6 +15494,7 @@ their	PRON
 beautiful	ADJ
 beach	NOUN
 .	PUNCT
+ 	S0
 Enjoy	VERB
 yourself	PRON
 my	PRON
@@ -14716,12 +15525,14 @@ i	PRON
 have	VERB
 tight	ADJ
 ?	PUNCT
+ 	S0
 http://www.couchsurfing.org/	X
 try	VERB
 couch	NOUN
 surfing	NOUN
 po	NOUN
 .	PUNCT
+ 	S0
 What	PRON
 influenced	VERB
 Picasso	PROPN
@@ -14731,6 +15542,7 @@ style	NOUN
 of	ADP
 painting	NOUN
 ?	PUNCT
+ 	S0
 i	PRON
 've	AUX
 seen	VERB
@@ -14760,6 +15572,7 @@ eat	VERB
 in	ADP
 Miramar	PROPN
 ?	PUNCT
+ 	S0
 Food	NOUN
 like	ADP
 the	DET
@@ -14782,6 +15595,7 @@ steak	NOUN
 ,	PUNCT
 ect	X
 .	PUNCT
+ 	S0
 Try	VERB
 googling	VERB
 it	PRON
@@ -14798,6 +15612,7 @@ training	NOUN
 in	ADP
 Delaware	PROPN
 ?	PUNCT
+ 	S0
 I	PRON
 do	AUX
 hold	VERB
@@ -14826,6 +15641,7 @@ certified	VERB
 in	ADP
 delaware	PROPN
 ?	PUNCT
+ 	S0
 Any	DET
 information	NOUN
 about	ADP
@@ -14833,8 +15649,10 @@ CRAZY	PROPN
 HORSE	PROPN
 SCULPTURE	NOUN
 ?	PUNCT
+ 	S0
 any	DET
 ?	PUNCT
+ 	S0
 I	PRON
 assume	VERB
 you	PRON
@@ -14844,6 +15662,7 @@ crazy	PROPN
 horse	PROPN
 memorial	NOUN
 .	PUNCT
+ 	S0
 they	PRON
 have	VERB
 their	PRON
@@ -14859,6 +15678,7 @@ any	DET
 search	NOUN
 engine	NOUN
 .	PUNCT
+ 	S0
 http://www.google.com/search?aq=0&oq=crazy+horse+mem&gcx=w&sourceid=chrome&ie=UTF-8&q=crazy+horse+memorial	X
 How	ADV
 to	PART
@@ -14877,6 +15697,7 @@ mm	NOUN
 in	ADP
 height	NOUN
 ?	PUNCT
+ 	S0
 Here	ADV
 is	AUX
 a	DET
@@ -14912,6 +15733,7 @@ Delhi	PROPN
 to	ADP
 Mumbai	PROPN
 ?	PUNCT
+ 	S0
 Give	VERB
 it	PRON
 three	NUM
@@ -14921,6 +15743,7 @@ Sundays	PROPN
 and	CCONJ
 holidays	NOUN
 .	PUNCT
+ 	S0
 3	NUM
 TO	ADP
 4	NUM
@@ -14937,6 +15760,7 @@ about	ADV
 6	NUM
 days	NOUN
 .	PUNCT
+ 	S0
 like	INTJ
 2	NUM
 day	NOUN
@@ -14951,6 +15775,7 @@ Birmingham	PROPN
 ,	PUNCT
 UK	PROPN
 ?	PUNCT
+ 	S0
 The	DET
 Peak	PROPN
 District	PROPN
@@ -14961,6 +15786,7 @@ is	AUX
 the	DET
 closest	ADJ
 .	PUNCT
+ 	S0
 The	DET
 South	PROPN
 Shropshire	PROPN
@@ -14969,6 +15795,7 @@ are	AUX
 far	ADV
 closer	ADJ
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 not	PART
@@ -14981,14 +15808,17 @@ are	AUX
 extremely	ADV
 beautiful	ADJ
 .	PUNCT
+ 	S0
 www.visitsouthshropshire.co.uk	X
 Trivia	NOUN
 !	PUNCT
+ 	S0
 When	ADV
 was	AUX
 Miramar	PROPN
 founded	VERB
 ?	PUNCT
+ 	S0
 I	PRON
 'll	AUX
 give	VERB
@@ -15003,11 +15833,13 @@ gets	VERB
 it	PRON
 right	ADJ
 !	PUNCT
+ 	S0
 September	PROPN
 20	NUM
 ,	PUNCT
 1888	NUM
 ?	PUNCT
+ 	S0
 It	PRON
 was	AUX
 incorporated	VERB
@@ -15020,6 +15852,7 @@ May	PROPN
 ,	PUNCT
 1955	NUM
 .	PUNCT
+ 	S0
 Miramar	PROPN
 was	AUX
 founded	VERB
@@ -15027,6 +15860,7 @@ September	PROPN
 20	NUM
 1888	NUM
 .	PUNCT
+ 	S0
 Do	AUX
 people	NOUN
 Bare	ADJ
@@ -15036,6 +15870,7 @@ box	VERB
 in	ADP
 Ireland	PROPN
 ?	PUNCT
+ 	S0
 Certain	ADJ
 elements	NOUN
 of	ADP
@@ -15053,10 +15888,12 @@ no	INTJ
 not	PART
 really	ADV
 .	PUNCT
+ 	S0
 Er	INTJ
 ,	PUNCT
 no	INTJ
 ?	PUNCT
+ 	S0
 some	DET
 members	NOUN
 of	ADP
@@ -15067,6 +15904,7 @@ bare	ADJ
 knuckle	NOUN
 box	VERB
 .	PUNCT
+ 	S0
 other	ADV
 than	ADP
 that	PRON
@@ -15075,6 +15913,7 @@ do	AUX
 n't	PART
 know	VERB
 .	PUNCT
+ 	S0
 What	PRON
 are	AUX
 some	DET
@@ -15087,12 +15926,14 @@ the	DET
 bay	PROPN
 area	PROPN
 ?	PUNCT
+ 	S0
 For	ADP
 today	NOUN
 saturday	PROPN
 Nov	PROPN
 5th	NOUN
 .	PUNCT
+ 	S0
 preferably	ADV
 in	ADP
 San	PROPN
@@ -15140,6 +15981,7 @@ do	VERB
 with	ADP
 them	PRON
 ?	PUNCT
+ 	S0
 They	PRON
 bulk	VERB
 up	ADP
@@ -15163,10 +16005,12 @@ soldiers	NOUN
 '	PART
 home	NOUN
 .	PUNCT
+ 	S0
 Covert	VERB
 into	ADP
 DVD	NOUN
 .	PUNCT
+ 	S0
 give	VERB
 them	PRON
 to	ADP
@@ -15176,6 +16020,7 @@ or	CCONJ
 burn	VERB
 them	PRON
 .	PUNCT
+ 	S0
 is	AUX
 r2d2	PROPN
 a	DET
@@ -15185,6 +16030,7 @@ for	ADP
 a	DET
 cat	NOUN
 ?	PUNCT
+ 	S0
 i	PRON
 could	AUX
 call	VERB
@@ -15209,6 +16055,7 @@ a	DET
 stupid	ADJ
 name	NOUN
 .	PUNCT
+ 	S0
 it	PRON
 s	AUX
 your	PRON
@@ -15223,14 +16070,17 @@ want	VERB
 Hell	INTJ
 no	INTJ
 .	PUNCT
+ 	S0
 That	PRON
 s	AUX
 a	DET
 great	ADJ
 name	NOUN
 .	PUNCT
+ 	S0
 Kudos	NOUN
 .	PUNCT
+ 	S0
 What	PRON
 to	PART
 do	VERB
@@ -15239,6 +16089,7 @@ San	PROPN
 Rafael	PROPN
 Ca	PROPN
 ?	PUNCT
+ 	S0
 okay	INTJ
 so	ADV
 i	PRON
@@ -15266,10 +16117,12 @@ do	VERB
 around	ADV
 there	ADV
 ?	PUNCT
+ 	S0
 like	INTJ
 any	DET
 lounges	NOUN
 ?	PUNCT
+ 	S0
 i	PRON
 m	AUX
 15	NUM
@@ -15279,12 +16132,14 @@ about	ADP
 downtown	NOUN
 ...	PUNCT
 ?	PUNCT
+ 	S0
 like	INTJ
 4th	NOUN
 street	NOUN
 and	CCONJ
 stuff	NOUN
 ?	PUNCT
+ 	S0
 Which	PRON
 of	ADP
 these	PRON
@@ -15292,6 +16147,7 @@ do	AUX
 you	PRON
 like	VERB
 :	PUNCT
+ 	S0
 McDonald	PROPN
 s	PART
 ,	PUNCT
@@ -15304,6 +16160,7 @@ Bell	PROPN
 Wendy	PROPN
 s	PART
 ?	PUNCT
+ 	S0
 Burger	PROPN
 King	PROPN
 it	PRON
@@ -15342,6 +16199,7 @@ be	AUX
 wendy	PROPN
 's	PART
 .	PUNCT
+ 	S0
 would	AUX
 someone	PRON
 give	VERB
@@ -15354,6 +16212,7 @@ birds	NOUN
 in	ADP
 punjab	PROPN
 ?	PUNCT
+ 	S0
 actually	ADV
 i	PRON
 have	VERB
@@ -15398,6 +16257,7 @@ at	ADP
 this	DET
 site	NOUN
 :	PUNCT
+ 	S0
 http://www.wildlifeofpakistan.com/PakistanBirdClub/index.html	X
 What	PRON
 is	AUX
@@ -15412,6 +16272,7 @@ Frisco	PROPN
 's	PART
 Philadelphia	PROPN
 ?	PUNCT
+ 	S0
 My	PRON
 boyfriend	NOUN
 's	PART
@@ -15430,6 +16291,7 @@ Frisco	PROPN
 for	ADP
 dinner	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 unsure	ADJ
@@ -15453,9 +16315,11 @@ many	ADJ
 different	ADJ
 ways	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 help	VERB
 .	PUNCT
+ 	S0
 5233	NUM
 -	PUNCT
 NT	NOUN
@@ -15465,6 +16329,7 @@ the	DET
 Eurostar	PROPN
 train	NOUN
 ?	PUNCT
+ 	S0
 can	AUX
 children	NOUN
 go	VERB
@@ -15488,6 +16353,7 @@ No	DET
 under	ADJ
 12's	NOUN
 .	PUNCT
+ 	S0
 People	NOUN
 aged	VERB
 13	NUM
@@ -15512,6 +16378,7 @@ for	ADP
 a	DET
 decision	NOUN
 .	PUNCT
+ 	S0
 Eurostar	PROPN
 runs	VERB
 from	ADP
@@ -15520,6 +16387,7 @@ St	PROPN
 Pancras	PROPN
 station	NOUN
 .	PUNCT
+ 	S0
 What	PRON
 is	AUX
 the	DET
@@ -15533,6 +16401,7 @@ Frisco	PROPN
 's	PART
 Philadelphia	PROPN
 ?	PUNCT
+ 	S0
 I	PRON
 will	AUX
 be	AUX
@@ -15559,6 +16428,7 @@ for	ADP
 a	DET
 female	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 says	VERB
 business	NOUN
@@ -15574,9 +16444,11 @@ in	ADP
 many	ADJ
 ways	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 help	VERB
 .	PUNCT
+ 	S0
 5765	NUM
 -	PUNCT
 NTKB	NOUN
@@ -15606,6 +16478,7 @@ Natzi	PROPN
 stole	VERB
 them	PRON
 ?	PUNCT
+ 	S0
 google	VERB
 nazi	PROPN
 stolen	VERB
@@ -15653,6 +16526,7 @@ heirs	NOUN
 ..	PUNCT
 Miramar	PROPN
 ?	PUNCT
+ 	S0
 are	AUX
 they	PRON
 just	ADV
@@ -15661,6 +16535,7 @@ these	DET
 places	NOUN
 up	ADP
 ?	PUNCT
+ 	S0
 Well	INTJ
 you	PRON
 say	VERB
@@ -15678,6 +16553,7 @@ whole	ADJ
 thing	NOUN
 off	ADP
 .	PUNCT
+ 	S0
 Miramir	PROPN
 is	AUX
 for	ADP
@@ -15693,6 +16569,7 @@ make	VERB
 you	PRON
 wonder	VERB
 .	PUNCT
+ 	S0
 There	PRON
 are	VERB
 way	ADV
@@ -15707,6 +16584,7 @@ areas	NOUN
 than	ADP
 Miramar	PROPN
 .	PUNCT
+ 	S0
 i	PRON
 think	VERB
 Miramar	PROPN
@@ -15718,6 +16596,7 @@ trainer	NOUN
 or	CCONJ
 something	PRON
 .	PUNCT
+ 	S0
 He	PRON
 deserved	VERB
 respect	NOUN
@@ -15731,6 +16610,7 @@ an	DET
 empanada	NOUN
 cordobes	NOUN
 ?	PUNCT
+ 	S0
 How	ADV
 about	ADP
 empanadas	NOUN
@@ -15744,14 +16624,17 @@ area	NOUN
 of	ADP
 Argentina	PROPN
 ?	PUNCT
+ 	S0
 Yes	INTJ
 .	PUNCT
+ 	S0
 Here	ADV
 it	PRON
 is	AUX
 right	ADV
 here	ADV
 .	PUNCT
+ 	S0
 1	NUM
 cup	NOUN
 of	ADP
@@ -15820,6 +16703,7 @@ should	AUX
 I	PRON
 do	VERB
 ?	PUNCT
+ 	S0
 I	PRON
 was	AUX
 sold	VERB
@@ -15841,6 +16725,7 @@ can	AUX
 i	PRON
 do	VERB
 ?	PUNCT
+ 	S0
 Buy	VERB
 a	DET
 new	ADJ
@@ -15873,6 +16758,7 @@ it	PRON
 s	AUX
 stolen	VERB
 .	PUNCT
+ 	S0
 Erm	INTJ
 ya	INTJ
 How	ADV
@@ -15886,10 +16772,12 @@ in	ADP
 England	PROPN
 lols	INTJ
 ?	PUNCT
+ 	S0
 Ya	PRON
 ca	AUX
 n't	PART
 .	PUNCT
+ 	S0
 They	PRON
 do	AUX
 n't	PART
@@ -15907,6 +16795,7 @@ here	ADV
 an	DET
 update	NOUN
 :	PUNCT
+ 	S0
 The	DET
 doctor	NOUN
 is	AUX
@@ -15930,16 +16819,19 @@ best	ADJ
 friend	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 Deco	PROPN
 is	AUX
 still	ADV
 with	ADP
 Caoimhe	PROPN
 .	PUNCT
+ 	S0
 Suzanne	PROPN
 is	AUX
 pregnant	ADJ
 .	PUNCT
+ 	S0
 Hope	VERB
 you	PRON
 do	AUX
@@ -15949,6 +16841,7 @@ it	PRON
 too	ADV
 much	ADV
 .	PUNCT
+ 	S0
 I	PRON
 m	AUX
 in	ADP
@@ -15979,6 +16872,7 @@ but	CCONJ
 also	ADV
 chemistry	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 need	VERB
 a	DET
@@ -15987,6 +16881,7 @@ in	ADP
 law	NOUN
 enforcement	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 not	PART
@@ -15996,6 +16891,7 @@ have	VERB
 photography	NOUN
 skills	NOUN
 .	PUNCT
+ 	S0
 Talk	VERB
 to	ADP
 your	PRON
@@ -16007,6 +16903,7 @@ what	PRON
 they	PRON
 recommend	VERB
 .	PUNCT
+ 	S0
 certainly	ADV
 not	PART
 """"	PUNCT
@@ -16021,6 +16918,7 @@ about	ADP
 the	DET
 facts	NOUN
 :	PUNCT
+ 	S0
 http://www.google.co.uk/search?q=forensic+photography&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&safe=active&sout=1	X
 Was	AUX
 the	DET
@@ -16030,6 +16928,7 @@ first	ADJ
 Smart	ADJ
 Phone	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 writing	VERB
@@ -16051,9 +16950,11 @@ first	ADJ
 Smart	ADJ
 Phone	NOUN
 .	PUNCT
+ 	S0
 Was	VERB
 it	PRON
 ?	PUNCT
+ 	S0
 Technically	ADV
 ,	PUNCT
 blackberry	PROPN
@@ -16071,6 +16972,7 @@ games	NOUN
 and	CCONJ
 stuff	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 iPhone	NOUN
 was	AUX
@@ -16084,12 +16986,14 @@ screen	NOUN
 smart	ADJ
 phone	NOUN
 .	PUNCT
+ 	S0
 No	INTJ
 ,	PUNCT
 it	PRON
 was	VERB
 n't	PART
 .	PUNCT
+ 	S0
 But	CCONJ
 it	PRON
 did	AUX
@@ -16103,18 +17007,21 @@ as	ADP
 a	DET
 smartphone	NOUN
 .	PUNCT
+ 	S0
 Canon	PROPN
 sx40	PROPN
 or	CCONJ
 canon	PROPN
 s100	PROPN
 ?	PUNCT
+ 	S0
 Which	DET
 one	NUM
 should	AUX
 i	PRON
 get	VERB
 ?	PUNCT
+ 	S0
 It	PRON
 s	AUX
 prettty	ADV
@@ -16131,6 +17038,7 @@ with	ADP
 the	DET
 S100	PROPN
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 more	ADV
@@ -16159,6 +17067,7 @@ f	NOUN
 /	PUNCT
 2.7	NUM
 .	PUNCT
+ 	S0
 Both	DET
 have	VERB
 full	ADJ
@@ -16174,6 +17083,7 @@ does	AUX
 n't	PART
 matter	VERB
 .	PUNCT
+ 	S0
 The	DET
 S100	PROPN
 has	VERB
@@ -16188,6 +17098,7 @@ digic	NOUN
 5	NUM
 processor	NOUN
 .	PUNCT
+ 	S0
 Passport	NOUN
 needed	VERB
 for	ADP
@@ -16195,6 +17106,7 @@ international	ADJ
 boat	NOUN
 cruise	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 am	AUX
 going	VERB
@@ -16209,6 +17121,7 @@ friends	NOUN
 from	ADP
 Florida	PROPN
 .	PUNCT
+ 	S0
 Will	AUX
 stay	VERB
 in	ADP
@@ -16218,12 +17131,14 @@ for	ADP
 few	ADJ
 days	NOUN
 .	PUNCT
+ 	S0
 Will	AUX
 we	PRON
 need	VERB
 a	DET
 passport	NOUN
 ?	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 are	AUX
@@ -16243,21 +17158,25 @@ able	ADJ
 to	PART
 help	VERB
 !	PUNCT
+ 	S0
 uh	INTJ
 ,	PUNCT
 where	ADV
 ?	PUNCT
+ 	S0
 just	ADV
 in	ADP
 the	DET
 water	NOUN
 ?	PUNCT
+ 	S0
 depends	VERB
 where	ADV
 u	PRON
 are	AUX
 going	VERB
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 r	AUX
@@ -16281,6 +17200,7 @@ Weed	NOUN
 in	ADP
 Auckland	PROPN
 ?	PUNCT
+ 	S0
 Can	AUX
 ssome	DET
 oone	NOUN
@@ -16296,6 +17216,7 @@ weed	NOUN
 in	ADP
 auckland	PROPN
 .	PUNCT
+ 	S0
 Give	VERB
 me	PRON
 an	DET
@@ -16305,12 +17226,14 @@ something	PRON
 please	INTJ
 idk	VERB
 .	PUNCT
+ 	S0
 Getting	VERB
 real	ADV
 frustrated	ADJ
 now	ADV
 aye	INTJ
 .	PUNCT
+ 	S0
 Thanks	NOUN
 You	PRON
 've	AUX
@@ -16318,6 +17241,7 @@ already	ADV
 asked	VERB
 this	PRON
 .	PUNCT
+ 	S0
 Anyone	PRON
 who	PRON
 looks	VERB
@@ -16327,6 +17251,7 @@ druggy	NOUN
 or	CCONJ
 dodgy	ADJ
 .	PUNCT
+ 	S0
 Why	ADV
 would	AUX
 someone	PRON
@@ -16341,11 +17266,13 @@ a	DET
 public	ADJ
 place	NOUN
 ?	PUNCT
+ 	S0
 You	PRON
 're	AUX
 an	DET
 idiot	NOUN
 .	PUNCT
+ 	S0
 Drop	VERB
 by	ADP
 my	PRON
@@ -16359,6 +17286,7 @@ some	DET
 real	ADV
 cheap	ADV
 .	PUNCT
+ 	S0
 What	PRON
 is	AUX
 this	DET
@@ -16412,6 +17340,7 @@ am	AUX
 talking	VERB
 about	ADP
 ?	PUNCT
+ 	S0
 With	SCONJ
 no	DET
 link	NOUN
@@ -16422,6 +17351,7 @@ hard	ADJ
 to	PART
 say	VERB
 .	PUNCT
+ 	S0
 Try	VERB
 googling	VERB
 it	PRON
@@ -16435,8 +17365,10 @@ might	AUX
 get	VERB
 lucky	ADJ
 .	PUNCT
+ 	S0
 Link	NOUN
 ?	PUNCT
+ 	S0
 if	SCONJ
 it	PRON
 s	AUX
@@ -16455,6 +17387,7 @@ anniversary	NOUN
 in	ADP
 SF	PROPN
 ?	PUNCT
+ 	S0
 It	PRON
 's	AUX
 my	PRON
@@ -16521,6 +17454,7 @@ all	DET
 very	ADV
 beautiful	ADJ
 .	PUNCT
+ 	S0
 Prime	PROPN
 Rib	PROPN
 s	PART
@@ -16546,6 +17480,7 @@ Modern	ADJ
 day	NOUN
 Vietnam	PROPN
 ?	PUNCT
+ 	S0
 It	PRON
 would	AUX
 be	AUX
@@ -16566,6 +17501,7 @@ or	CCONJ
 in	ADP
 Israel	PROPN
 .	PUNCT
+ 	S0
 You	PRON
 would	AUX
 be	AUX
@@ -16573,6 +17509,7 @@ violating	VERB
 the	DET
 law	NOUN
 .	PUNCT
+ 	S0
 The	DET
 police	NOUN
 would	AUX
@@ -16594,6 +17531,7 @@ definitely	ADV
 not	ADV
 execution	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 You	PRON
 will	AUX
@@ -16606,6 +17544,7 @@ most	ADJ
 people	NOUN
 there	ADV
 .	PUNCT
+ 	S0
 They	PRON
 might	AUX
 be	AUX
@@ -16621,26 +17560,31 @@ an	DET
 execution	NOUN
 punishment	NOUN
 .	PUNCT
+ 	S0
 Wellington	PROPN
 sign	NOUN
 poll	NOUN
 .	PUNCT
+ 	S0
 Where	ADV
 do	AUX
 we	PRON
 vote	VERB
 ?	PUNCT
+ 	S0
 If	SCONJ
 anyone	PRON
 else	ADJ
 has	AUX
 voted	VERB
 ?	PUNCT
+ 	S0
 Where	ADV
 do	AUX
 we	PRON
 vote	VERB
 ?	PUNCT
+ 	S0
 Obviously	ADV
 because	SCONJ
 i	PRON
@@ -16648,6 +17592,7 @@ want	VERB
 to	PART
 vote	VERB
 .	PUNCT
+ 	S0
 And	CCONJ
 if	SCONJ
 anyone	PRON
@@ -16662,6 +17607,7 @@ guys	NOUN
 vote	VERB
 for	ADP
 ?	PUNCT
+ 	S0
 It	PRON
 closed	VERB
 on	ADP
@@ -16675,6 +17621,7 @@ Dominion	PROPN
 Posts	PROPN
 website	NOUN
 .	PUNCT
+ 	S0
 The	DET
 top	ADJ
 two	NUM
@@ -16707,6 +17654,7 @@ All	PROPN
 Blacks	PROPN
 winning	VERB
 .	PUNCT
+ 	S0
 Wellywood	PROPN
 looks	VERB
 rather	ADV
@@ -16718,6 +17666,7 @@ asia	PROPN
 flight	NOUN
 attendant	NOUN
 ?	PUNCT
+ 	S0
 Good	ADJ
 day	NOUN
 ,	PUNCT
@@ -16746,6 +17695,7 @@ asia	PROPN
 recruits	VERB
 foreigners	NOUN
 ?	PUNCT
+ 	S0
 thanks	NOUN
 I	PRON
 've	AUX
@@ -16805,6 +17755,7 @@ the	DET
 answer	NOUN
 immediately	ADV
 .	PUNCT
+ 	S0
 What	DET
 kind	NOUN
 of	ADP
@@ -16815,6 +17766,7 @@ in	ADP
 Argentina	PROPN
 have	VERB
 ?	PUNCT
+ 	S0
 I	PRON
 am	AUX
 doing	VERB
@@ -16838,6 +17790,7 @@ lunch	NOUN
 and	CCONJ
 dinner	NOUN
 .	PUNCT
+ 	S0
 And	CCONJ
 what	PRON
 is	AUX
@@ -16850,6 +17803,7 @@ of	ADP
 the	DET
 day	NOUN
 .	PUNCT
+ 	S0
 Like	INTJ
 in	ADP
 America	PROPN
@@ -16859,6 +17813,7 @@ our	PRON
 main	ADJ
 meal	NOUN
 .	PUNCT
+ 	S0
 and	CCONJ
 around	ADP
 what	DET
@@ -16870,6 +17825,7 @@ of	ADP
 their	PRON
 meals	NOUN
 .	PUNCT
+ 	S0
 Edible	ADJ
 ones	NOUN
 ,	PUNCT
@@ -16890,6 +17846,7 @@ look	VERB
 it	PRON
 up	ADP
 !	PUNCT
+ 	S0
 they	PRON
 eat	VERB
 lots	NOUN
@@ -16917,6 +17874,7 @@ an	DET
 animal	NOUN
 center	NOUN
 ?	PUNCT
+ 	S0
 reasons	NOUN
 plllz	INTJ
 How	ADV
@@ -16935,6 +17893,7 @@ sort	NOUN
 of	ADP
 job	NOUN
 ?	PUNCT
+ 	S0
 Just	ADV
 make	VERB
 a	DET
@@ -16967,6 +17926,7 @@ in	ADP
 the	DET
 job	NOUN
 .	PUNCT
+ 	S0
 Hope	VERB
 you	PRON
 find	VERB
@@ -16981,6 +17941,7 @@ out	ADP
 before	SCONJ
 applying	VERB
 .	PUNCT
+ 	S0
 maybe	ADV
 it	PRON
 's	VERB
@@ -17014,6 +17975,7 @@ Hall	PROPN
 in	ADP
 Chicago	PROPN
 ?	PUNCT
+ 	S0
 For	ADP
 a	DET
 field	NOUN
@@ -17031,6 +17993,7 @@ Chicago	PROPN
 Symphony	PROPN
 Orchestra	PROPN
 .	PUNCT
+ 	S0
 Before	ADP
 that	PRON
 ,	PUNCT
@@ -17042,6 +18005,7 @@ to	PART
 get	VERB
 dinner	NOUN
 .	PUNCT
+ 	S0
 Being	AUX
 a	DET
 suburban	ADJ
@@ -17069,6 +18033,7 @@ South	PROPN
 Michigan	PROPN
 Ave	PROPN
 .	PUNCT
+ 	S0
 )	PUNCT
 Does	AUX
 anyone	PRON
@@ -17087,11 +18052,13 @@ n't	PART
 get	VERB
 lost	ADJ
 ?	PUNCT
+ 	S0
 I	PRON
 do	AUX
 n't	PART
 know	VERB
 .	PUNCT
+ 	S0
 Maybe	ADV
 if	SCONJ
 you	PRON
@@ -17108,6 +18075,7 @@ a	DET
 good	ADJ
 answer	NOUN
 .	PUNCT
+ 	S0
 Does	AUX
 Crack	PROPN
 Barrel	PROPN
@@ -17117,6 +18085,7 @@ from	SCONJ
 having	VERB
 tattoos	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 suppose	ADJ
@@ -17146,6 +18115,7 @@ on	ADP
 my	PRON
 arm	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 know	VERB
@@ -17157,6 +18127,7 @@ you	PRON
 enlighten	VERB
 me	PRON
 ?	PUNCT
+ 	S0
 Why	ADV
 do	AUX
 n't	PART
@@ -17255,6 +18226,7 @@ love	NOUN
 pls	INTJ
 help	VERB
 .	PUNCT
+ 	S0
 thank	VERB
 you	PRON
 house	NOUN
@@ -17308,6 +18280,7 @@ by	ADP
 the	DET
 beach	NOUN
 .	PUNCT
+ 	S0
 People	NOUN
 are	AUX
 open	ADJ
@@ -17321,6 +18294,7 @@ frequented	VERB
 by	ADP
 Firangs	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 have	VERB
 a	DET
@@ -17345,6 +18319,7 @@ will	AUX
 they	PRON
 hatch	VERB
 ?	PUNCT
+ 	S0
 Most	ADV
 likely	ADV
 not	PART
@@ -17360,12 +18335,14 @@ on	ADP
 the	DET
 eggs	NOUN
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 hard	ADJ
 to	PART
 tell	VERB
 .	PUNCT
+ 	S0
 Cockatiels	NOUN
 can	AUX
 lay	VERB
@@ -17374,6 +18351,7 @@ eggs	NOUN
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 Just	ADV
 because	SCONJ
 you	PRON
@@ -17392,6 +18370,7 @@ the	DET
 two	NUM
 mated	VERB
 .	PUNCT
+ 	S0
 You	PRON
 can	AUX
 try	VERB
@@ -17409,6 +18388,7 @@ very	ADV
 bright	ADJ
 light	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 see	VERB
@@ -17432,9 +18412,11 @@ cared	VERB
 for	ADP
 properly	ADV
 .	PUNCT
+ 	S0
 Have	VERB
 fun	NOUN
 .	PUNCT
+ 	S0
 Why	ADV
 is	AUX
 the	DET
@@ -17442,6 +18424,7 @@ city	NOUN
 called	VERB
 Miramar	PROPN
 ?	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 not	PART
@@ -17474,6 +18457,7 @@ just	ADV
 a	DET
 name	NOUN
 .	PUNCT
+ 	S0
 There	PRON
 's	VERB
 lots	NOUN
@@ -17504,11 +18488,13 @@ for	ADP
 it	PRON
 in	ADP
 .	PUNCT
+ 	S0
 Here	ADV
 's	AUX
 two	NUM
 examples	NOUN
 :	PUNCT
+ 	S0
 There	PRON
 's	VERB
 a	DET
@@ -17521,6 +18507,7 @@ north	ADV
 of	ADP
 Miami	PROPN
 .	PUNCT
+ 	S0
 There	PRON
 's	VERB
 also	ADV
@@ -17549,6 +18536,7 @@ of	ADP
 San	PROPN
 Diego	PROPN
 .	PUNCT
+ 	S0
 Boy	NOUN
 trouble	NOUN
 ?????????????????????????????????????????????????????????	PUNCT
@@ -17614,6 +18602,7 @@ shoul	AUX
 i	PRON
 do	VERB
 ?	PUNCT
+ 	S0
 amd	CCONJ
 i	PRON
 like	VERB
@@ -17654,11 +18643,13 @@ most	ADJ
 men	NOUN
 suck	VERB
 !	PUNCT
+ 	S0
 who	PRON
 se	AUX
 better	ADV
 looking	ADJ
 ?	PUNCT
+ 	S0
 can	AUX
 t	PART
 decide	VERB
@@ -17673,11 +18664,13 @@ storage	PROPN
 still	ADV
 available	ADJ
 ?	PUNCT
+ 	S0
 is	AUX
 it	PRON
 still	ADV
 available	ADJ
 ?	PUNCT
+ 	S0
 because	SCONJ
 i	PRON
 have	AUX
@@ -17691,6 +18684,7 @@ s	AUX
 not	PART
 available	ADJ
 .	PUNCT
+ 	S0
 if	SCONJ
 it	PRON
 s	AUX
@@ -17705,6 +18699,7 @@ store	VERB
 my	PRON
 luggage	NOUN
 ?	PUNCT
+ 	S0
 i	PRON
 m	AUX
 traveling	VERB
@@ -17728,6 +18723,7 @@ at	ADP
 Gare	PROPN
 Montparnasse	PROPN
 .	PUNCT
+ 	S0
 Pay	VERB
 attention	NOUN
 ,	PUNCT
@@ -17766,8 +18762,10 @@ it	PRON
 sporadic	ADJ
 now	ADV
 .	PUNCT
+ 	S0
 Price	NOUN
 :	PUNCT
+ 	S0
 3,40	NUM
 Euros	NOUN
 ,	PUNCT
@@ -17785,6 +18783,7 @@ a	DET
 heures	NOUN
 lenght	NOUN
 .	PUNCT
+ 	S0
 i	PRON
 wan	VERB
 na	PART
@@ -17798,6 +18797,7 @@ am	AUX
 from	ADP
 mexico	PROPN
 ?	PUNCT
+ 	S0
 i	PRON
 am	AUX
 from	ADP
@@ -17822,6 +18822,7 @@ can	AUX
 find	VERB
 them	PRON
 ?	PUNCT
+ 	S0
 they	PRON
 r	AUX
 open	ADJ
@@ -17829,6 +18830,7 @@ mind	NOUN
 for	ADP
 talk	NOUN
 ?	PUNCT
+ 	S0
 they	PRON
 will	AUX
 talk	VERB
@@ -17839,6 +18841,7 @@ i	PRON
 am	AUX
 mexican	ADJ
 ?	PUNCT
+ 	S0
 You	PRON
 can	AUX
 find	VERB
@@ -17849,6 +18852,7 @@ over	ADP
 the	DET
 city	NOUN
 .	PUNCT
+ 	S0
 As	ADV
 long	ADV
 as	SCONJ
@@ -17884,6 +18888,7 @@ they	PRON
 treat	VERB
 you	PRON
 .	PUNCT
+ 	S0
 go	VERB
 to	ADP
 LA	PROPN
@@ -17922,6 +18927,7 @@ can	AUX
 not	PART
 wait	VERB
 ?	PUNCT
+ 	S0
 After	ADP
 my	PRON
 last	ADJ
@@ -17942,6 +18948,7 @@ to	ADP
 the	DET
 states	PROPN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 staying	VERB
@@ -17972,6 +18979,7 @@ airpart	NOUN
 in	ADP
 Fiji	PROPN
 .	PUNCT
+ 	S0
 A	DET
 way	NOUN
 I	PRON
@@ -18049,6 +19057,7 @@ an	DET
 earlier	ADJ
 flight	NOUN
 .	PUNCT
+ 	S0
 where	ADV
 can	AUX
 I	PRON
@@ -18073,6 +19082,7 @@ try	VERB
 anothers	NOUN
 please	INTJ
 ?	PUNCT
+ 	S0
 I	PRON
 searched	VERB
 all	ADV
@@ -18106,6 +19116,7 @@ and	CCONJ
 blood	NOUN
 sausages	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 learned	VERB
 that	SCONJ
@@ -18122,6 +19133,7 @@ North	PROPN
 American	PROPN
 region	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 I	PRON
 did	AUX
@@ -18143,6 +19155,7 @@ including	VERB
 blood	NOUN
 sausages	NOUN
 !	PUNCT
+ 	S0
 So	ADV
 follow	VERB
 the	DET
@@ -18156,8 +19169,10 @@ some	DET
 blood	NOUN
 sausages	NOUN
 .	PUNCT
+ 	S0
 huh	INTJ
 ?	PUNCT
+ 	S0
 yuck	INTJ
 !!	PUNCT
 I	PRON
@@ -18202,6 +19217,7 @@ and	CCONJ
 greater	PROPN
 noida	PROPN
 ?	PUNCT
+ 	S0
 UP	PROPN
 Roadways	PROPN
 buses	NOUN
@@ -18225,6 +19241,7 @@ through	ADP
 Pari	PROPN
 Chowk	PROPN
 .	PUNCT
+ 	S0
 Apart	ADV
 from	ADP
 these	PRON
@@ -18244,17 +19261,20 @@ and	CCONJ
 Pari	PROPN
 Chowk	PROPN
 .	PUNCT
+ 	S0
 Yes	INTJ
 bus	NOUN
 service	NOUN
 is	AUX
 available	ADJ
 .	PUNCT
+ 	S0
 it	PRON
 is	AUX
 not	PART
 frequent	ADJ
 .	PUNCT
+ 	S0
 Hi	INTJ
 ,	PUNCT
 Yes	INTJ
@@ -18274,11 +19294,13 @@ to	ADP
 Greater	PROPN
 Noida	PROPN
 .	PUNCT
+ 	S0
 There	PRON
 are	VERB
 UP	PROPN
 Govt	PROPN
 .	PUNCT
+ 	S0
 Buses	NOUN
 ,	PUNCT
 DTC	PROPN
@@ -18301,6 +19323,7 @@ and	CCONJ
 Greater	PROPN
 Noida	PROPN
 .	PUNCT
+ 	S0
 You	PRON
 can	AUX
 find	VERB
@@ -18340,6 +19363,7 @@ ipod	PROPN
 8	NUM
 gb	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 have	VERB
 wifi	NOUN
@@ -18372,6 +19396,7 @@ itself	PRON
 have	VERB
 wifi	NOUN
 ?	PUNCT
+ 	S0
 i	PRON
 want	VERB
 to	PART
@@ -18477,9 +19502,11 @@ and	CCONJ
 Afghanistan	PROPN
 alike	ADJ
 ?	PUNCT
+ 	S0
 and	CCONJ
 different	ADJ
 ?	PUNCT
+ 	S0
 i	PRON
 'm	AUX
 doing	VERB
@@ -18495,6 +19522,7 @@ different	ADJ
 and	CCONJ
 alike	ADJ
 .	PUNCT
+ 	S0
 i	PRON
 ve	AUX
 been	AUX
@@ -18512,6 +19540,7 @@ i	PRON
 got	VERB
 nothing	PRON
 .	PUNCT
+ 	S0
 i	PRON
 need	VERB
 to	PART
@@ -18546,6 +19575,7 @@ fought	VERB
 the	DET
 wars	NOUN
 ?	PUNCT
+ 	S0
 cost	NOUN
 of	ADP
 the	DET
@@ -18555,12 +19585,14 @@ money	NOUN
 and	CCONJ
 men	NOUN
 ?	PUNCT
+ 	S0
 political	ADJ
 costs	NOUN
 of	ADP
 the	DET
 war	NOUN
 ?	PUNCT
+ 	S0
 impact	NOUN
 of	ADP
 the	DET
@@ -18570,6 +19602,7 @@ the	DET
 American	ADJ
 people	NOUN
 ?	PUNCT
+ 	S0
 WILL	AUX
 SOMEONE	PRON
 PLZ	INTJ
@@ -18598,6 +19631,7 @@ high	ADJ
 mountain	NOUN
 deserts	NOUN
 .	PUNCT
+ 	S0
 Alike	ADJ
 ...	PUNCT
 both	DET
@@ -18621,6 +19655,7 @@ tell	VERB
 you	PRON
 )	PUNCT
 .	PUNCT
+ 	S0
 What	PRON
 is	AUX
 your	PRON
@@ -18637,6 +19672,7 @@ him	PRON
 her	PRON
 that	PRON
 ?	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 HAVE	VERB
@@ -18645,6 +19681,7 @@ cat	NOUN
 of	ADV
 course	ADV
 .	PUNCT
+ 	S0
 My	PRON
 cat	NOUN
 s	PART
@@ -18652,6 +19689,7 @@ name	NOUN
 is	AUX
 Twinky	PROPN
 .	PUNCT
+ 	S0
 When	ADV
 she	PRON
 was	AUX
@@ -18667,6 +19705,7 @@ twinky	NOUN
 snack	NOUN
 cakes	NOUN
 .	PUNCT
+ 	S0
 She	PRON
 is	AUX
 a	DET
@@ -18683,6 +19722,7 @@ over	ADP
 years	NOUN
 now	ADV
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 a	DET
@@ -18704,6 +19744,7 @@ on	ADP
 her	PRON
 face	NOUN
 .	PUNCT
+ 	S0
 And	CCONJ
 she	PRON
 is	AUX
@@ -18713,10 +19754,12 @@ of	ADP
 the	DET
 family	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 love	VERB
 her	PRON
 .	PUNCT
+ 	S0
 :)	SYM
 I	PRON
 have	VERB
@@ -18742,6 +19785,7 @@ you	PRON
 walked	VERB
 by	ADV
 !	PUNCT
+ 	S0
 My	PRON
 cat	NOUN
 s	AUX
@@ -18782,6 +19826,7 @@ egg	NOUN
 is	AUX
 soft	ADJ
 ?	PUNCT
+ 	S0
 my	PRON
 female	ADJ
 chameleon	NOUN
@@ -18810,11 +19855,13 @@ ordinary	ADJ
 chameleon	NOUN
 eggs	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 probably	ADV
 infertile	ADJ
 .	PUNCT
+ 	S0
 If	SCONJ
 there	PRON
 is	VERB
@@ -18825,6 +19872,7 @@ are	AUX
 probably	ADV
 infertile	ADJ
 !	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 take	VERB
@@ -18845,6 +19893,7 @@ throw	VERB
 them	PRON
 away	ADP
 !	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 do	VERB
@@ -18855,6 +19904,7 @@ start	VERB
 to	PART
 rot	VERB
 !	PUNCT
+ 	S0
 If	SCONJ
 she	PRON
 has	VERB
@@ -18872,6 +19922,7 @@ aways	ADV
 be	AUX
 infertile	ADJ
 .	PUNCT
+ 	S0
 if	SCONJ
 you	PRON
 do	AUX
@@ -18904,6 +19955,7 @@ probably	ADV
 lay	VERB
 eggs	NOUN
 .	PUNCT
+ 	S0
 Hope	VERB
 she	PRON
 stops	VERB
@@ -18916,10 +19968,12 @@ get	VERB
 really	ADV
 skinny	ADJ
 !	PUNCT
+ 	S0
 If	SCONJ
 she	PRON
 continues	VERB
 !	PUNCT
+ 	S0
 Hope	VERB
 this	PRON
 helps	VERB
@@ -18943,6 +19997,7 @@ my	PRON
 short	ADJ
 time	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 have	VERB
 a	DET
@@ -18965,6 +20020,7 @@ the	DET
 key	ADJ
 sites	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 are	AUX
 staying	VERB
@@ -18979,6 +20035,7 @@ next	ADV
 to	ADP
 BARTrail	PROPN
 .	PUNCT
+ 	S0
 We	PRON
 have	VERB
 limited	ADJ
@@ -19000,6 +20057,7 @@ a	DET
 short	ADJ
 time	NOUN
 ?	PUNCT
+ 	S0
 (	PUNCT
 We	PRON
 check	VERB
@@ -19012,6 +20070,7 @@ fly	VERB
 next	ADJ
 day	NOUN
 .	PUNCT
+ 	S0
 )	PUNCT
 Hop	VERB
 onto	ADP
@@ -19023,6 +20082,7 @@ Hop	VERB
 Off	ADV
 bus	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 'll	AUX
 take	VERB
@@ -19056,6 +20116,7 @@ more	ADJ
 time	NOUN
 at	ADP
 .	PUNCT
+ 	S0
 Go	VERB
 to	ADP
 Goldstar.com	X
@@ -19070,6 +20131,7 @@ of	ADP
 the	DET
 price	NOUN
 .	PUNCT
+ 	S0
 alcatraz	PROPN
 island	NOUN
 Take	VERB
@@ -19083,6 +20145,7 @@ an	DET
 amazing	ADJ
 experience	NOUN
 !	PUNCT
+ 	S0
 Is	AUX
 it	PRON
 better	ADJ
@@ -19097,6 +20160,7 @@ a	DET
 travel	NOUN
 agent	NOUN
 ?	PUNCT
+ 	S0
 First	ADJ
 time	NOUN
 to	PART
@@ -19140,6 +20204,7 @@ on	ADP
 the	DET
 internet	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 not	PART
@@ -19150,6 +20215,7 @@ with	ADP
 travel	NOUN
 agents	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 do	AUX
 n't	PART
@@ -19172,6 +20238,7 @@ available	ADJ
 to	ADP
 them	PRON
 .	PUNCT
+ 	S0
 The	DET
 one	NUM
 time	NOUN
@@ -19195,6 +20262,7 @@ had	AUX
 paid	VERB
 for	ADP
 .	PUNCT
+ 	S0
 The	DET
 few	ADJ
 times	NOUN
@@ -19227,6 +20295,7 @@ they	PRON
 were	AUX
 selling	VERB
 .	PUNCT
+ 	S0
 So	ADV
 now	ADV
 I	PRON
@@ -19238,6 +20307,7 @@ them	PRON
 at	ADV
 all	ADV
 .	PUNCT
+ 	S0
 best	ADJ
 is	AUX
 using	VERB
@@ -19269,6 +20339,7 @@ terrified	ADJ
 of	ADP
 hamsters	NOUN
 .	PUNCT
+ 	S0
 Well	INTJ
 last	ADJ
 night	NOUN
@@ -19284,6 +20355,7 @@ from	ADP
 his	PRON
 cage	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 is	AUX
 in	ADP
@@ -19307,6 +20379,7 @@ what	PRON
 to	PART
 do	VERB
 .	PUNCT
+ 	S0
 I	PRON
 have	VERB
 lots	NOUN
@@ -19315,6 +20388,7 @@ containers	NOUN
 in	ADP
 there	ADV
 .	PUNCT
+ 	S0
 Anybody	PRON
 give	VERB
 me	PRON
@@ -19325,6 +20399,7 @@ trap	NOUN
 or	CCONJ
 something	PRON
 ?	PUNCT
+ 	S0
 Find	VERB
 him	PRON
 before	SCONJ
@@ -19334,6 +20409,7 @@ the	DET
 dog	NOUN
 food	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 'm	AUX
 not	PART
@@ -19365,6 +20441,7 @@ as	ADP
 a	DET
 rat	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 had	AUX
 been	AUX
@@ -19375,6 +20452,7 @@ the	DET
 whole	ADJ
 time	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 was	AUX
 huge	ADJ
@@ -19386,6 +20464,7 @@ out	ADP
 of	ADP
 me	PRON
 .	PUNCT
+ 	S0
 Make	VERB
 sure	ADJ
 he	PRON
@@ -19401,6 +20480,7 @@ of	ADP
 food	NOUN
 out	ADP
 .	PUNCT
+ 	S0
 He	PRON
 will	AUX
 come	VERB
@@ -19412,6 +20492,7 @@ and	CCONJ
 start	VERB
 looking	VERB
 .	PUNCT
+ 	S0
 can	AUX
 i	PRON
 have	VERB
@@ -19463,6 +20544,7 @@ take	VERB
 care	NOUN
 of	ADP
 .	PUNCT
+ 	S0
 they	PRON
 all	DET
 need	VERB
@@ -19476,6 +20558,7 @@ proper	ADJ
 surroundings	NOUN
 etc	X
 .	PUNCT
+ 	S0
 the	DET
 easiest	ADJ
 thing	NOUN
@@ -19509,6 +20592,7 @@ is	AUX
 n't	PART
 easy	ADJ
 .	PUNCT
+ 	S0
 You	PRON
 should	AUX
 treat	VERB
@@ -19517,6 +20601,7 @@ pets	NOUN
 like	ADP
 children	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 require	VERB
 a	DET
@@ -19532,6 +20617,7 @@ tear	VERB
 stuff	NOUN
 up	ADP
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 want	VERB
@@ -19545,6 +20631,7 @@ fish	NOUN
 or	CCONJ
 hamster	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 go	VERB
@@ -19572,6 +20659,7 @@ handle	VERB
 and	CCONJ
 hold	VERB
 .	PUNCT
+ 	S0
 Fish	NOUN
 are	AUX
 probably	ADV
@@ -19583,10 +20671,12 @@ care	NOUN
 of	ADP
 though	ADV
 .	PUNCT
+ 	S0
 french	ADJ
 male	NOUN
 sensuality	NOUN
 ?	PUNCT
+ 	S0
 I	PRON
 ve	AUX
 been	AUX
@@ -19603,6 +20693,7 @@ of	ADP
 months	NOUN
 now	ADV
 .	PUNCT
+ 	S0
 He	PRON
 's	AUX
 been	AUX
@@ -19627,6 +20718,7 @@ his	PRON
 dress	NOUN
 shirt	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 s	AUX
 still	ADV
@@ -19650,6 +20742,7 @@ a	DET
 big	ADJ
 deal	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 just	ADV
 do	AUX
@@ -19665,6 +20758,7 @@ him	PRON
 feel	VERB
 uncomfortable	ADJ
 .	PUNCT
+ 	S0
 Is	AUX
 it	PRON
 ok	ADJ
@@ -19680,6 +20774,7 @@ the	DET
 first	ADJ
 move	NOUN
 ?	PUNCT
+ 	S0
 What	PRON
 do	AUX
 french	ADJ
@@ -19687,6 +20782,7 @@ men	NOUN
 find	VERB
 sexy	ADJ
 ?	PUNCT
+ 	S0
 French	ADJ
 women	NOUN
 are	AUX
@@ -19712,6 +20808,7 @@ propose	VERB
 to	PART
 do	VERB
 .	PUNCT
+ 	S0
 Why	ADV
 not	PART
 wait	VERB
@@ -19734,6 +20831,7 @@ at	ADP
 his	PRON
 house	NOUN
 .	PUNCT
+ 	S0
 And	CCONJ
 you	PRON
 take	VERB
@@ -19742,6 +20840,7 @@ up	ADV
 from	ADP
 there	ADV
 .	PUNCT
+ 	S0
 Just	ADV
 make	VERB
 sure	ADJ
@@ -19755,6 +20854,7 @@ with	ADP
 little	ADJ
 alcohol	NOUN
 .	PUNCT
+ 	S0
 rug	NOUN
 works	VERB
 for	ADP
@@ -19776,6 +20876,7 @@ love	VERB
 the	DET
 meat	NOUN
 !	PUNCT
+ 	S0
 Lovley	ADJ
 food	NOUN
 and	CCONJ
@@ -19791,11 +20892,13 @@ square	ADJ
 slice	NOUN
 around	ADV
 .	PUNCT
+ 	S0
 Cheapest	ADJ
 drinks	NOUN
 in	ADP
 Keene	PROPN
 !	PUNCT
+ 	S0
 Over	X
 priced	ADJ
 for	ADP
@@ -19812,6 +20915,7 @@ Quick	ADJ
 take	NOUN
 away	NOUN
 .	PUNCT
+ 	S0
 Wonderful	ADJ
 staff	NOUN
 and	CCONJ
@@ -19824,6 +20928,7 @@ for	ADP
 snowboard	NOUN
 eva	ADV
 .	PUNCT
+ 	S0
 Good	ADJ
 ,	PUNCT
 friendly	ADJ
@@ -19856,6 +20961,7 @@ in	ADP
 the	DET
 area	NOUN
 !	PUNCT
+ 	S0
 A	DET
 most	ADV
 outstanding	ADJ
@@ -19863,6 +20969,7 @@ outstanding	ADJ
 professional	ADJ
 firm	NOUN
 .	PUNCT
+ 	S0
 Well	ADV
 kept	VERB
 facility	NOUN
@@ -19870,6 +20977,7 @@ with	ADP
 friendly	ADJ
 staff	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 food	NOUN
 and	CCONJ
@@ -19886,6 +20994,7 @@ apprised	ADJ
 of	ADP
 status	NOUN
 .	PUNCT
+ 	S0
 Whatever	PRON
 you	PRON
 order	VERB
@@ -19894,6 +21003,7 @@ you	PRON
 will	AUX
 LOVE	VERB
 !	PUNCT
+ 	S0
 Good	ADJ
 quality	NOUN
 Indian	ADJ
@@ -19911,15 +21021,18 @@ a	DET
 good	ADJ
 price	NOUN
 .	PUNCT
+ 	S0
 Horrible	ADJ
 tap	NOUN
 water	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 no	DET
 other	ADJ
 complaints	NOUN
 .	PUNCT
+ 	S0
 Easy	ADJ
 registration	NOUN
 ,	PUNCT
@@ -19929,6 +21042,7 @@ and	CCONJ
 fun	ADJ
 teachers	NOUN
 !	PUNCT
+ 	S0
 Awesome	ADJ
 bacon	NOUN
 egg	NOUN
@@ -19938,6 +21052,7 @@ sandwich	NOUN
 for	ADP
 breakfast	NOUN
 .	PUNCT
+ 	S0
 The	DET
 World	PROPN
 's	PART
@@ -19947,36 +21062,43 @@ was	AUX
 pretty	ADV
 cool	ADJ
 .	PUNCT
+ 	S0
 There	PRON
 is	VERB
 no	DET
 delivery	NOUN
 .	PUNCT
+ 	S0
 There	PRON
 is	VERB
 no	DET
 delivery	NOUN
 .	PUNCT
+ 	S0
 Great	ADJ
 atmosphere	NOUN
 ,	PUNCT
 great	ADJ
 food	NOUN
 .	PUNCT
+ 	S0
 Definitely	ADV
 a	DET
 must	NOUN
 .	PUNCT
+ 	S0
 gone	ADJ
 library	NOUN
 is	AUX
 closed	ADJ
 .	PUNCT
+ 	S0
 it	PRON
 is	AUX
 now	ADV
 bislas	PROPN
 .	PUNCT
+ 	S0
 awesome	ADJ
 bagels	NOUN
 long	ADJ
@@ -20003,11 +21125,13 @@ and	CCONJ
 bad	ADJ
 service	NOUN
 !	PUNCT
+ 	S0
 Save	VERB
 yourself	PRON
 a	DET
 trip	NOUN
 !	PUNCT
+ 	S0
 Blooming	VERB
 onion	NOUN
 ,	PUNCT
@@ -20019,10 +21143,12 @@ visit	VERB
 this	DET
 restaurant	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 's	AUX
 great	ADJ
 !	PUNCT
+ 	S0
 I	PRON
 wo	AUX
 n't	PART
@@ -20031,10 +21157,12 @@ to	ADP
 anyone	PRON
 else	ADJ
 .	PUNCT
+ 	S0
 Fast	ADJ
 and	CCONJ
 affordable	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 job	NOUN
 master	NOUN
@@ -20042,20 +21170,24 @@ keying	VERB
 our	PRON
 building	NOUN
 .	PUNCT
+ 	S0
 Retired	VERB
 Dr	PROPN
 Joseph	PROPN
 retired	VERB
 .	PUNCT
+ 	S0
 Dr.	PROPN
 Dorn	PROPN
 is	AUX
 his	PRON
 backup	NOUN
 .	PUNCT
+ 	S0
 Great	ADJ
 Job	PROPN
 !	PUNCT
+ 	S0
 Thanks	NOUN
 for	SCONJ
 fixing	VERB
@@ -20076,6 +21208,7 @@ at	ADP
 this	DET
 theatre	NOUN
 !	PUNCT
+ 	S0
 No	DET
 meat	NOUN
 on	ADP
@@ -20085,6 +21218,7 @@ too	ADV
 much	ADJ
 pepper	NOUN
 .	PUNCT
+ 	S0
 no	DET
 place	NOUN
 to	PART
@@ -20093,6 +21227,7 @@ Hobbs	PROPN
 on	ADP
 Mass	PROPN
 .	PUNCT
+ 	S0
 Absolutely	ADV
 my	PRON
 favorite	ADJ
@@ -20114,6 +21249,7 @@ price	NOUN
 is	AUX
 outrageous	ADJ
 .	PUNCT
+ 	S0
 Nice	ADJ
 and	CCONJ
 quiet	ADJ
@@ -20127,6 +21263,7 @@ outside	ADP
 the	DET
 city	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 fun	NOUN
 for	ADP
@@ -20147,26 +21284,32 @@ polite	ADJ
 and	CCONJ
 professional	ADJ
 .	PUNCT
+ 	S0
 Very	ADV
 Impressed	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 electrician	NOUN
 .	PUNCT
+ 	S0
 Prime	ADJ
 rib	NOUN
 was	AUX
 very	ADV
 tough	ADJ
 .	PUNCT
+ 	S0
 Staff	NOUN
 were	AUX
 pleasant	ADJ
 .	PUNCT
+ 	S0
 Wo	AUX
 n't	PART
 return	VERB
 .	PUNCT
+ 	S0
 VINGAS	PROPN
 VISAKHA	PROPN
 INDUSTRIAL	PROPN
@@ -20179,6 +21322,7 @@ at	ADP
 google	PROPN
 maps	PROPN
 .	PUNCT
+ 	S0
 Midtown	PROPN
 Reston	PROPN
 has	VERB
@@ -20188,10 +21332,12 @@ and	CCONJ
 luxurious	ADJ
 environment	NOUN
 .	PUNCT
+ 	S0
 Really	ADV
 enjoyed	VERB
 it	PRON
 .	PUNCT
+ 	S0
 Compare	VERB
 to	ADP
 last	ADJ
@@ -20234,9 +21380,11 @@ have	AUX
 been	AUX
 meh	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 job	NOUN
 !	PUNCT
+ 	S0
 Mercedes	PROPN
 and	CCONJ
 Dan	PROPN
@@ -20249,6 +21397,7 @@ top	NOUN
 of	ADP
 everything	PRON
 !	PUNCT
+ 	S0
 love	VERB
 this	DET
 park	NOUN
@@ -20270,6 +21419,7 @@ and	CCONJ
 awesome	ADJ
 prices	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 get	VERB
 Microdermabrasions	NOUN
@@ -20293,9 +21443,11 @@ and	CCONJ
 a	DET
 snack	NOUN
 .	PUNCT
+ 	S0
 Cool	ADJ
 ambience	NOUN
 .	PUNCT
+ 	S0
 How	ADV
 a	DET
 pizza	NOUN
@@ -20303,6 +21455,7 @@ place	NOUN
 should	AUX
 be	AUX
 !	PUNCT
+ 	S0
 +	SYM
 there	PRON
 is	VERB
@@ -20313,11 +21466,13 @@ with	ADP
 every	DET
 pizza	NOUN
 .	PUNCT
+ 	S0
 Pleasure	NOUN
 to	PART
 work	VERB
 with	ADP
 .	PUNCT
+ 	S0
 The	DET
 experience	NOUN
 with	ADP
@@ -20327,14 +21482,17 @@ has	AUX
 been	AUX
 great	ADJ
 .	PUNCT
+ 	S0
 No	DET
 complaints	NOUN
 !	PUNCT
+ 	S0
 Your	PRON
 average	ADJ
 crappy	ADJ
 chain	NOUN
 .	PUNCT
+ 	S0
 Food	NOUN
 is	AUX
 awful	ADJ
@@ -20347,12 +21505,14 @@ the	DET
 yuppy	NOUN
 crowd	NOUN
 .	PUNCT
+ 	S0
 great	ADJ
 garage	NOUN
 and	CCONJ
 customer	NOUN
 service	NOUN
 .	PUNCT
+ 	S0
 great	ADJ
 knowledge	NOUN
 and	CCONJ
@@ -20364,6 +21524,7 @@ in	ADP
 the	DET
 industry	NOUN
 .	PUNCT
+ 	S0
 Clean	ADJ
 &	CCONJ
 tidy	ADJ
@@ -20374,6 +21535,7 @@ atmosphere	NOUN
 pleasant	ADJ
 staff	NOUN
 .	PUNCT
+ 	S0
 Food	NOUN
 drastically	ADV
 let's	VERB
@@ -20387,9 +21549,11 @@ a	DET
 great	ADJ
 facility	NOUN
 .	PUNCT
+ 	S0
 Great	ADJ
 instructors	NOUN
 !	PUNCT
+ 	S0
 Most	ADV
 of	ADP
 all	DET
@@ -20399,6 +21563,7 @@ daughter	NOUN
 loves	VERB
 it	PRON
 !	PUNCT
+ 	S0
 marisol	PROPN
 this	DET
 place	NOUN
@@ -20434,6 +21599,7 @@ a	DET
 good	ADJ
 florist	NOUN
 .	PUNCT
+ 	S0
 A	SYM
 ++	SYM
 They	PRON
@@ -20482,6 +21648,7 @@ Cinema	PROPN
 multiple	ADJ
 times	NOUN
 !	PUNCT
+ 	S0
 YAY	INTJ
 ,	PUNCT
 great	ADJ
@@ -20491,6 +21658,7 @@ LOCATION	NOUN
 HAS	AUX
 CLOSED	VERB
 .	PUNCT
+ 	S0
 HAS	AUX
 MOVED	VERB
 TO	ADP
@@ -20516,6 +21684,7 @@ red	PROPN
 line	PROPN
 stop	NOUN
 .	PUNCT
+ 	S0
 Great	ADJ
 computer	NOUN
 repair	NOUN
@@ -20524,8 +21693,10 @@ store	NOUN
 highly	ADV
 recommended	VERB
 .	PUNCT
+ 	S0
 excellent	ADJ
 !	PUNCT
+ 	S0
 answered	VERB
 all	DET
 my	PRON
@@ -20540,9 +21711,11 @@ I	PRON
 needed	VERB
 something	PRON
 .	PUNCT
+ 	S0
 highly	ADV
 recommended	VERB
 !	PUNCT
+ 	S0
 Rooms	NOUN
 were	AUX
 outdated	ADJ
@@ -20552,10 +21725,12 @@ dirty	ADJ
 and	CCONJ
 small	ADJ
 .	PUNCT
+ 	S0
 Service	NOUN
 was	AUX
 horrible	ADJ
 .	PUNCT
+ 	S0
 Go	VERB
 down	ADV
 1	NUM
@@ -20564,6 +21739,7 @@ to	ADP
 Super	PROPN
 8	PROPN
 .	PUNCT
+ 	S0
 Great	ADJ
 Family	NOUN
 Fun	NOUN
@@ -20575,6 +21751,7 @@ can	AUX
 be	AUX
 said	VERB
 :	PUNCT
+ 	S0
 """"	PUNCT
 Burch	PROPN
 's	PART
@@ -20583,6 +21760,7 @@ is	AUX
 the	DET
 GREATEST	ADJ
 !	PUNCT
+ 	S0
 """"	PUNCT
 Not	PART
 friendly	ADJ
@@ -20595,6 +21773,7 @@ poor	ADJ
 customer	NOUN
 service	NOUN
 .	PUNCT
+ 	S0
 Definitely	ADV
 not	PART
 going	VERB
@@ -20605,6 +21784,7 @@ car	NOUN
 from	ADP
 here	ADV
 .	PUNCT
+ 	S0
 Very	ADV
 hard	ADJ
 work	NOUN
@@ -20615,8 +21795,10 @@ in	ADP
 blue	ADJ
 there	ADV
 !	PUNCT
+ 	S0
 Brilll	ADJ
 .	PUNCT
+ 	S0
 Very	ADV
 hard	ADJ
 work	NOUN
@@ -20627,11 +21809,13 @@ in	ADP
 blue	ADJ
 there	ADV
 !	PUNCT
+ 	S0
 You	PRON
 are	AUX
 the	DET
 best	ADJ
 !	PUNCT
+ 	S0
 Just	ADV
 received	VERB
 from	ADP
@@ -20639,15 +21823,18 @@ your	PRON
 flower	NOUN
 store	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 sooooo	ADV
 beautiful	ADJ
 .	PUNCT
+ 	S0
 Thank	VERB
 you	PRON
 guys	NOUN
 .	PUNCT
+ 	S0
 Aweesome	ADJ
 Holy	ADJ
 cow	NOUN
@@ -20657,18 +21844,21 @@ a	DET
 delicious	ADJ
 meal	NOUN
 .	PUNCT
+ 	S0
 Hot	ADJ
 ,	PUNCT
 fresh	ADJ
 ,	PUNCT
 delicious	ADJ
 .	PUNCT
+ 	S0
 Loved	VERB
 every	DET
 bit	NOUN
 of	ADP
 it	PRON
 .	PUNCT
+ 	S0
 :)	SYM
 Wrong	ADJ
 Information	NOUN
@@ -20683,6 +21873,7 @@ for	ADP
 Gurgaon	PROPN
 Location	NOUN
 .	PUNCT
+ 	S0
 Please	INTJ
 update	VERB
 this	DET
@@ -20691,15 +21882,18 @@ in	ADP
 you	PRON
 database	NOUN
 .	PUNCT
+ 	S0
 Beautiful	ADJ
 hotel	NOUN
 !	PUNCT
+ 	S0
 Great	ADJ
 service	NOUN
 -	PUNCT
 high	ADJ
 class	NOUN
 !	PUNCT
+ 	S0
 Shuttle	NOUN
 available	ADJ
 to	ADP
@@ -20714,8 +21908,10 @@ drinks	NOUN
 /	PUNCT
 towels	NOUN
 .	PUNCT
+ 	S0
 great	ADJ
 !	PUNCT
+ 	S0
 I	PRON
 go	VERB
 Disco	NOUN
@@ -20723,10 +21919,12 @@ dancing	VERB
 and	CCONJ
 Cheerleading	VERB
 .	PUNCT
+ 	S0
 It	PRON
 s	AUX
 fab	ADJ
 !	PUNCT
+ 	S0
 so	ADV
 go	VERB
 and	CCONJ
@@ -20739,6 +21937,7 @@ Fox	PROPN
 Great	ADJ
 School	NOUN
 !	PUNCT
+ 	S0
 Teachers	NOUN
 good	ADJ
 Diverse	ADJ
@@ -20758,6 +21957,7 @@ kids	NOUN
 staying	VERB
 here	ADV
 !	PUNCT
+ 	S0
 $	SYM
 9.62	NUM
 excluding	VERB
@@ -20770,18 +21970,21 @@ for	ADP
 the	DET
 buffet	NOUN
 .	PUNCT
+ 	S0
 Worst	ADJ
 buffet	NOUN
 period	NOUN
 by	ADP
 far	ADV
 .	PUNCT
+ 	S0
 I	PRON
 want	VERB
 my	PRON
 money	NOUN
 back	ADV
 !	PUNCT
+ 	S0
 They	PRON
 did	VERB
 a	DET
@@ -20795,6 +21998,7 @@ that	PRON
 looks	VERB
 amazing	ADJ
 .	PUNCT
+ 	S0
 They	PRON
 also	ADV
 do	VERB
@@ -20805,6 +22009,7 @@ and	CCONJ
 lots	NOUN
 more	ADJ
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 the	DET
@@ -20828,6 +22033,7 @@ to	PART
 come	VERB
 here	ADV
 .	PUNCT
+ 	S0
 The	DET
 best	ADJ
 pizza	NOUN
@@ -20855,6 +22061,7 @@ best	ADJ
 WONDERFUL	ADJ
 service	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 used	VERB
@@ -20868,6 +22075,7 @@ in	ADP
 the	DET
 future	NOUN
 .	PUNCT
+ 	S0
 Beautiful	ADJ
 work	NOUN
 ,	PUNCT
@@ -20877,18 +22085,21 @@ and	CCONJ
 great	ADJ
 communication	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 out	ADP
 of	ADP
 business	NOUN
 .	PUNCT
+ 	S0
 Nice	ADJ
 people	NOUN
 ...	PUNCT
 I	PRON
 hear	VERB
 .	PUNCT
+ 	S0
 Calls	NOUN
 are	AUX
 now	ADV
@@ -20901,12 +22112,14 @@ down	ADP
 the	DET
 road	NOUN
 .	PUNCT
+ 	S0
 professional	ADJ
 Good	ADJ
 job	NOUN
 very	ADV
 professional	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 made	VERB
 me	PRON
@@ -20925,6 +22138,7 @@ of	ADP
 others	NOUN
 belongings	NOUN
 .	PUNCT
+ 	S0
 Not	PART
 a	DET
 clothing	NOUN
@@ -20949,6 +22163,7 @@ the	DET
 clothing	NOUN
 store	NOUN
 .	PUNCT
+ 	S0
 Favorite	ADJ
 Restaurant	NOUN
 Best	ADJ
@@ -20960,6 +22175,7 @@ have	AUX
 ever	ADV
 tasted	VERB
 .	PUNCT
+ 	S0
 Staff	NOUN
 is	AUX
 super	ADV
@@ -20968,12 +22184,14 @@ and	CCONJ
 very	ADV
 attentive	ADJ
 .	PUNCT
+ 	S0
 Price	NOUN
 is	AUX
 also	ADV
 very	ADV
 reasonable	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 service	NOUN
 A	DET
@@ -20986,6 +22204,7 @@ a	DET
 satisfying	ADJ
 outcome	NOUN
 .	PUNCT
+ 	S0
 A	DET
 well	ADV
 communicated	VERB
@@ -21025,10 +22244,12 @@ s	PART
 next	ADJ
 event	NOUN
 !	PUNCT
+ 	S0
 A	DET
 good	ADJ
 cut	NOUN
 !	PUNCT
+ 	S0
 Cécile	PROPN
 is	AUX
 a	DET
@@ -21041,6 +22262,7 @@ into	ADP
 the	DET
 neighbourhood	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 go	VERB
 to	PART
@@ -21052,6 +22274,7 @@ my	PRON
 hair	NOUN
 cut	VERB
 .	PUNCT
+ 	S0
 Clean	ADJ
 rooms	NOUN
 ,	PUNCT
@@ -21065,6 +22288,7 @@ on	ADP
 the	DET
 exit	NOUN
 .	PUNCT
+ 	S0
 The	DET
 front	NOUN
 desk	NOUN
@@ -21075,10 +22299,12 @@ pleasant	ADJ
 and	CCONJ
 efficient	ADJ
 .	PUNCT
+ 	S0
 Serves	VERB
 FREE	ADJ
 breakfast	NOUN
 !	PUNCT
+ 	S0
 Buyer	NOUN
 Beware	VERB
 !!	PUNCT
@@ -21090,6 +22316,7 @@ cars	NOUN
 sold	VERB
 here	ADV
 !	PUNCT
+ 	S0
 Have	VERB
 a	DET
 real	ADJ
@@ -21106,11 +22333,13 @@ go	VERB
 somewhere	ADV
 else	ADV
 !	PUNCT
+ 	S0
 Great	ADJ
 place	NOUN
 for	ADP
 embroidery	NOUN
 .	PUNCT
+ 	S0
 Service	NOUN
 was	AUX
 friendly	ADJ
@@ -21118,6 +22347,7 @@ and	CCONJ
 VERY	ADV
 fast	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 purchased	VERB
 four	NUM
@@ -21133,6 +22363,7 @@ within	ADP
 a	DET
 week	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 have	VERB
 good	ADJ
@@ -21142,6 +22373,7 @@ a	DET
 good	ADJ
 price	NOUN
 .	PUNCT
+ 	S0
 My	PRON
 favorite	NOUN
 so	ADV
@@ -21149,6 +22381,7 @@ far	ADV
 in	ADP
 Bellevue	PROPN
 .	PUNCT
+ 	S0
 Store	NOUN
 is	AUX
 on	ADP
@@ -21161,6 +22394,7 @@ is	AUX
 just	ADV
 average	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 now	ADV
@@ -21168,6 +22402,7 @@ called	VERB
 Sushi	PROPN
 Lover	PROPN
 .	PUNCT
+ 	S0
 Food	NOUN
 is	AUX
 just	ADV
@@ -21189,6 +22424,7 @@ a	DET
 quick	ADJ
 meal	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 food	NOUN
 and	CCONJ
@@ -21196,6 +22432,7 @@ very	ADV
 friendly	ADJ
 staff	NOUN
 .	PUNCT
+ 	S0
 Very	ADV
 good	ADJ
 with	ADP
@@ -21205,6 +22442,7 @@ year	NOUN
 old	ADJ
 daughter	NOUN
 .	PUNCT
+ 	S0
 Interesting	ADJ
 good	ADJ
 value	NOUN
@@ -21212,11 +22450,13 @@ wine	NOUN
 list	NOUN
 to	ADV
 .	PUNCT
+ 	S0
 Beer	NOUN
 a	DET
 bit	NOUN
 expensive	ADJ
 .	PUNCT
+ 	S0
 Brain	NOUN
 Dead	ADJ
 Not	ADV
@@ -21238,6 +22478,7 @@ give	VERB
 a	DET
 darn	NOUN
 .	PUNCT
+ 	S0
 This	DET
 place	NOUN
 is	AUX
@@ -21245,12 +22486,14 @@ a	DET
 complete	ADJ
 embarrassment	NOUN
 .	PUNCT
+ 	S0
 My	PRON
 favorite	ADJ
 place	NOUN
 to	PART
 eat	VERB
 .	PUNCT
+ 	S0
 The	DET
 Atmosphere	NOUN
 is	AUX
@@ -21274,6 +22517,7 @@ is	AUX
 beautiful	ADJ
 too	ADV
 !	PUNCT
+ 	S0
 Excellent	ADJ
 piano	NOUN
 lessons	NOUN
@@ -21291,6 +22535,7 @@ Mcmanus	PROPN
 taught	VERB
 me	PRON
 .	PUNCT
+ 	S0
 Now	ADV
 I	PRON
 'm	AUX
@@ -21302,6 +22547,7 @@ piano	NOUN
 pretty	ADV
 well	ADV
 .	PUNCT
+ 	S0
 Excellent	ADJ
 Pizza	NOUN
 !!	PUNCT
@@ -21317,8 +22563,10 @@ in	ADP
 Woodland	PROPN
 Hills	PROPN
 .	PUNCT
+ 	S0
 Yum	INTJ
 .	PUNCT
+ 	S0
 My	PRON
 wife	NOUN
 and	CCONJ
@@ -21328,9 +22576,11 @@ n't	PART
 get	VERB
 enough	ADJ
 .	PUNCT
+ 	S0
 Highly	ADV
 recommended	VERB
 .	PUNCT
+ 	S0
 Worst	ADJ
 place	NOUN
 flour	NOUN
@@ -21367,6 +22617,7 @@ the	DET
 negative	ADJ
 reviews	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 've	AUX
 had	VERB
@@ -21379,6 +22630,7 @@ on	ADP
 different	ADJ
 laptops	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 've	AUX
 always	ADV
@@ -21387,8 +22639,10 @@ timely	ADJ
 and	CCONJ
 inexpensive	ADJ
 .	PUNCT
+ 	S0
 Awsome	ADJ
 !	PUNCT
+ 	S0
 Great	ADJ
 food	NOUN
 cheap	ADJ
@@ -21398,6 +22652,7 @@ here	ADV
 is	AUX
 good	ADJ
 .	PUNCT
+ 	S0
 Fish	NOUN
 tacos	NOUN
 are	AUX
@@ -21411,6 +22666,7 @@ recommend	VERB
 Mi	PROPN
 Pueblo	PROPN
 .	PUNCT
+ 	S0
 Gets	VERB
 busy	ADJ
 so	ADV
@@ -21425,6 +22681,7 @@ local	ADJ
 bike	NOUN
 shop	NOUN
 .	PUNCT
+ 	S0
 Jason	PROPN
 and	CCONJ
 the	DET
@@ -21436,6 +22693,7 @@ anything	PRON
 you	PRON
 need	VERB
 .	PUNCT
+ 	S0
 The	DET
 shop	NOUN
 is	AUX
@@ -21446,6 +22704,7 @@ the	DET
 river	PROPN
 road	PROPN
 .	PUNCT
+ 	S0
 Best	ADJ
 Pizzas	NOUN
 and	CCONJ
@@ -21454,11 +22713,13 @@ in	ADP
 the	DET
 City	NOUN
 !	PUNCT
+ 	S0
 What	DET
 a	DET
 hidden	ADJ
 gem	NOUN
 !	PUNCT
+ 	S0
 The	DET
 food	NOUN
 is	AUX
@@ -21471,12 +22732,14 @@ nice	ADJ
 and	CCONJ
 hot	ADJ
 !	PUNCT
+ 	S0
 I	PRON
 highly	ADV
 recommend	VERB
 this	DET
 place	NOUN
 !	PUNCT
+ 	S0
 This	DET
 place	NOUN
 is	VERB
@@ -21488,6 +22751,7 @@ with	ADP
 great	ADJ
 people	NOUN
 .	PUNCT
+ 	S0
 The	DET
 food	NOUN
 is	AUX
@@ -21496,11 +22760,13 @@ and	CCONJ
 taste	VERB
 great	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 value	NOUN
 and	CCONJ
 service	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 will	AUX
 be	VERB
@@ -21516,6 +22782,7 @@ hairstyles	NOUN
 that	PRON
 last	VERB
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 pleased	ADJ
@@ -21528,6 +22795,7 @@ get	VERB
 at	ADP
 Luxe	PROPN
 .	PUNCT
+ 	S0
 The	DET
 staff	NOUN
 is	AUX
@@ -21540,6 +22808,7 @@ is	AUX
 always	ADV
 fresh	ADJ
 .	PUNCT
+ 	S0
 Nice	ADJ
 teachers	NOUN
 good	ADJ
@@ -21556,6 +22825,7 @@ to	PART
 meet	VERB
 here	ADV
 .	PUNCT
+ 	S0
 I	PRON
 enjoyed	VERB
 very	ADV
@@ -21564,6 +22834,7 @@ to	PART
 study	VERB
 here	ADV
 .	PUNCT
+ 	S0
 A	DET
 good	ADJ
 place	NOUN
@@ -21586,6 +22857,7 @@ up	ADP
 with	ADP
 friends	NOUN
 .	PUNCT
+ 	S0
 Ice	ADJ
 cold	ADJ
 beer	NOUN
@@ -21593,6 +22865,7 @@ and	CCONJ
 good	ADJ
 prices	NOUN
 .	PUNCT
+ 	S0
 Kitchen	NOUN
 puts	VERB
 out	ADV
@@ -21603,6 +22876,7 @@ has	VERB
 daily	ADJ
 specials	NOUN
 .	PUNCT
+ 	S0
 Poor	ADJ
 Service	NOUN
 After	SCONJ
@@ -21626,6 +22900,7 @@ should	AUX
 have	AUX
 been	AUX
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 recommend	VERB
@@ -21634,6 +22909,7 @@ using	VERB
 this	DET
 company	NOUN
 .	PUNCT
+ 	S0
 Buyer	NOUN
 beware	VERB
 Do	AUX
@@ -21642,6 +22918,7 @@ use	VERB
 these	DET
 guys	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 'll	AUX
 tell	VERB
@@ -21655,6 +22932,7 @@ later	ADV
 do	VERB
 another	DET
 .	PUNCT
+ 	S0
 Lied	VERB
 right	ADV
 to	ADP
@@ -21664,9 +22942,11 @@ then	ADV
 denied	VERB
 it	PRON
 .	PUNCT
+ 	S0
 Run	VERB
 away	ADV
 .	PUNCT
+ 	S0
 Great	ADJ
 service	NOUN
 I	PRON
@@ -21699,6 +22979,7 @@ thanks	NOUN
 again	ADV
 guys	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 won	VERB
 a	DET
@@ -21712,6 +22993,7 @@ a	DET
 charity	NOUN
 auction	NOUN
 .	PUNCT
+ 	S0
 The	DET
 lesson	NOUN
 was	AUX
@@ -21721,6 +23003,7 @@ the	DET
 teacher	NOUN
 Adz	PROPN
 .	PUNCT
+ 	S0
 So	ADV
 i	PRON
 booked	VERB
@@ -21730,9 +23013,11 @@ and	CCONJ
 loved	VERB
 it	PRON
 .	PUNCT
+ 	S0
 Great	ADJ
 teacher	NOUN
 .	PUNCT
+ 	S0
 SERVERS	NOUN
 When	ADV
 my	PRON
@@ -21758,6 +23043,7 @@ the	DET
 next	ADJ
 morning	NOUN
 .	PUNCT
+ 	S0
 That	PRON
 's	VERB
 what	PRON
@@ -21766,6 +23052,7 @@ call	VERB
 customer	NOUN
 service	NOUN
 !	PUNCT
+ 	S0
 It	PRON
 's	AUX
 fine	ADJ
@@ -21800,17 +23087,21 @@ area	NOUN
 ,	PUNCT
 why	ADV
 ?	PUNCT
+ 	S0
 Rip	NOUN
 Off	NOUN
 !	PUNCT
+ 	S0
 45	NUM
 p	NOUN
 for	ADP
 tap	NOUN
 water	NOUN
 !	PUNCT
+ 	S0
 Ridiculous	ADJ
 !	PUNCT
+ 	S0
 Do	AUX
 n't	PART
 think	VERB
@@ -21821,6 +23112,7 @@ been	AUX
 charged	VERB
 before	ADV
 .	PUNCT
+ 	S0
 Oh	INTJ
 ,	PUNCT
 and	CCONJ
@@ -21834,8 +23126,10 @@ on	ADP
 the	DET
 coleslaw	NOUN
 .	PUNCT
+ 	S0
 Avoid	VERB
 !	PUNCT
+ 	S0
 Slice	PROPN
 Pizza	PROPN
 at	ADP
@@ -21850,6 +23144,7 @@ is	AUX
 long	ADV
 gone	ADJ
 .	PUNCT
+ 	S0
 Their	PRON
 location	NOUN
 ,	PUNCT
@@ -21870,6 +23165,7 @@ to	ADP
 Slice	PROPN
 Pizza	PROPN
 .	PUNCT
+ 	S0
 VERYYYY	ADV
 !!!!	PUNCT
 VERYYY	ADV
@@ -21879,6 +23175,7 @@ auto	NOUN
 repair	NOUN
 men	NOUN
 .	PUNCT
+ 	S0
 Do	VERB
 the	DET
 job	NOUN
@@ -21888,6 +23185,7 @@ quickly	ADV
 as	SCONJ
 possible	ADJ
 .	PUNCT
+ 	S0
 Would	AUX
 100	NUM
 %	SYM
@@ -21899,6 +23197,7 @@ a	DET
 great	ADJ
 service	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 You	PRON
 Barry	PROPN
@@ -21906,16 +23205,19 @@ s	PART
 Auto	PROPN
 Tech	PROPN
 !	PUNCT
+ 	S0
 A	DET
 Great	ADJ
 Help	NOUN
 !	PUNCT
+ 	S0
 Ashdown	PROPN
 Horse	PROPN
 Transport	PROPN
 were	AUX
 fantastic	ADJ
 !	PUNCT
+ 	S0
 Very	ADV
 friendly	ADJ
 and	CCONJ
@@ -21925,6 +23227,7 @@ even	ADV
 at	ADP
 weekends	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 hesitate	VERB
@@ -21932,22 +23235,26 @@ to	PART
 recommend	VERB
 anyone	PRON
 .	PUNCT
+ 	S0
 Thanks	NOUN
 again	ADV
 Nina	PROPN
 .	PUNCT
+ 	S0
 PS.	NOUN
 Love	VERB
 the	DET
 new	ADJ
 website	NOUN
 !	PUNCT
+ 	S0
 Miami	PROPN
 's	PART
 best	ADJ
 tutoring	NOUN
 service	NOUN
 !	PUNCT
+ 	S0
 My	PRON
 son	NOUN
 was	AUX
@@ -21962,6 +23269,7 @@ within	ADP
 9	NUM
 months	NOUN
 !	PUNCT
+ 	S0
 A	DET
 wonderful	ADJ
 tutoring	NOUN
@@ -21977,6 +23285,7 @@ middle	NOUN
 school	NOUN
 work	NOUN
 .	PUNCT
+ 	S0
 Food	NOUN
 -	PUNCT
 very	ADV
@@ -21991,6 +23300,7 @@ n't	PART
 fast	ADJ
 food	NOUN
 .	PUNCT
+ 	S0
 Service	NOUN
 -	PUNCT
 the	DET
@@ -21999,6 +23309,7 @@ are	AUX
 usually	ADV
 pleasant	ADJ
 .	PUNCT
+ 	S0
 Atmosphere	NOUN
 is	AUX
 always	ADV
@@ -22064,6 +23375,7 @@ Free	PROPN
 is	AUX
 located	VERB
 .	PUNCT
+ 	S0
 It	PRON
 is	VERB
 ,	PUNCT
@@ -22084,6 +23396,7 @@ of	ADP
 this	DET
 location	NOUN
 .	PUNCT
+ 	S0
 such	DET
 a	DET
 great	ADJ
@@ -22108,6 +23421,7 @@ no	DET
 back	NOUN
 aches	NOUN
 .	PUNCT
+ 	S0
 moving	VERB
 with	ADP
 a	DET
@@ -22121,6 +23435,7 @@ i	PRON
 have	AUX
 had	VERB
 .	PUNCT
+ 	S0
 Totally	ADV
 flavored	ADJ
 The	DET
@@ -22157,6 +23472,7 @@ excellent	ADJ
 customer	NOUN
 service	NOUN
 !	PUNCT
+ 	S0
 Best	ADJ
 Cigar	NOUN
 lounge	NOUN
@@ -22164,6 +23480,7 @@ on	ADP
 the	DET
 blouvard	NOUN
 .	PUNCT
+ 	S0
 Encino	PROPN
 has	AUX
 been	AUX
@@ -22178,6 +23495,7 @@ shop	NOUN
 most	ADV
 definately	ADV
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 mention	VERB
@@ -22214,6 +23532,7 @@ last	ADJ
 seven	NUM
 years	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 n't	PART
@@ -22222,6 +23541,7 @@ to	ADP
 anyone	PRON
 else	ADJ
 .	PUNCT
+ 	S0
 Everyone	PRON
 on	ADP
 staff	NOUN
@@ -22231,6 +23551,7 @@ professional	ADJ
 and	CCONJ
 friendly	ADJ
 .	PUNCT
+ 	S0
 Stayed	VERB
 in	ADP
 the	DET
@@ -22241,11 +23562,13 @@ in	ADP
 December	PROPN
 2009	NUM
 !	PUNCT
+ 	S0
 WOW	INTJ
 what	DET
 stunning	ADJ
 views	NOUN
 .	PUNCT
+ 	S0
 The	DET
 furnishing	NOUN
 and	CCONJ
@@ -22253,6 +23576,7 @@ finishes	NOUN
 are	AUX
 great	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 highly	ADV
 recommend	VERB
@@ -22268,6 +23592,7 @@ in	ADP
 Camps	PROPN
 Bay	PROPN
 .	PUNCT
+ 	S0
 Surprisingly	ADV
 ,	PUNCT
 this	DET
@@ -22287,6 +23612,7 @@ the	DET
 Tampa	PROPN
 area	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 's	AUX
 fresh	ADJ
@@ -22294,6 +23620,7 @@ and	CCONJ
 really	ADV
 tasty	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 'll	AUX
 drive	VERB
@@ -22306,6 +23633,7 @@ volcano	NOUN
 ,	PUNCT
 yum	INTJ
 !	PUNCT
+ 	S0
 Fantastic	ADJ
 Nova	PROPN
 Scotia	PROPN
@@ -22316,6 +23644,7 @@ a	DET
 fantastic	ADJ
 time	NOUN
 .	PUNCT
+ 	S0
 Such	DET
 a	DET
 relaxing	ADJ
@@ -22324,6 +23653,7 @@ and	CCONJ
 inspiring	ADJ
 architecture	NOUN
 .	PUNCT
+ 	S0
 Sand	PROPN
 Hill	PROPN
 park	PROPN
@@ -22336,6 +23666,7 @@ Nice	ADJ
 warm	ADJ
 water	NOUN
 .	PUNCT
+ 	S0
 Thank	VERB
 -	PUNCT
 You	PRON
@@ -22344,15 +23675,18 @@ sharing	VERB
 your	PRON
 cottage	NOUN
 !	PUNCT
+ 	S0
 Great	ADJ
 lunch	NOUN
 specials	NOUN
 .	PUNCT
+ 	S0
 Delivery	NOUN
 is	AUX
 lightning	NOUN
 fast	ADJ
 .	PUNCT
+ 	S0
 Perfect	ADJ
 since	SCONJ
 I	PRON
@@ -22361,6 +23695,7 @@ on	ADP
 a	DET
 budget	NOUN
 .	PUNCT
+ 	S0
 But	CCONJ
 otherwise	ADV
 ,	PUNCT
@@ -22373,6 +23708,7 @@ what	PRON
 you	PRON
 get	VERB
 .	PUNCT
+ 	S0
 Like	VERB
 the	DET
 sushi	NOUN
@@ -22384,6 +23720,7 @@ the	DET
 pad	NOUN
 thai	NOUN
 .	PUNCT
+ 	S0
 Holly	PROPN
 -	PUNCT
 the	DET
@@ -22400,6 +23737,7 @@ beautiful	ADJ
 in	ADP
 clothes	NOUN
 .	PUNCT
+ 	S0
 Stylish	ADJ
 and	CCONJ
 contemporary	ADJ
@@ -22412,6 +23750,7 @@ or	CCONJ
 personality	NOUN
 type	NOUN
 .	PUNCT
+ 	S0
 She	PRON
 's	AUX
 an	DET
@@ -22423,11 +23762,13 @@ are	AUX
 her	PRON
 clothes	NOUN
 !	PUNCT
+ 	S0
 Very	ADV
 poor	ADJ
 customer	NOUN
 service	NOUN
 .	PUNCT
+ 	S0
 There	PRON
 are	VERB
 a	DET
@@ -22462,11 +23803,13 @@ of	ADP
 their	PRON
 mouths	NOUN
 .	PUNCT
+ 	S0
 Give	VERB
 them	PRON
 a	DET
 try	NOUN
 !	PUNCT
+ 	S0
 The	DET
 pizzas	NOUN
 are	AUX
@@ -22475,6 +23818,7 @@ and	CCONJ
 super	ADV
 delicious	ADJ
 .	PUNCT
+ 	S0
 They	PRON
 're	AUX
 our	PRON
@@ -22495,6 +23839,7 @@ family	NOUN
 owned	VERB
 company	NOUN
 !	PUNCT
+ 	S0
 How	ADV
 much	ADV
 better	ADJ
@@ -22526,6 +23871,7 @@ feels	VERB
 very	ADV
 cramped	ADJ
 .	PUNCT
+ 	S0
 We	PRON
 were	AUX
 made	VERB
@@ -22534,11 +23880,13 @@ feel	VERB
 very	ADV
 welcome	ADJ
 .	PUNCT
+ 	S0
 Well	ADV
 worth	ADJ
 a	DET
 visit	NOUN
 .	PUNCT
+ 	S0
 http://cambridgefoodfrivolity.blogspot.com/	X
 Great	ADJ
 Service	NOUN
@@ -22547,6 +23895,7 @@ Mcdonald	PROPN
 is	AUX
 wonderful	ADJ
 .	PUNCT
+ 	S0
 She	PRON
 answers	VERB
 all	DET
@@ -22562,6 +23911,7 @@ have	AUX
 ever	ADV
 seen	VERB
 .	PUNCT
+ 	S0
 I	PRON
 have	VERB
 a	DET
@@ -22576,10 +23926,12 @@ with	ADP
 a	DET
 lot	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 Job	NOUN
 DR	PROPN
 .	PUNCT
+ 	S0
 Called	VERB
 to	PART
 check	VERB
@@ -22613,6 +23965,7 @@ ruder	ADJ
 to	ADP
 me	PRON
 .	PUNCT
+ 	S0
 I	PRON
 will	AUX
 never	ADV
@@ -22620,12 +23973,14 @@ come	VERB
 here	ADV
 again	ADV
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 a	DET
 new	ADJ
 patient	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	AUX
 visited	VERB
@@ -22648,6 +24003,7 @@ the	DET
 staff	NOUN
 is	VERB
 .	PUNCT
+ 	S0
 I	PRON
 found	VERB
 the	DET
@@ -22661,11 +24017,13 @@ professional	ADJ
 -	PUNCT
 looking	VERB
 .	PUNCT
+ 	S0
 Want	VERB
 a	DET
 great	ADJ
 burger	NOUN
 ?	PUNCT
+ 	S0
 The	DET
 smokehouse	NOUN
 ca	AUX
@@ -22674,6 +24032,7 @@ be	AUX
 beat	VERB
 anywhere	ADV
 .	PUNCT
+ 	S0
 Salad	NOUN
 bar	NOUN
 is	AUX
@@ -22692,6 +24051,7 @@ around	ADP
 the	DET
 edges	NOUN
 .	PUNCT
+ 	S0
 Never	ADV
 a	DET
 bad	ADJ
@@ -22699,10 +24059,12 @@ smokehouse	NOUN
 burger	NOUN
 though	ADV
 !	PUNCT
+ 	S0
 I	PRON
 crave	VERB
 those	PRON
 .	PUNCT
+ 	S0
 Natasha	PROPN
 is	AUX
 the	DET
@@ -22714,6 +24076,7 @@ ever	ADV
 worked	VERB
 with	ADP
 .	PUNCT
+ 	S0
 She	PRON
 has	VERB
 a	DET
@@ -22735,6 +24098,7 @@ many	ADJ
 spontaneous	ADJ
 images	NOUN
 .	PUNCT
+ 	S0
 You	PRON
 will	AUX
 not	PART
@@ -22748,6 +24112,7 @@ Ray	PROPN
 's	PART
 pizza	PROPN
 :	PUNCT
+ 	S0
 my	PRON
 favorite	NOUN
 Ray	PROPN
@@ -22758,6 +24123,7 @@ just	ADV
 too	ADV
 good	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 wish	VERB
 I	PRON
@@ -22770,6 +24136,7 @@ every	DET
 single	ADJ
 meal	NOUN
 .	PUNCT
+ 	S0
 Luckily	ADV
 I	PRON
 live	VERB
@@ -22805,6 +24172,7 @@ been	AUX
 extremely	ADV
 thorough	ADJ
 .	PUNCT
+ 	S0
 We	PRON
 've	AUX
 only	ADV
@@ -22824,9 +24192,11 @@ in	ADP
 their	PRON
 response	NOUN
 .	PUNCT
+ 	S0
 Highly	ADV
 recommend	VERB
 !	PUNCT
+ 	S0
 Lovely	ADJ
 Cottage	NOUN
 This	DET
@@ -22842,6 +24212,7 @@ place	NOUN
 to	PART
 stay	VERB
 .	PUNCT
+ 	S0
 Mary	PROPN
 is	AUX
 an	DET
@@ -22852,6 +24223,7 @@ does	VERB
 yummy	ADJ
 breakfasts	NOUN
 .	PUNCT
+ 	S0
 My	PRON
 room	NOUN
 was	AUX
@@ -22864,12 +24236,15 @@ detail	NOUN
 was	AUX
 amazing	ADJ
 .	PUNCT
+ 	S0
 Will	AUX
 come	VERB
 again	ADV
 !	PUNCT
+ 	S0
 Sophie	PROPN
 .	PUNCT
+ 	S0
 Cheap	PROPN
 Hotel	PROPN
 Rome	PROPN
@@ -22880,6 +24255,7 @@ all	DET
 your	PRON
 help	NOUN
 !	PUNCT
+ 	S0
 Cheap	PROPN
 Hotel	PROPN
 Rome	PROPN
@@ -22895,6 +24271,7 @@ the	DET
 last	ADJ
 minute	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 had	VERB
 a	DET
@@ -22912,6 +24289,7 @@ use	VERB
 you	PRON
 again	ADV
 !	PUNCT
+ 	S0
 The	DET
 best	ADJ
 photographer	NOUN
@@ -22942,12 +24320,14 @@ to	PART
 work	VERB
 with	ADP
 .	PUNCT
+ 	S0
 The	DET
 images	NOUN
 turned	VERB
 out	ADP
 amazing	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 definitely	ADV
 recommend	VERB
@@ -22972,6 +24352,7 @@ it	PRON
 was	AUX
 great	ADJ
 !	PUNCT
+ 	S0
 The	DET
 food	NOUN
 was	AUX
@@ -22982,6 +24363,7 @@ service	NOUN
 was	AUX
 terrific	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 is	AUX
 a	DET
@@ -22998,6 +24380,7 @@ well	ADV
 worth	ADJ
 it	PRON
 .	PUNCT
+ 	S0
 Friendly	ADJ
 Efficient	ADJ
 and	CCONJ
@@ -23018,6 +24401,7 @@ in	ADP
 chronic	ADJ
 pain	NOUN
 .	PUNCT
+ 	S0
 Staff	NOUN
 is	AUX
 very	ADV
@@ -23035,6 +24419,7 @@ just	ADV
 another	DET
 patient	NOUN
 .	PUNCT
+ 	S0
 Very	ADV
 efficient	ADJ
 at	SCONJ
@@ -23042,6 +24427,7 @@ treating	VERB
 chronic	ADJ
 pain	NOUN
 !	PUNCT
+ 	S0
 The	DET
 best	ADJ
 company	NOUN
@@ -23054,6 +24440,7 @@ and	CCONJ
 e-commerce	NOUN
 website	NOUN
 .	PUNCT
+ 	S0
 From	ADP
 first	ADJ
 meeting	NOUN
@@ -23072,6 +24459,7 @@ and	CCONJ
 on	ADP
 schedule	NOUN
 .	PUNCT
+ 	S0
 Highly	ADV
 recommended	ADJ
 for	SCONJ
@@ -23081,12 +24469,14 @@ to	PART
 have	VERB
 website	NOUN
 .	PUNCT
+ 	S0
 Great	ADJ
 with	ADP
 SEO	PROPN
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 Great	ADJ
 Place	NOUN
 To	PART
@@ -23101,6 +24491,7 @@ Conditioning	PROPN
 Electric	PROPN
 Problems	PROPN
 .	PUNCT
+ 	S0
 We	PRON
 have	AUX
 used	VERB
@@ -23122,6 +24513,7 @@ work	NOUN
 done	VERB
 right	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 place	NOUN
 5	NUM
@@ -23129,6 +24521,7 @@ stars	NOUN
 for	ADP
 sure	ADJ
 .	PUNCT
+ 	S0
 Thanks	NOUN
 From	ADP
 Bill	PROPN
@@ -23145,6 +24538,7 @@ and	CCONJ
 Alcohol	PROPN
 event	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 were	AUX
 very	ADV
@@ -23154,6 +24548,7 @@ neat	ADJ
 and	CCONJ
 clean	ADJ
 .	PUNCT
+ 	S0
 They	PRON
 came	VERB
 through	ADV
@@ -23170,6 +24565,7 @@ very	ADV
 successful	ADJ
 day	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 will	AUX
 be	AUX
@@ -23177,11 +24573,13 @@ using	VERB
 Bridies	PROPN
 again	ADV
 .	PUNCT
+ 	S0
 ONe	NUM
 of	ADP
 a	DET
 few	ADJ
 .	PUNCT
+ 	S0
 Hancocks	PROPN
 is	AUX
 one	NUM
@@ -23193,6 +24591,7 @@ in	ADP
 Fort	PROPN
 Smith	PROPN
 .	PUNCT
+ 	S0
 We	PRON
 have	VERB
 Hobby	PROPN
@@ -23212,6 +24611,7 @@ just	ADV
 inside	ADP
 Barling	PROPN
 .	PUNCT
+ 	S0
 They	PRON
 do	AUX
 have	VERB
@@ -23223,6 +24623,7 @@ fabric	NOUN
 and	CCONJ
 notions	NOUN
 .	PUNCT
+ 	S0
 It	PRON
 was	AUX
 ok	ADJ
@@ -23243,6 +24644,7 @@ place	NOUN
 was	AUX
 old	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 was	AUX
 clean	ADJ
@@ -23253,6 +24655,7 @@ a	DET
 little	ADJ
 dumpy	ADJ
 .	PUNCT
+ 	S0
 Lots	NOUN
 of	ADP
 room	NOUN
@@ -23261,6 +24664,7 @@ big	ADJ
 rig	NOUN
 parking	NOUN
 .	PUNCT
+ 	S0
 Hard	ADJ
 to	PART
 get	VERB
@@ -23271,6 +24675,7 @@ of	ADP
 road	NOUN
 construction	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 'll	AUX
 admit	VERB
@@ -23292,6 +24697,7 @@ a	DET
 good	ADJ
 job	NOUN
 .	PUNCT
+ 	S0
 The	DET
 chicken	NOUN
 cordon	NOUN
@@ -23310,6 +24716,7 @@ for	ADP
 the	DET
 money	NOUN
 .	PUNCT
+ 	S0
 Service	NOUN
 was	AUX
 a	DET
@@ -23319,18 +24726,21 @@ slow	ADJ
 but	CCONJ
 friendly	ADJ
 .	PUNCT
+ 	S0
 find	VERB
 another	DET
 place	NOUN
 Run	VERB
 down	ADP
 .	PUNCT
+ 	S0
 Dark	ADJ
 ,	PUNCT
 dark	ADJ
 main	ADJ
 room	NOUN
 .	PUNCT
+ 	S0
 No	DET
 way	NOUN
 to	PART
@@ -23338,6 +24748,7 @@ read	VERB
 /	SYM
 relax	VERB
 .	PUNCT
+ 	S0
 '	PUNCT
 Electric	ADJ
 '	PUNCT
@@ -23349,9 +24760,11 @@ did	AUX
 not	PART
 heat	VERB
 .	PUNCT
+ 	S0
 Quite	ADV
 cold	ADJ
 .	PUNCT
+ 	S0
 Removing	VERB
 90	NUM
 %	SYM
@@ -23368,27 +24781,33 @@ would	AUX
 look	VERB
 cleaner	ADJ
 .	PUNCT
+ 	S0
 recommended	ADJ
 Excellent	ADJ
 location	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 sports	NOUN
 bar	NOUN
 .	PUNCT
+ 	S0
 Hyatt	PROPN
 web	NOUN
 site	NOUN
 improved	VERB
 .	PUNCT
+ 	S0
 Accurate	ADJ
 check	NOUN
 -	PUNCT
 out	NOUN
 .	PUNCT
+ 	S0
 Rooms	NOUN
 clean	ADJ
 .	PUNCT
+ 	S0
 Lifts	NOUN
 quick	ADJ
 ,	PUNCT
@@ -23400,6 +24819,7 @@ and	CCONJ
 correctly	ADV
 sized	VERB
 .	PUNCT
+ 	S0
 Choose	VERB
 this	DET
 hotel	NOUN
@@ -23415,8 +24835,10 @@ next	ADJ
 block	NOUN
 )	PUNCT
 .	PUNCT
+ 	S0
 Summary	NOUN
 :	PUNCT
+ 	S0
 Not	ADV
 cheep	ADJ
 ,	PUNCT
@@ -23429,6 +24851,7 @@ super	ADV
 friendly	ADJ
 service	NOUN
 .	PUNCT
+ 	S0
 Quality	NOUN
 of	ADP
 work	NOUN
@@ -23438,6 +24861,7 @@ but	CCONJ
 not	ADV
 outstanding	ADJ
 .	PUNCT
+ 	S0
 Like	ADP
 all	DET
 oil	NOUN
@@ -23454,6 +24878,7 @@ services	NOUN
 they	PRON
 have	VERB
 .	PUNCT
+ 	S0
 Will	AUX
 be	AUX
 a	DET
@@ -23463,6 +24888,7 @@ with	ADP
 discount	NOUN
 coupons	NOUN
 .	PUNCT
+ 	S0
 criminal	ADJ
 defense	NOUN
 lawyer	NOUN
@@ -23476,6 +24902,7 @@ criminal	ADJ
 defense	NOUN
 lawyer	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 cross	VERB
 examined	VERB
@@ -23491,6 +24918,7 @@ tell	VERB
 the	DET
 truth	NOUN
 .	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 want	VERB
@@ -23521,6 +24949,7 @@ kind	ADJ
 and	CCONJ
 helpful	ADJ
 .	PUNCT
+ 	S0
 Rooms	NOUN
 very	ADV
 clean	ADJ
@@ -23529,6 +24958,7 @@ smelled	VERB
 very	ADV
 fresh	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 would	AUX
 recommend	VERB
@@ -23537,6 +24967,7 @@ hotel	NOUN
 to	ADP
 anyone	PRON
 .	PUNCT
+ 	S0
 I	PRON
 loved	VERB
 my	PRON
@@ -23557,6 +24988,7 @@ staying	VERB
 here	ADV
 again	ADV
 .	PUNCT
+ 	S0
 Thanks	NOUN
 for	SCONJ
 following	VERB
@@ -23567,6 +24999,7 @@ store	NOUN
 Enough	ADJ
 said	VERB
 .	PUNCT
+ 	S0
 I	PRON
 do	AUX
 n't	PART
@@ -23578,6 +25011,7 @@ n't	PART
 acting	VERB
 suspiciously	ADV
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 ready	ADJ
@@ -23626,6 +25060,7 @@ look	VERB
 know	ADV
 further	ADV
 .	PUNCT
+ 	S0
 I	PRON
 especially	ADV
 like	VERB
@@ -23634,9 +25069,11 @@ Chicken	NOUN
 Curry	NOUN
 pie	NOUN
 .	PUNCT
+ 	S0
 Good	ADJ
 Food	NOUN
 .	PUNCT
+ 	S0
 The	DET
 owner	NOUN
 /	SYM
@@ -23655,11 +25092,13 @@ with	ADP
 as	ADV
 well	ADV
 .	PUNCT
+ 	S0
 Mo	PROPN
 Fantastic	ADJ
 fresh	ADJ
 food	NOUN
 !	PUNCT
+ 	S0
 What	DET
 a	DET
 neat	ADJ
@@ -23676,6 +25115,7 @@ n't	PART
 expect	VERB
 it	PRON
 .	PUNCT
+ 	S0
 Cozy	ADJ
 ,	PUNCT
 warm	ADJ
@@ -23684,6 +25124,7 @@ atmosphere	NOUN
 great	ADJ
 service	NOUN
 .	PUNCT
+ 	S0
 Most	ADV
 importantly	ADV
 ,	PUNCT
@@ -23692,6 +25133,7 @@ food	NOUN
 was	AUX
 outstanding	ADJ
 .	PUNCT
+ 	S0
 It	PRON
 clearly	ADV
 had	AUX
@@ -23701,12 +25143,14 @@ from	ADP
 fresh	ADJ
 ingredients	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 'll	AUX
 be	VERB
 back	ADV
 often	ADV
 .	PUNCT
+ 	S0
 Thanks	NOUN
 For	ADP
 A	DET
@@ -23780,6 +25224,7 @@ here	ADV
 a	DET
 lot	NOUN
 .	PUNCT
+ 	S0
 Pets	PROPN
 Discount	PROPN
 has	VERB
@@ -23804,9 +25249,11 @@ tip	ADJ
 top	ADJ
 condition	NOUN
 !	PUNCT
+ 	S0
 Excellent	ADJ
 service	NOUN
 !	PUNCT
+ 	S0
 I	PRON
 am	AUX
 so	ADV
@@ -23824,6 +25271,7 @@ San	PROPN
 Mateo	PROPN
 Avenue	PROPN
 !	PUNCT
+ 	S0
 No	ADV
 more	ADV
 having	VERB
@@ -23838,6 +25286,7 @@ great	ADJ
 mani	NOUN
 pedi	NOUN
 .	PUNCT
+ 	S0
 Both	CCONJ
 Tina	PROPN
 and	CCONJ
@@ -23845,6 +25294,7 @@ Vicky	PROPN
 are	AUX
 excellent	ADJ
 .	PUNCT
+ 	S0
 I	PRON
 will	AUX
 definitely	ADV
@@ -23856,6 +25306,7 @@ family	NOUN
 :)	SYM
 great	ADJ
 !	PUNCT
+ 	S0
 :P	SYM
 you	PRON
 get	VERB
@@ -23877,6 +25328,7 @@ simulator	NOUN
 short	ADJ
 movies	NOUN
 .	PUNCT
+ 	S0
 Try	VERB
 the	DET
 360	NUM
@@ -23909,6 +25361,7 @@ Store	NOUN
 GREAT	ADJ
 Service	NOUN
 !	PUNCT
+ 	S0
 “	PUNCT
 This	DET
 store	NOUN
@@ -23924,6 +25377,7 @@ not	PART
 being	AUX
 hassled	VERB
 .	PUNCT
+ 	S0
 I	PRON
 was	AUX
 there	ADV
@@ -23942,6 +25396,7 @@ a	DET
 hard	ADJ
 drive	NOUN
 !	PUNCT
+ 	S0
 The	DET
 reason	NOUN
 I	PRON
@@ -23955,11 +25410,13 @@ are	AUX
 sooooo	ADV
 nice	ADJ
 .	PUNCT
+ 	S0
 ”	PUNCT
 Horrible	ADJ
 customer	NOUN
 service	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 came	VERB
 in	ADV
@@ -23972,6 +25429,7 @@ for	ADP
 my	PRON
 wife	NOUN
 .	PUNCT
+ 	S0
 The	DET
 one	NUM
 guy	NOUN
@@ -23997,6 +25455,7 @@ I	PRON
 ever	ADV
 met	VERB
 .	PUNCT
+ 	S0
 But	CCONJ
 thankfully	ADV
 there	PRON
@@ -24007,6 +25466,7 @@ shops	NOUN
 around	ADP
 Norman	PROPN
 .	PUNCT
+ 	S0
 Pure	ADJ
 Beauty	NOUN
 What	DET
@@ -24031,6 +25491,7 @@ diversity	NOUN
 of	ADP
 art	NOUN
 .	PUNCT
+ 	S0
 Destiny	PROPN
 Allison	PROPN
 's	PART
@@ -24040,6 +25501,7 @@ were	AUX
 my	PRON
 favorite	NOUN
 .	PUNCT
+ 	S0
 The	DET
 owner	NOUN
 Karla	PROPN
@@ -24048,6 +25510,7 @@ welcoming	ADJ
 and	CCONJ
 fun	ADJ
 .	PUNCT
+ 	S0
 Give	VERB
 yourself	PRON
 the	DET
@@ -24058,9 +25521,11 @@ Winterowd	PROPN
 Fine	PROPN
 Art	PROPN
 !	PUNCT
+ 	S0
 Great	ADJ
 Place	NOUN
 !	PUNCT
+ 	S0
 This	PRON
 is	AUX
 one	NUM
@@ -24073,6 +25538,7 @@ eat	VERB
 for	ADP
 lunch	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 offer	VERB
 a	DET
@@ -24104,6 +25570,7 @@ ate	VERB
 too	ADV
 much	ADJ
 .	PUNCT
+ 	S0
 Plus	CCONJ
 ,	PUNCT
 it	PRON
@@ -24111,6 +25578,7 @@ it	PRON
 super	ADV
 healthy	ADJ
 !	PUNCT
+ 	S0
 Barb	PROPN
 does	VERB
 an	DET
@@ -24162,6 +25630,7 @@ OF	ADP
 THE	DET
 BEST	ADJ
 !	PUNCT
+ 	S0
 If	SCONJ
 you	PRON
 want	VERB
@@ -24179,6 +25648,7 @@ not	PART
 your	PRON
 place	NOUN
 .	PUNCT
+ 	S0
 These	DET
 people	NOUN
 only	ADV
@@ -24190,6 +25660,7 @@ American	ADJ
 blown	VERB
 glass	NOUN
 .	PUNCT
+ 	S0
 Their	PRON
 selection	NOUN
 is	AUX
@@ -24202,6 +25673,7 @@ is	AUX
 very	ADV
 knowledgable	ADJ
 .	PUNCT
+ 	S0
 Go	VERB
 to	ADP
 the	DET
@@ -24249,6 +25721,7 @@ would	AUX
 n't	PART
 do	VERB
 .	PUNCT
+ 	S0
 He	PRON
 worked	VERB
 on	ADP
@@ -24261,6 +25734,7 @@ of	ADP
 my	PRON
 car	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 am	AUX
 extremely	ADV
@@ -24318,6 +25792,7 @@ deal	NOUN
 out	ADV
 there	ADV
 .	PUNCT
+ 	S0
 Is	AUX
 not	PART
 a	DET
@@ -24345,6 +25820,7 @@ box	NOUN
 out	ADV
 front	ADV
 .	PUNCT
+ 	S0
 Glad	ADJ
 I	PRON
 called	VERB
@@ -24357,6 +25833,7 @@ box	NOUN
 to	PART
 ship	VERB
 .	PUNCT
+ 	S0
 Thought	VERB
 adding	VERB
 a	DET
@@ -24372,6 +25849,7 @@ useless	ADJ
 trip	NOUN
 there	ADV
 .	PUNCT
+ 	S0
 the	DET
 food	NOUN
 is	AUX
@@ -24379,6 +25857,7 @@ mediocre	ADJ
 at	ADV
 best	ADV
 .	PUNCT
+ 	S0
 the	DET
 waitress	NOUN
 took	VERB
@@ -24392,6 +25871,7 @@ that	PRON
 all	DET
 night	NOUN
 .	PUNCT
+ 	S0
 not	PART
 sure	ADJ
 how	ADV
@@ -24401,6 +25881,7 @@ about	ADP
 that	DET
 one	NUM
 .	PUNCT
+ 	S0
 it	PRON
 's	AUX
 passable	ADJ
@@ -24416,6 +25897,7 @@ not	PART
 that	ADV
 great	ADJ
 .	PUNCT
+ 	S0
 if	SCONJ
 you	PRON
 want	VERB
@@ -24426,8 +25908,10 @@ go	VERB
 to	ADP
 famoso	PROPN
 .	PUNCT
+ 	S0
 seriously	ADV
 .	PUNCT
+ 	S0
 Anyone	PRON
 else	ADJ
 find	VERB
@@ -24469,6 +25953,7 @@ unique	ADJ
 grammar	NOUN
 structure	NOUN
 ?	PUNCT
+ 	S0
 And	CCONJ
 they	PRON
 seem	VERB
@@ -24480,9 +25965,11 @@ fairly	ADV
 regular	ADJ
 intervals	NOUN
 ?	PUNCT
+ 	S0
 Best	ADJ
 YET	ADV
 !	PUNCT
+ 	S0
 We	PRON
 go	VERB
 to	ADP
@@ -24498,6 +25985,7 @@ NEVER	ADV
 been	AUX
 disappointed	VERB
 !	PUNCT
+ 	S0
 Wait	NOUN
 staff	NOUN
 is	AUX
@@ -24530,9 +26018,11 @@ and	CCONJ
 always	ADV
 courteous	ADJ
 !	PUNCT
+ 	S0
 Soooo	ADV
 tasty	ADJ
 !	PUNCT
+ 	S0
 Good	ADJ
 honest	ADJ
 wrok	NOUN
@@ -24541,6 +26031,7 @@ provides	VERB
 great	ADJ
 service	NOUN
 .	PUNCT
+ 	S0
 He	PRON
 is	AUX
 very	ADV
@@ -24556,6 +26047,7 @@ repairs	NOUN
 to	ADP
 me	PRON
 .	PUNCT
+ 	S0
 The	DET
 work	NOUN
 on	ADP
@@ -24573,6 +26065,7 @@ trust	VERB
 his	PRON
 work	NOUN
 .	PUNCT
+ 	S0
 I	PRON
 have	VERB
 nothing	PRON
@@ -24582,12 +26075,14 @@ things	NOUN
 to	PART
 say	VERB
 .	PUNCT
+ 	S0
 I	PRON
 highly	ADV
 recommend	VERB
 his	PRON
 shop	NOUN
 .	PUNCT
+ 	S0
 Best	ADJ
 in	ADP
 Memphis	PROPN
@@ -24603,6 +26098,7 @@ have	AUX
 been	AUX
 to	ADP
 .	PUNCT
+ 	S0
 I	PRON
 have	VERB
 a	DET
@@ -24631,6 +26127,7 @@ shop	NOUN
 I	PRON
 called	VERB
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 the	DET
@@ -24643,6 +26140,7 @@ my	PRON
 car	NOUN
 peiod	NOUN
 .	PUNCT
+ 	S0
 Took	VERB
 a	DET
 laptop	NOUN
@@ -24655,6 +26153,7 @@ to	PART
 be	AUX
 replaced	VERB
 .	PUNCT
+ 	S0
 Everything	PRON
 except	ADP
 the	DET
@@ -24667,6 +26166,7 @@ took	VERB
 it	PRON
 in	ADV
 .	PUNCT
+ 	S0
 The	DET
 video	NOUN
 cable	NOUN
@@ -24679,6 +26179,7 @@ motherboard	NOUN
 was	AUX
 dead	ADJ
 .	PUNCT
+ 	S0
 Phone	NOUN
 calls	NOUN
 were	AUX
@@ -24697,6 +26198,7 @@ longer	ADV
 than	SCONJ
 promised	VERB
 .	PUNCT
+ 	S0
 We	PRON
 have	AUX
 stayed	VERB
@@ -24707,6 +26209,7 @@ many	ADJ
 years	NOUN
 now	ADV
 .	PUNCT
+ 	S0
 We	PRON
 go	VERB
 over	ADV
@@ -24716,6 +26219,7 @@ times	NOUN
 a	DET
 year	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 have	AUX
 never	ADV
@@ -24726,12 +26230,14 @@ with	ADP
 the	DET
 cabins	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 are	AUX
 always	ADV
 so	ADV
 helpful	ADJ
 .	PUNCT
+ 	S0
 The	DET
 cabins	NOUN
 have	AUX
@@ -24739,6 +26245,7 @@ always	ADV
 been	AUX
 clean	ADJ
 .	PUNCT
+ 	S0
 Helen	PROPN
 is	AUX
 a	DET
@@ -24749,11 +26256,13 @@ take	VERB
 you	PRON
 family	NOUN
 .	PUNCT
+ 	S0
 We	PRON
 recommend	VERB
 these	DET
 cabins	NOUN
 !	PUNCT
+ 	S0
 Ca	AUX
 n't	PART
 say	VERB
@@ -24778,8 +26287,10 @@ of	ADP
 my	PRON
 friends	NOUN
 .	PUNCT
+ 	S0
 WOW	INTJ
 !	PUNCT
+ 	S0
 I	PRON
 did	AUX
 n't	PART
@@ -24789,6 +26300,7 @@ I	PRON
 was	AUX
 missing	VERB
 .	PUNCT
+ 	S0
 The	DET
 lowest	ADJ
 bed	NOUN
@@ -24803,6 +26315,7 @@ s	PART
 highest	ADJ
 level	NOUN
 .	PUNCT
+ 	S0
 Salon	NOUN
 is	AUX
 clean	ADJ
@@ -24811,6 +26324,7 @@ girls	NOUN
 are	AUX
 nice	ADJ
 .	PUNCT
+ 	S0
 Great	ADJ
 People	NOUN
 and	CCONJ
@@ -24818,11 +26332,13 @@ even	ADV
 better	ADJ
 service	NOUN
 !	PUNCT
+ 	S0
 Best	ADJ
 to	PART
 deal	VERB
 with	ADP
 !	PUNCT
+ 	S0
 In	ADP
 a	DET
 few	ADJ
@@ -24863,9 +26379,11 @@ people	NOUN
 /	PUNCT
 business	NOUN
 .	PUNCT
+ 	S0
 Thanks	NOUN
 Josh	PROPN
 !	PUNCT
+ 	S0
 Dentist	NOUN
 you	PRON
 can	AUX
@@ -24885,11 +26403,13 @@ in	ADV
 my	PRON
 son	NOUN
 .	PUNCT
+ 	S0
 Drs.	PROPN
 Ali	PROPN
 work	VERB
 wonders	NOUN
 .	PUNCT
+ 	S0
 Neither	CCONJ
 me	PRON
 nor	CCONJ
@@ -24908,6 +26428,7 @@ dental	ADJ
 care	NOUN
 there	ADV
 .	PUNCT
+ 	S0
 The	DET
 team	NOUN
 focus	NOUN
@@ -24916,12 +26437,14 @@ prevention	NOUN
 and	CCONJ
 education	NOUN
 .	PUNCT
+ 	S0
 That	PRON
 alone	ADJ
 makes	VERB
 them	PRON
 unique	ADJ
 .	PUNCT
+ 	S0
 This	PRON
 is	AUX
 not	PART
@@ -24931,6 +26454,7 @@ cheap	ADJ
 hotdog	NOUN
 place	NOUN
 .	PUNCT
+ 	S0
 They	PRON
 offer	VERB
 a	DET
@@ -24947,6 +26471,7 @@ offer	VERB
 veggie	NOUN
 dogs	NOUN
 .	PUNCT
+ 	S0
 The	DET
 fries	NOUN
 are	AUX
@@ -24959,6 +26484,7 @@ staff	NOUN
 is	AUX
 friendly	ADJ
 .	PUNCT
+ 	S0
 The	DET
 atmosphere	NOUN
 is	AUX
@@ -24978,9 +26504,11 @@ the	DET
 and	CCONJ
 80's	NOUN
 .	PUNCT
+ 	S0
 Over	X
 charged	VERB
 .	PUNCT
+ 	S0
 I	PRON
 used	VERB
 my	PRON
@@ -25016,6 +26544,7 @@ show	VERB
 $	SYM
 10.74	NUM
 .	PUNCT
+ 	S0
 There	PRON
 is	VERB
 something	PRON
@@ -25035,6 +26564,7 @@ is	AUX
 not	PART
 integrity	NOUN
 .	PUNCT
+ 	S0
 Elmira	PROPN
 ,	PUNCT
 you	PRON
@@ -25042,6 +26572,7 @@ r	AUX
 the	DET
 best	ADJ
 !	PUNCT
+ 	S0
 All	DET
 I	PRON
 can	AUX
@@ -25071,6 +26602,7 @@ i	PRON
 met	VERB
 you	PRON
 .	PUNCT
+ 	S0
 I	PRON
 recommend	VERB
 you	PRON
@@ -25092,6 +26624,7 @@ her	PRON
 was	AUX
 low	ADJ
 .	PUNCT
+ 	S0
 5	NUM
 star	NOUN
 detail	NOUN
@@ -25124,6 +26657,7 @@ with	ADP
 the	DET
 results	NOUN
 .	PUNCT
+ 	S0
 The	DET
 paint	NOUN
 and	CCONJ
@@ -25137,6 +26671,7 @@ interior	ADJ
 looked	VERB
 new	ADJ
 !	PUNCT
+ 	S0
 Also	ADV
 ,	PUNCT
 they	PRON

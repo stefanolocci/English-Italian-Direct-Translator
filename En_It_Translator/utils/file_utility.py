@@ -17,6 +17,6 @@ def add_sentence_start_tag(input_file_path, output_file_path):
 
 
 if __name__ == "__main__":
-    input_path = '../data/ud-word-pos-ewt-test.csv'
-    output_path = '../data/ud-word-pos-ewt-test-start.csv'
+    input_path = '../data/ud-word-pos-ewt-dev.csv'
+    output_path = '../data/ud-word-pos-ewt-dev-start.csv'
     add_sentence_start_tag(input_path, output_path)

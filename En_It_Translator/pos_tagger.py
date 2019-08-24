@@ -6,11 +6,11 @@ from time import sleep
 
 import numpy as np
 import pandas as pd
-import progressbar as progressbar
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 
 from En_It_Translator.utils import config_data
+from En_It_Translator.utils.number_utility import is_ordinal_number, is_roman_number, is_number
 from En_It_Translator.utils.time_it import timeit
 
 
@@ -124,8 +124,9 @@ def run_translator():
 def compute_accuracy(predicted_tags, real_tags):
     counter = 0
     for pt, rt, in zip(predicted_tags, real_tags):
-        if not pt == rt:
+        if not pt[1] == rt:
             counter += 1
+            print("word {} tagged as {} but was {}".format(pt[0], pt[1], rt))
     return (len(real_tags) - counter) / len(real_tags)
 
 
@@ -148,19 +149,28 @@ def compute_baseline(observation):
     token_obs = observation.split()
     backpointer = []
     for word in token_obs:
-        backpointer.append(max(baseline_emission_matrix.get(word).items(), key=itemgetter(1)))
+        backpointer.append([word, max(baseline_emission_matrix.get(word).items(), key=itemgetter(1))[0]])
     return backpointer
 
 
 def refine_result(pos_tag_result):
-    punct_char = [",", ".", ":", ";", "[", "]", "{", "}", "(", ")"]
-    for res in pos_tag_result:
-        if res[0] in punct_char and res[1] != 'PUNCT':
+    punct_char = [",", ".", ":", ";", "[", "]", "{", "}", "(", ")", "?", "!"]
+    for i, res in enumerate(pos_tag_result):
+        curr_word, curr_tag = res[0], res[1]
+        if curr_word in punct_char and curr_tag != 'PUNCT':
             res[1] = 'PUNCT'
+        elif 'http' in curr_word or '.com' in curr_word or '@' in curr_word:
+            res[1] = 'X'
+        elif is_number(curr_word) and curr_tag != 'NUM':
+            res[1] = 'NUM'
+        elif 'th' in curr_word and is_ordinal_number(curr_word):
+            res[1] = 'NOUN'
+        elif is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
+            res[1] = 'NUM'
     return pos_tag_result
 
 
-def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
     """
     Call in a loop to create terminal progress bar
     @params:
@@ -200,32 +210,22 @@ if __name__ == "__main__":
     sentences = sent_tokenize(observ)
     test_set_path_check = config_data.test_set_path_check
     test_corpus_df_check = pd.read_csv(test_set_path_check, sep='\t')
-    # test_tag_list = test_corpus_df['tag'].tolist()
-    # tag_list = test_corpus_df['tag'].tolist()
-    # test_tags = " ".join(tag_list)
-    # observ = " ".join(test_corpus_df['word'].tolist())
-    # sentences_to_test = sent_tokenize(observ)
 
     baseline_emission_matrix = get_emission_matrix('./data/emission_matrix_test_baseline.json', observ)
     test_emission_matrix = get_emission_matrix('./data/emission_matrix_test.json', observ)
     viterbi_result = []
-    predicted_tags = []
     progr_bar_length = len(sentences)
-    printProgressBar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-    for i, sentence in enumerate(sentences):
+
+    print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+    for index, sentence in enumerate(sentences):
         sleep(0.1)
-        printProgressBar(i + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+        print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
         viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
     viterbi_result = refine_result(viterbi_result)
-    for ris in viterbi_result:
-        predicted_tags.append(ris[1])
-
-    print("accuracy: {}".format(compute_accuracy(predicted_tags, test_corpus_df_check['tag'].tolist())))
-    print(viterbi_result)
+    print("Viterbi accuracy: {}".format(compute_accuracy(viterbi_result, test_corpus_df_check['tag'].tolist())))
+    # print(viterbi_result)
     # baselilne_result = []
     # for sentence in sentences:
     #     baselilne_result = baselilne_result + compute_baseline(sentence)
-    # for ris in baselilne_result:
-    #     predicted_tags.append(ris[0])
     #
-    # print("accuracy: {}".format(compute_accuracy(predicted_tags, test_corpus_df_check['tag'].tolist())))
+    # print("Baseline accuracy: {}".format(compute_accuracy(baselilne_result, test_corpus_df_check['tag'].tolist())))
