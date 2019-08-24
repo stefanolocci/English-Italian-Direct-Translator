@@ -9,6 +9,7 @@ import pandas as pd
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 
+from En_It_Translator.translator import translate_sentence
 from En_It_Translator.utils import config_data
 from En_It_Translator.utils.number_utility import is_ordinal_number, is_roman_number, is_number
 from En_It_Translator.utils.time_it import timeit
@@ -102,31 +103,32 @@ def viterbi(observation, em_matrix):
 
 
 def run_translator():
-    s1 = "The black droid then lowers Vader's mask and helmet onto his head"
-    s2 = " These are not the droids you're looking for"
+    s1 = "The black droid then lowers Vader 's mask and helmet onto his head"
+    s2 = " These are not the droids you 're looking for"
     s3 = " Your friends may escape , but you are doomed"
     obs = s1 + s2 + s3
     emission_matrix = get_emission_matrix('./data/emission_matrix_train.json', obs)
     vit = viterbi(s1, emission_matrix)
     vit1 = viterbi(s2, emission_matrix)
     vit2 = viterbi(s3, emission_matrix)
-    for w, tag in zip(word_tokenize(s1), vit):
-        print("{} <--- {}".format(w, tag[0]))
+    for w, tag in zip(s1.split(), vit):
+        print("{} <--- {}".format(w, tag[1]))
     print("\n****************\n")
-    for w, tag in zip(word_tokenize(s2), vit1):
-        print("{} <--- {}".format(w, tag[0]))
+    for w, tag in zip(s2.split(), vit1):
+        print("{} <--- {}".format(w, tag[1]))
     print("\n****************\n")
-    for w, tag in zip(word_tokenize(s3), vit2):
-        print("{} <--- {}".format(w, tag[0]))
-    # TODO: traduzione
+    for w, tag in zip(s3.split(), vit2):
+        print("{} <--- {}".format(w, tag[1]))
 
+    print(translate_sentence(s1.lower().split()))
+    print(translate_sentence(s2.lower().split()))
+    print(translate_sentence(s3.lower().split()))
 
 def compute_accuracy(predicted_tags, real_tags):
     counter = 0
     for pt, rt, in zip(predicted_tags, real_tags):
         if not pt[1] == rt:
             counter += 1
-            print("word {} tagged as {} but was {}".format(pt[0], pt[1], rt))
     return (len(real_tags) - counter) / len(real_tags)
 
 
@@ -145,7 +147,7 @@ def get_emission_matrix(path, observation):
     return emission_matrix
 
 
-def compute_baseline(observation):
+def compute_baseline(observation, baseline_emission_matrix):
     token_obs = observation.split()
     backpointer = []
     for word in token_obs:
@@ -157,6 +159,7 @@ def refine_result(pos_tag_result):
     punct_char = [",", ".", ":", ";", "[", "]", "{", "}", "(", ")", "?", "!"]
     for i, res in enumerate(pos_tag_result):
         curr_word, curr_tag = res[0], res[1]
+        prev_word, prev_tag = pos_tag_result[i][0], pos_tag_result[i][1]
         if curr_word in punct_char and curr_tag != 'PUNCT':
             res[1] = 'PUNCT'
         elif 'http' in curr_word or '.com' in curr_word or '@' in curr_word:
@@ -191,27 +194,7 @@ def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, lengt
         print()
 
 
-if __name__ == "__main__":
-    training_set_path = config_data.training_set_path
-    train_corpus_df = pd.read_csv(training_set_path, sep='\t')
-    train_tag_list = train_corpus_df['tag'].tolist()
-    train_tags = " ".join(train_tag_list)
-    corpus_tag_frequencies = train_corpus_df['tag'].value_counts()
-    tag_list = train_corpus_df['tag'].tolist()
-    word_list = train_corpus_df['word'].str.lower().tolist()
-    interleaved_w_t = " ".join([val for pair in zip(word_list, tag_list) for val in pair])
-
-    # run_translator()
-
-    test_set_path = config_data.test_set_path
-    test_corpus_df = pd.read_csv(test_set_path, sep='\t')
-    words_to_test = list(filter(" ".__ne__, test_corpus_df['word']))
-    observ = " ".join(words_to_test)
-    sentences = sent_tokenize(observ)
-    test_set_path_check = config_data.test_set_path_check
-    test_corpus_df_check = pd.read_csv(test_set_path_check, sep='\t')
-
-    baseline_emission_matrix = get_emission_matrix('./data/emission_matrix_test_baseline.json', observ)
+def test_viterbi():
     test_emission_matrix = get_emission_matrix('./data/emission_matrix_test.json', observ)
     viterbi_result = []
     progr_bar_length = len(sentences)
@@ -223,9 +206,36 @@ if __name__ == "__main__":
         viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
     viterbi_result = refine_result(viterbi_result)
     print("Viterbi accuracy: {}".format(compute_accuracy(viterbi_result, test_corpus_df_check['tag'].tolist())))
-    # print(viterbi_result)
-    # baselilne_result = []
-    # for sentence in sentences:
-    #     baselilne_result = baselilne_result + compute_baseline(sentence)
-    #
-    # print("Baseline accuracy: {}".format(compute_accuracy(baselilne_result, test_corpus_df_check['tag'].tolist())))
+
+
+def test_baseline():
+    baseline_emission_matrix = get_emission_matrix('./data/emission_matrix_test_baseline.json', observ)
+    baselilne_result = []
+    for sentence in sentences:
+        baselilne_result = baselilne_result + compute_baseline(sentence, baseline_emission_matrix)
+    print("Baseline accuracy: {}".format(compute_accuracy(baselilne_result, test_corpus_df_check['tag'].tolist())))
+
+
+if __name__ == "__main__":
+    # train data initialization
+    training_set_path = config_data.training_set_path
+    train_corpus_df = pd.read_csv(training_set_path, sep='\t')
+    train_tag_list = train_corpus_df['tag'].tolist()
+    train_tags = " ".join(train_tag_list)
+    corpus_tag_frequencies = train_corpus_df['tag'].value_counts()
+    tag_list = train_corpus_df['tag'].tolist()
+    word_list = train_corpus_df['word'].str.lower().tolist()
+    interleaved_w_t = " ".join([val for pair in zip(word_list, tag_list) for val in pair])
+
+    # test data initialization
+    test_set_path = config_data.test_set_path
+    test_corpus_df = pd.read_csv(test_set_path, sep='\t')
+    words_to_test = list(filter(" ".__ne__, test_corpus_df['word']))
+    observ = " ".join(words_to_test)
+    sentences = sent_tokenize(observ)
+    test_set_path_check = config_data.test_set_path_check
+    test_corpus_df_check = pd.read_csv(test_set_path_check, sep='\t')
+
+    run_translator()
+    # test_viterbi()
+    # test_baseline()
