@@ -2,17 +2,17 @@ import json
 import math
 import os.path
 from operator import itemgetter
-from time import sleep
 
 import numpy as np
 import pandas as pd
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize
 
-from En_It_Translator.translator import translate_sentence
-from En_It_Translator.utils import config_data
-from En_It_Translator.utils.number_utility import is_ordinal_number, is_roman_number, is_number
-from En_It_Translator.utils.time_it import timeit
+from translator import translate_sentence
+from utils import config_data
+from utils.number_utility import is_ordinal_number, is_number, is_roman_number
+from utils.progress_bar import print_progress_bar
+from utils.time_it import timeit
 
 
 @timeit
@@ -77,7 +77,7 @@ def viterbi(observation, em_matrix):
     token_obs = observation.split()
     vit_matrix = np.zeros((len(state_graph), len(token_obs)))
     prob_list = []
-    for i, pos in enumerate(state_graph):
+    for i, pos in enumerate(state_graph):  # initial step S0 ->
         prob = multiply_probability(compute_transition_probability("S0", pos),
                                     (em_matrix.get(token_obs[0]).get(pos)))
         vit_matrix[i, 0] = prob
@@ -98,25 +98,18 @@ def viterbi(observation, em_matrix):
 
 
 def run_translator():
-    s1 = "The black droid then lowers Vader 's mask and helmet onto his head "
-    s2 = "These are not the droids you 're looking for "
-    s3 = "Your friends may escape , but you are doomed"
-    obs = s1 + s2 + s3
-    emission_matrix = get_emission_matrix('./data/emission_matrix_train.json', obs)
-    vit = refine_result(viterbi(s1, emission_matrix))
-    vit1 = refine_result(viterbi(s2, emission_matrix))
-    vit2 = refine_result(viterbi(s3, emission_matrix))
-    for w, tag in zip(s1.split(), vit):
-        print("{} <--- {}".format(w, tag[1]))
-    print("\n****************\n")
-    for w, tag in zip(s2.split(), vit1):
-        print("{} <--- {}".format(w, tag[1]))
-    print("\n****************\n")
-    for w, tag in zip(s3.split(), vit2):
-        print("{} <--- {}".format(w, tag[1]))
-    print(translate_sentence(vit))
-    print(translate_sentence(vit1))
-    print(translate_sentence(vit2))
+    observations = ""
+    with open('./data/sentences.txt') as test_sentences:
+        for line in test_sentences:
+            observations += line.strip()
+        emission_matrix = get_emission_matrix('./data/emission_matrix_train.json',
+                                              " ".join(observations.split(sep=';')))
+        for i, sent in enumerate(observations.split(sep=';')):
+            vit_res = refine_result(viterbi(sent, emission_matrix))
+            for w, tag in zip(sent.split(), vit_res):
+                print("{} <--- {}".format(w, tag[1]))
+            print(translate_sentence(vit_res, ("d" + str(i + 1))))
+            print("\n****************\n")
 
 
 def compute_accuracy(predicted_tags, real_tags):
@@ -173,41 +166,21 @@ def refine_result(pos_tag_result):
     return pos_tag_result
 
 
-def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
-    """
-    Call in a loop to create terminal progress bar
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-    """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-    filledLength = int(length * iteration // total)
-    bar = fill * filledLength + '-' * (length - filledLength)
-    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\r')
-    # Print New Line on Complete
-    if iteration == total:
-        print()
-
-
+@timeit
 def test_viterbi():
     test_emission_matrix = get_emission_matrix('./data/emission_matrix_test.json', observ)
     viterbi_result = []
     progr_bar_length = len(sentences)
-
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
     for index, sentence in enumerate(sentences):
-        sleep(0.1)
+        # sleep(0.1)
         print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
         viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
     viterbi_result = refine_result(viterbi_result)
     print("Viterbi accuracy: {}".format(compute_accuracy(viterbi_result, test_corpus_df_check['tag'].tolist())))
 
 
+@timeit
 def test_baseline():
     baseline_emission_matrix = get_emission_matrix('./data/emission_matrix_test_baseline.json', observ)
     baselilne_result = []
