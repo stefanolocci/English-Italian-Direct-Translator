@@ -1,7 +1,8 @@
-training_set_path = './data/ud-word-pos-ewt-train-start.csv'
-test_set_path = './data/ud-word-pos-ewt-test-start.csv'
-test_set_path_check = './data/ud-word-pos-ewt-test.csv'
-dev_set_path = './data/ud-word-pos-ewt-dev.csv'
+dataset = 'ewt'
+training_set_path = './data/ud-word-pos-' + dataset + '-train-start.csv'
+test_set_path = './data/ud-word-pos-' + dataset + '-test-start.csv'
+test_set_path_check = './data/ud-word-pos-' + dataset + '-test.csv'
+dev_set_path = './data/ud-word-pos-' + dataset + '-dev.csv'
 
 
 def get_pos_tags():

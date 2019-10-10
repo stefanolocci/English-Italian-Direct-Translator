@@ -10,8 +10,8 @@ def timeit(method):
             name = kw.get('log_name', method.__name__.upper())
             kw['log_time'][name] = int((te - ts))
         else:
-            print('%r  %2.2f s' % \
-                  (method.__name__, (te - ts)))
+            print('%r  %2.2f minutes' % \
+                  (method.__name__, (te - ts)/60))
         return result
 
     return timed

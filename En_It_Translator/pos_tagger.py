@@ -1,27 +1,28 @@
 import json
 import math
 import os.path
+import re
 from operator import itemgetter
 
 import numpy as np
 import pandas as pd
-from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize
 
 from translator import translate_sentence
 from utils import config_data
+from utils.config_data import get_pos_tags
 from utils.number_utility import is_ordinal_number, is_number, is_roman_number
 from utils.progress_bar import print_progress_bar
 from utils.time_it import timeit
 
 
 @timeit
-def compute_emission_matrix(observation, is_baseline):
+def compute_emission_matrix(observation):
     em_matrix = {}
-    lemmatizer = WordNetLemmatizer()
     pos_tags = config_data.get_pos_tags()
     obs_words = observation.split()
     words = train_corpus_df['word'].str.lower().values
+    pos_smooth = 1 / len(get_pos_tags())
     for word in obs_words:
         dic = {}
         if word.lower() in words:  # word is known
@@ -31,6 +32,8 @@ def compute_emission_matrix(observation, is_baseline):
                 dic.update({pos: likelihood})
             em_matrix.update({word: dic})
         else:  # unknown word handling
+            # for pos in pos_tags:
+            #     dic.update({pos: pos_smooth})
             for pos in pos_tags:
                 if pos == 'NOUN':
                     dic.update({pos: 1.0})
@@ -60,6 +63,7 @@ def count_tags_co_occurrence(previous_tag, current_tag):
 # calcola la probabilità di transizione, ovvero la probabilità che dato un tag (previous tag), il successivo
 # sia il tag current tag
 def compute_transition_probability(previous_tag, current_tag):
+    # return count_tags_co_occurrence(previous_tag, current_tag) / count_pos_tag_frequency(previous_tag)
     return count_tags_co_occurrence(previous_tag, current_tag) / count_pos_tag_frequency(previous_tag)
 
 
@@ -114,8 +118,9 @@ def run_translator():
 
 def compute_accuracy(predicted_tags, real_tags):
     counter = 0
-    for pt, rt, in zip(predicted_tags, real_tags):
+    for index, (pt, rt) in enumerate(zip(predicted_tags, real_tags)):
         if not pt[1] == rt:
+            print("{} pred: {} real {} sentence: {}".format(pt[0], pt[1], rt, predicted_tags[index - 4:index + 4]))
             counter += 1
     return (len(real_tags) - counter) / len(real_tags)
 
@@ -128,28 +133,51 @@ def get_emission_matrix(path, observation):
         print("emission matrix loaded")
     else:
         print("creating emission matrix...")
-        emission_matrix = compute_emission_matrix(observation, False)
+        emission_matrix = compute_emission_matrix(observation)
         with open(path, 'w') as fp:
             json.dump(emission_matrix, fp)
         print("emission matrix created and saved")
     return emission_matrix
 
 
-def compute_baseline(observation, baseline_emission_matrix):
+def compute_baseline(observation):
     token_obs = observation.split()
     backpointer = []
+    pos_tags = get_pos_tags()
     for word in token_obs:
-        backpointer.append([word, max(baseline_emission_matrix.get(word).items(), key=itemgetter(1))[0]])
+        freq_list = []
+        if word.lower() not in word_list:
+            backpointer.append([word, 'NOUN'])
+        else:
+            backpointer.append([word, word_freq_dict.get(word).get(0)])
+            # for pos in pos_tags:
+            #     freq_list.append((pos, count_word_tag_frequency(word, pos)))
+            # backpointer.append([word, max(freq_list, key=itemgetter(1))[0]])
     return backpointer
 
 
 def refine_result(pos_tag_result):
     punct_char = [",", ".", ":", ";", "[", "]", "{", "}", "(", ")", "?", "!"]
     prev_word, prev_tag = '', ''
+    next_word, next_tag = '', ''
+    next_next_word, next_next_tag = '', ''
+    next_next_next_word, next_next_next_tag = '', ''
+    pattern_date = '[0-9]{2}/[0-9]{2}/[0-9]{4}'
+    pattern_time = '([0-9]+:[0-9]+)'
+    pattern_tel = '([0-9]+-[0-9]+)'
+    pattern_num_comma = '([0-9]+,[0-9]+)'
+    pattern_num_dot = '([0-9]+.[0-9]+)'
+    pattern_coord = '([EY][0-9]+\.[0-9]+)'
     for i, res in enumerate(pos_tag_result):
         curr_word, curr_tag = res[0], res[1]
         if i > 0:
             prev_word, prev_tag = pos_tag_result[i - 1][0], pos_tag_result[i - 1][1]
+        if i < len(pos_tag_result) - 1:
+            next_word, next_tag = pos_tag_result[i + 1][0], pos_tag_result[i + 1][1]
+        if i < len(pos_tag_result) - 2:
+            next_next_word, next_next_tag = pos_tag_result[i + 2][0], pos_tag_result[i + 2][1]
+        if i < len(pos_tag_result) - 3:
+            next_next_next_word, next_next_next_tag = pos_tag_result[i + 3][0], pos_tag_result[i + 3][1]
         if curr_word in punct_char and curr_tag != 'PUNCT':
             res[1] = 'PUNCT'
         elif 'http' in curr_word or '.com' in curr_word or '@' in curr_word:
@@ -160,9 +188,42 @@ def refine_result(pos_tag_result):
             res[1] = 'NOUN'
         elif is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
             res[1] = 'NUM'
-        elif prev_word != '' and curr_word[0].isupper() and len(curr_word) > 2 and prev_tag != 'PUNCT' \
-                and prev_word[0].islower():
+        elif prev_word != '' and curr_word[0].isupper() and len(
+                curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT':
             res[1] = 'PROPN'
+        elif curr_word[0].isupper() and len(curr_word) > 2 and curr_word[1].islower() and prev_tag and (
+                prev_word == '' or prev_tag == 'PUNCT') and curr_tag == 'NOUN':
+            res[1] = 'PROPN'
+        elif curr_word == 'to' and (next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON' or next_tag == 'DET'):
+            res[1] = 'ADP'
+        elif curr_word == 'to' and (next_tag == 'AUX' or next_tag == 'VERB'):
+            res[1] = 'PART'
+        elif (curr_word.lower() == 'have' or curr_word.lower() == 'are' or curr_word.lower() == 'had'
+              or curr_word.lower() == 'was' or curr_word.lower() == 'has') \
+                and (next_tag == 'AUX' or next_tag == 'VERB'):
+            res[1] = 'AUX'
+        elif curr_word.lower() == 'that' and (
+                next_tag == 'NOUN' or next_next_tag == 'NOUN' or next_next_next_tag == 'NOUN'):
+            res[1] = 'SCONJ'
+        elif curr_word.lower() == 'that' and (
+                next_tag != 'NOUN' and next_next_tag != 'NOUN' and next_next_next_tag != 'NOUN'):
+            res[1] = 'PRON'
+        elif re.match(pattern_date, curr_word) or re.match(pattern_time, curr_word) \
+                or re.match(pattern_tel, curr_word) or re.match(pattern_num_comma, curr_word) \
+                or re.match(pattern_coord, curr_word) or re.match(pattern_num_dot, curr_word):
+            res[1] = 'NUM'
+        elif curr_word == 'not' and (next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON'):
+            res[1] = 'ADV'
+        elif curr_word == 'not' and (next_tag == 'AUX' or next_tag == 'VERB'):
+            res[1] = 'PART'
+        elif curr_word == 'of' and next_word == 'course':
+            res[1] = 'ADV'
+        elif curr_word == 'course' and prev_word == 'of':
+            res[1] = 'ADV'
+        elif curr_word == 'most' and next_tag == 'ADJ':
+            res[1] = 'ADV'
+        elif curr_word == 'most' and next_tag == 'ADP':
+            res[1] = 'ADJ'
     return pos_tag_result
 
 
@@ -173,7 +234,6 @@ def test_viterbi():
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
     for index, sentence in enumerate(sentences):
-        # sleep(0.1)
         print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
         viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
     viterbi_result = refine_result(viterbi_result)
@@ -182,11 +242,25 @@ def test_viterbi():
 
 @timeit
 def test_baseline():
-    baseline_emission_matrix = get_emission_matrix('./data/emission_matrix_test_baseline.json', observ)
     baselilne_result = []
-    for sentence in sentences:
-        baselilne_result = baselilne_result + compute_baseline(sentence, baseline_emission_matrix)
+    progr_bar_length = len(sentences)
+    print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+    for index, sentence in enumerate(sentences):
+        print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+        baselilne_result = baselilne_result + compute_baseline(sentence)
     print("Baseline accuracy: {}".format(compute_accuracy(baselilne_result, test_corpus_df_check['tag'].tolist())))
+
+
+# def compute_word_pos_frequency_table():
+#     word_freq_dict = {}
+#     wuords = train_corpus_df['word'].str.lower().tolist()
+#     for word in words_to_test:
+#         if word.lower() in wuords:
+#             s = train_corpus_df.loc[train_corpus_df['word'].str.lower() ==
+#               word.lower()]['tag'].value_counts().nlargest(
+#                 1).index[0]
+#             word_freq_dict.update({word: [s]})
+#     df = pd.DataFrame(word_freq_dict).to_csv('./data/word_frequencies.csv')
 
 
 if __name__ == "__main__":
@@ -208,6 +282,8 @@ if __name__ == "__main__":
     test_set_path_check = config_data.test_set_path_check
     test_corpus_df_check = pd.read_csv(test_set_path_check, sep='\t')
 
-    run_translator()
-    # test_viterbi()
+    word_freq_dict = pd.read_csv('./data/word_frequencies.csv').to_dict()
+
+    # run_translator()
+    test_viterbi()
     # test_baseline()

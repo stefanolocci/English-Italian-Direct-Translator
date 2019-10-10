@@ -37,9 +37,6 @@ def translate_sentence(tagged_sentence, dict_name):
                 tagged_sentence[i], tagged_sentence[i + 1] = tagged_sentence[i + 1], tagged_sentence[i]
             elif (tag == 'VERB' or tag == 'AUX') and next_word == 'not':
                 tagged_sentence[i], tagged_sentence[i + 1] = tagged_sentence[i + 1], tagged_sentence[i]
-            if next_word == "'s":
-                tagged_sentence[i], tagged_sentence[i + 2] = tagged_sentence[i + 2], tagged_sentence[i]
     for e in tagged_sentence:
         translation.append(dictionary.get(e[0]))
-
     return translation
