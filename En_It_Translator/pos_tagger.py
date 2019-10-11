@@ -89,12 +89,11 @@ def viterbi(observation, em_matrix):
     backpointer.append(max(prob_list, key=itemgetter(2)))
     for j, token in enumerate(token_obs[1:]):
         prob_list = []
-        w, prev_max_pos, prev_max_prob = backpointer[len(backpointer) - 1]
+        w, prev_max_pos, prev_max_prob = backpointer[-1]
         for k, pos in enumerate(state_graph):
             prob = multiply_probability(float(prev_max_prob),
-                                        multiply_probability(compute_transition_probability(
-                                            prev_max_pos, pos),
-                                            em_matrix.get(token).get(pos)))
+                                        multiply_probability(compute_transition_probability(prev_max_pos, pos),
+                                                             em_matrix.get(token).get(pos)))
             vit_matrix[k, j + 1] = prob
             prob_list.append([token, pos, prob])
         backpointer.append(max(prob_list, key=itemgetter(2)))
@@ -120,7 +119,7 @@ def compute_accuracy(predicted_tags, real_tags):
     counter = 0
     for index, (pt, rt) in enumerate(zip(predicted_tags, real_tags)):
         if not pt[1] == rt:
-            print("{} pred: {} real {} sentence: {}".format(pt[0], pt[1], rt, predicted_tags[index - 4:index + 4]))
+            print("{}, {}, {}".format(pt[0], pt[1], rt))
             counter += 1
     return (len(real_tags) - counter) / len(real_tags)
 
@@ -189,12 +188,13 @@ def refine_result(pos_tag_result):
         elif is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
             res[1] = 'NUM'
         elif prev_word != '' and curr_word[0].isupper() and len(
-                curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT':
+                curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT' and curr_tag != 'ADJ':
             res[1] = 'PROPN'
         elif curr_word[0].isupper() and len(curr_word) > 2 and curr_word[1].islower() and prev_tag and (
                 prev_word == '' or prev_tag == 'PUNCT') and curr_tag == 'NOUN':
             res[1] = 'PROPN'
-        elif curr_word == 'to' and (next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON' or next_tag == 'DET'):
+        elif curr_word == 'to' and (
+                next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON' or next_tag == 'DET'):
             res[1] = 'ADP'
         elif curr_word == 'to' and (next_tag == 'AUX' or next_tag == 'VERB'):
             res[1] = 'PART'
@@ -224,6 +224,10 @@ def refine_result(pos_tag_result):
             res[1] = 'ADV'
         elif curr_word == 'most' and next_tag == 'ADP':
             res[1] = 'ADJ'
+        elif '-' in curr_word and '=' in curr_word:
+            res[1] = 'SYM'
+        elif '------' in curr_word:
+            res[1] = 'PUNCT'
     return pos_tag_result
 
 
