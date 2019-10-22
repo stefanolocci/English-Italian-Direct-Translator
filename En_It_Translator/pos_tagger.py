@@ -1,3 +1,4 @@
+import io
 import json
 import math
 import os.path
@@ -6,7 +7,6 @@ from operator import itemgetter
 
 import numpy as np
 import pandas as pd
-from nltk.tokenize import sent_tokenize
 
 from translator import translate_sentence
 from utils import config_data
@@ -16,20 +16,49 @@ from utils.progress_bar import print_progress_bar
 from utils.time_it import timeit
 
 
+def check_word_suffix(word):
+    if any(word.lower().endswith(suffix) for suffix in config_data.noun_suffix):
+        return 'NOUN'
+    elif any(word.lower().endswith(suffix) for suffix in config_data.adj_suffix):
+        return 'ADJ'
+    elif any(word.lower().endswith(suffix) for suffix in config_data.adv_suffix):
+        return 'ADV'
+    elif any(word.lower().endswith(suffix) for suffix in config_data.verb_suffix):
+        return 'VERB'
+    else:
+        return None
+
+
 @timeit
 def compute_emission_matrix(observation):
     em_matrix = {}
     pos_tags = config_data.get_pos_tags()
     obs_words = observation.split()
-    words = train_corpus_df['word'].str.lower().values
     pos_smooth = 1 / len(get_pos_tags())
-    for word in obs_words:
+    obs_length = len(obs_words)
+    for i, word in enumerate(obs_words):
+        if i % 500 == 0:
+            print("{} processed words of {} total words".format(i, obs_length))
         dic = {}
-        if word.lower() in words:  # word is known
+        if word in train_words:  # word is known
             for pos in pos_tags:
                 word_tag_freq = count_word_tag_frequency(word, pos)
                 likelihood = word_tag_freq / count_pos_tag_frequency(pos)
                 dic.update({pos: likelihood})
+            em_matrix.update({word: dic})
+        elif word in dev_words:
+            for pos in pos_tags:
+                word_tag_freq = count_word_tag_frequency_dev(word, pos)
+                likelihood = word_tag_freq / count_pos_tag_frequency_dev(pos)
+                dic.update({pos: likelihood})
+            em_matrix.update({word: dic})
+        elif check_word_suffix(word):
+            suffix_predicted_pos = check_word_suffix(word)
+            for pos in pos_tags:
+                if pos == suffix_predicted_pos:
+                    dic.update({pos: 0.5})
+                else:
+                    dic.update({pos: 0.0})
             em_matrix.update({word: dic})
         else:  # unknown word handling
             # for pos in pos_tags:
@@ -39,7 +68,7 @@ def compute_emission_matrix(observation):
                     dic.update({pos: 1.0})
                 else:
                     dic.update({pos: 0.0})
-        em_matrix.update({word: dic})
+            em_matrix.update({word: dic})
     return em_matrix
 
 
@@ -49,21 +78,28 @@ def count_pos_tag_frequency(pos_tag):
 
 
 # conta occorenze parola taggata con un certo pos
-def count_word_tag_frequency(word, pos):
-    word_tag = " " + word.lower() + " " + pos
-    return interleaved_w_t.count(word_tag)
+def count_word_tag_frequency(wrd, pos):
+    return interleaved_w_t.count(" " + wrd.lower() + " " + pos)
+
+
+# conta generale dei tag
+def count_pos_tag_frequency_dev(pos_tag):
+    return corpus_tag_frequencies_dev[pos_tag]
+
+
+# conta occorenze parola taggata con un certo pos
+def count_word_tag_frequency_dev(wrd, pos):
+    return interleaved_w_t_dev.count(" " + wrd.lower() + " " + pos)
 
 
 # conta occorrenze di due tag che si susseguono
 def count_tags_co_occurrence(previous_tag, current_tag):
-    tag_tag = previous_tag + " " + current_tag
-    return train_tags.count(tag_tag)
+    return train_tags_start.count(previous_tag + " " + current_tag)
 
 
 # calcola la probabilità di transizione, ovvero la probabilità che dato un tag (previous tag), il successivo
 # sia il tag current tag
 def compute_transition_probability(previous_tag, current_tag):
-    # return count_tags_co_occurrence(previous_tag, current_tag) / count_pos_tag_frequency(previous_tag)
     return count_tags_co_occurrence(previous_tag, current_tag) / count_pos_tag_frequency(previous_tag)
 
 
@@ -80,23 +116,28 @@ def viterbi(observation, em_matrix):
     backpointer = []
     token_obs = observation.split()
     vit_matrix = np.zeros((len(state_graph), len(token_obs)))
-    prob_list = []
-    for i, pos in enumerate(state_graph):  # initial step S0 ->
+    max_prob = 0
+    max_pos = ""
+    for i, pos in enumerate(state_graph):
         prob = multiply_probability(compute_transition_probability("S0", pos),
-                                    (em_matrix.get(token_obs[0]).get(pos)))
+                                    (em_matrix.get(token_obs[0]).get(pos))) + config_data.laplace_smoothing
         vit_matrix[i, 0] = prob
-        prob_list.append([token_obs[0], pos, prob])
-    backpointer.append(max(prob_list, key=itemgetter(2)))
+        if prob > max_prob:
+            max_pos = pos
+            max_prob = prob
+    backpointer.append([token_obs[0], max_pos, vit_matrix[:, 0].max()])
     for j, token in enumerate(token_obs[1:]):
-        prob_list = []
-        w, prev_max_pos, prev_max_prob = backpointer[-1]
+        w_, prev_max_pos, prev_max_prob = backpointer[-1]
+        max_prob = 0
+        max_pos = ""
         for k, pos in enumerate(state_graph):
-            prob = multiply_probability(float(prev_max_prob),
-                                        multiply_probability(compute_transition_probability(prev_max_pos, pos),
-                                                             em_matrix.get(token).get(pos)))
+            temp_prob = multiply_probability(float(prev_max_prob), compute_transition_probability(prev_max_pos, pos))
+            prob = multiply_probability(em_matrix.get(token).get(pos), temp_prob) + config_data.laplace_smoothing
             vit_matrix[k, j + 1] = prob
-            prob_list.append([token, pos, prob])
-        backpointer.append(max(prob_list, key=itemgetter(2)))
+            if prob > max_prob:
+                max_pos = pos
+                max_prob = prob
+        backpointer.append([token, max_pos, vit_matrix[:, j + 1].max()])
     return backpointer
 
 
@@ -105,7 +146,7 @@ def run_translator():
     with open('./data/sentences.txt') as test_sentences:
         for line in test_sentences:
             observations += line.strip()
-        emission_matrix = get_emission_matrix('./data/emission_matrix_train.json',
+        emission_matrix = get_emission_matrix('./data/sentence-emission-matrix-noun-suffix-smooth.json',
                                               " ".join(observations.split(sep=';')))
         for i, sent in enumerate(observations.split(sep=';')):
             vit_res = refine_result(viterbi(sent, emission_matrix))
@@ -117,9 +158,9 @@ def run_translator():
 
 def compute_accuracy(predicted_tags, real_tags):
     counter = 0
-    for index, (pt, rt) in enumerate(zip(predicted_tags, real_tags)):
-        if not pt[1] == rt:
-            print("{}, {}, {}".format(pt[0], pt[1], rt))
+    for i, pt in enumerate(predicted_tags):
+        if pt[1] != real_tags[i]:
+            print("{}, {}, {}".format(pt[0], pt[1], real_tags[i]))
             counter += 1
     return (len(real_tags) - counter) / len(real_tags)
 
@@ -145,13 +186,14 @@ def compute_baseline(observation):
     pos_tags = get_pos_tags()
     for word in token_obs:
         freq_list = []
-        if word.lower() not in word_list:
+        if word not in train_words:
             backpointer.append([word, 'NOUN'])
         else:
-            backpointer.append([word, word_freq_dict.get(word).get(0)])
-            # for pos in pos_tags:
-            #     freq_list.append((pos, count_word_tag_frequency(word, pos)))
-            # backpointer.append([word, max(freq_list, key=itemgetter(1))[0]])
+            # backpointer.append([word, word_freq_dict.get(word).get(0)])
+            for pos in pos_tags:
+                freq_list.append((pos, count_word_tag_frequency(word, pos)))
+
+            backpointer.append([word, max(freq_list, key=itemgetter(1))[0]])
     return backpointer
 
 
@@ -187,12 +229,12 @@ def refine_result(pos_tag_result):
             res[1] = 'NOUN'
         elif is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
             res[1] = 'NUM'
-        elif prev_word != '' and curr_word[0].isupper() and len(
-                curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT' and curr_tag != 'ADJ':
-            res[1] = 'PROPN'
-        elif curr_word[0].isupper() and len(curr_word) > 2 and curr_word[1].islower() and prev_tag and (
-                prev_word == '' or prev_tag == 'PUNCT') and curr_tag == 'NOUN':
-            res[1] = 'PROPN'
+        # elif prev_word != '' and curr_word[0].isupper() and len(
+        #         curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT' and curr_tag != 'ADJ':
+        #     res[1] = 'PROPN'
+        # elif curr_word[0].isupper() and len(curr_word) > 2 and curr_word[1].islower() and prev_tag and (
+        #         prev_word == '' or prev_tag == 'PUNCT') and curr_tag == 'NOUN':
+        #     res[1] = 'PROPN'
         elif curr_word == 'to' and (
                 next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON' or next_tag == 'DET'):
             res[1] = 'ADP'
@@ -233,61 +275,102 @@ def refine_result(pos_tag_result):
 
 @timeit
 def test_viterbi():
-    test_emission_matrix = get_emission_matrix('./data/emission_matrix_test.json', observ)
-    viterbi_result = []
+    test_emission_matrix = get_emission_matrix('./data/' + config_data.dataset +
+                                               '/emission_matrix/emission_matrix_test_' +
+                                               config_data.dataset + '-noun-suffix-smooth.json', observ)
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-    for index, sentence in enumerate(sentences):
-        print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-        viterbi_result = viterbi_result + viterbi(sentence, test_emission_matrix)
-    viterbi_result = refine_result(viterbi_result)
-    print("Viterbi accuracy: {}".format(compute_accuracy(viterbi_result, test_corpus_df_check['tag'].tolist())))
+    viterbi_result = []
+    for pb_index, sent in enumerate(sentences):
+        print_progress_bar(pb_index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+        viterbi_result += refine_result(viterbi(sent, test_emission_matrix))
+    print("Viterbi accuracy mean: {}".format(compute_accuracy(viterbi_result, test_tags_list)))
 
 
 @timeit
 def test_baseline():
-    baselilne_result = []
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-    for index, sentence in enumerate(sentences):
-        print_progress_bar(index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-        baselilne_result = baselilne_result + compute_baseline(sentence)
-    print("Baseline accuracy: {}".format(compute_accuracy(baselilne_result, test_corpus_df_check['tag'].tolist())))
-
-
-# def compute_word_pos_frequency_table():
-#     word_freq_dict = {}
-#     wuords = train_corpus_df['word'].str.lower().tolist()
-#     for word in words_to_test:
-#         if word.lower() in wuords:
-#             s = train_corpus_df.loc[train_corpus_df['word'].str.lower() ==
-#               word.lower()]['tag'].value_counts().nlargest(
-#                 1).index[0]
-#             word_freq_dict.update({word: [s]})
-#     df = pd.DataFrame(word_freq_dict).to_csv('./data/word_frequencies.csv')
+    baseline_result = []
+    for pb_index, sent in enumerate(sentences):
+        print_progress_bar(pb_index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
+        baseline_result += compute_baseline(sent)
+    print("Baseline accuracy mean: {}".format(compute_accuracy(baseline_result, test_tags_list)))
 
 
 if __name__ == "__main__":
     # train data initialization
-    training_set_path = config_data.training_set_path
-    train_corpus_df = pd.read_csv(training_set_path, sep='\t')
-    train_tag_list = train_corpus_df['tag'].tolist()
-    train_tags = " ".join(train_tag_list)
-    corpus_tag_frequencies = train_corpus_df['tag'].value_counts()
-    word_list = train_corpus_df['word'].str.lower().tolist()
-    interleaved_w_t = " ".join([val for pair in zip(word_list, train_tag_list) for val in pair])
+    train_words = []
+    train_tag_list = []
+    interleaved_w_t = ""
+    with io.open(config_data.training_set_path, encoding='utf-8') as train_file:
+        next(train_file)
+        for line in train_file:
+            data = line.strip().split(sep='\t')
+            train_words.append(data[0])
+            train_tag_list.append(data[1])
+            interleaved_w_t += data[0].lower() + " " + data[1] + " "
+    train_tag_list_start = [val for val in train_tag_list]
+    for index, (word, tag) in enumerate(zip(train_words, train_tag_list_start)):
+        if word == '.' or word == ';' or word == '!' or word == '?':
+            train_tag_list_start.insert(index + 1, "S0")
+    train_tag_list_start.insert(0, "S0")
+    train_tags_start = " ".join([str(t) for t in train_tag_list_start])
+    train_tag_list_start_df = pd.DataFrame(train_tag_list_start, columns=['tag'])
+    corpus_tag_frequencies = train_tag_list_start_df['tag'].value_counts()
 
     # test data initialization
-    test_set_path = config_data.test_set_path
-    test_corpus_df = pd.read_csv(test_set_path, sep='\t')
-    words_to_test = list(filter(" ".__ne__, test_corpus_df['word']))
-    observ = " ".join(words_to_test)
-    sentences = sent_tokenize(observ)
-    test_set_path_check = config_data.test_set_path_check
-    test_corpus_df_check = pd.read_csv(test_set_path_check, sep='\t')
+    test_words = []
+    test_tags_list = []
+    with io.open(config_data.test_set_path, encoding='utf-8') as test_file:
+        next(test_file)
+        for line in test_file:
+            data = line.strip().split(sep='\t')
+            test_words.append(data[0])
+            test_tags_list.append(data[1])
 
-    word_freq_dict = pd.read_csv('./data/word_frequencies.csv').to_dict()
+    test_tag_list_start = [val for val in test_tags_list]
+    for index, (word, tag) in enumerate(zip(test_words, test_tag_list_start)):
+        if word == '.' or word == ';' or word == '!' or word == '?':
+            test_tag_list_start.insert(index + 1, "S0")
+    test_tag_list_start.insert(0, "S0")
+    # print(test_tag_list_start)
+    observ = " ".join(test_words)
+    sentences = []
+    sentence = ""
+    for index, w in enumerate(test_words):
+        if test_tag_list_start[index + 1] != 'S0':
+            sentence += w + " "
+        else:
+            if w in [')', '.', '?', '-', '--', '----', ']', '...', '..']:
+                sentence += w + " "
+                sentences.append(sentence)
+                sentence = ""
+            else:
+                sentences.append(sentence)
+                sentence = w + " "
+    sentences = list(filter(''.__ne__, sentences))
 
-    # run_translator()
-    test_viterbi()
+    dev_words = []
+    dev_tag_list = []
+    interleaved_w_t_dev = ""
+    with io.open(config_data.dev_set_path, encoding='utf-8') as dev_file:
+        next(dev_file)
+        for line in dev_file:
+            data = line.strip().split(sep='\t')
+            dev_words.append(data[0])
+            dev_tag_list.append(data[1])
+            interleaved_w_t_dev += data[0].lower() + " " + data[1] + " "
+
+    dev_tag_list_start = [val for val in dev_tag_list]
+    for index, (word, tag) in enumerate(zip(dev_words, dev_tag_list_start)):
+        if word == '.' or word == ';' or word == '!' or word == '?':
+            dev_tag_list_start.insert(index + 1, "S0")
+    dev_tag_list_start.insert(0, "S0")
+    dev_tags_start = " ".join([str(t) for t in dev_tag_list_start])
+    dev_tag_list_start_df = pd.DataFrame(train_tag_list_start, columns=['tag'])
+    corpus_tag_frequencies_dev = dev_tag_list_start_df['tag'].value_counts()
+
+    run_translator()
+    # test_viterbi()
     # test_baseline()
