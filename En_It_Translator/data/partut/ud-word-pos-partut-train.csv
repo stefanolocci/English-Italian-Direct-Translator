@@ -3799,7 +3799,7 @@ shall	AUX
 not	PART
 ,	PUNCT
 and	CCONJ
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 ,	PUNCT
@@ -3813,7 +3813,7 @@ ruling	NOUN
 is	AUX
 that	SCONJ
 I	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 give	VERB
@@ -3864,7 +3864,7 @@ Madam	NOUN
 President	NOUN
 ,	PUNCT
 we	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 and	CCONJ
@@ -4717,7 +4717,7 @@ companies	NOUN
 ,	PUNCT
 as	ADP
 these	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 afford	VERB
@@ -6092,7 +6092,7 @@ In	ADP
 particular	ADJ
 ,	PUNCT
 annexes	NOUN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 be	AUX
@@ -8926,7 +8926,7 @@ marginalised	VERB
 ,	PUNCT
 if	SCONJ
 entrepreneurs	NOUN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 take	VERB
@@ -9262,7 +9262,7 @@ operation	NOUN
 of	ADP
 the	DET
 guidelines	NOUN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 be	AUX
@@ -10072,7 +10072,7 @@ representatives	NOUN
 .	PUNCT
 Our	DET
 citizens	NOUN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 accept	VERB
@@ -10778,7 +10778,7 @@ far	ADV
 advanced	ADJ
 that	SCONJ
 I	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 see	VERB
@@ -11557,7 +11557,6 @@ This	PRON
 means	VERB
 that	SCONJ
 we	PRON
-don't	_
 do	AUX
 not	PART
 allow	VERB
@@ -11710,7 +11709,6 @@ to	PART
 ensure	VERB
 that	SCONJ
 you	PRON
-won't	_
 will	AUX
 not	PART
 get	VERB
@@ -11790,7 +11788,6 @@ up	ADP
 ?	PUNCT
 If	SCONJ
 you	PRON
-don't	_
 do	AUX
 not	PART
 have	VERB
@@ -12057,7 +12054,6 @@ onsite	ADJ
 steps	NOUN
 .	PUNCT
 You	PRON
-won't	_
 will	AUX
 not	PART
 see	VERB
@@ -12110,7 +12106,6 @@ specific	ADJ
 enough	ADV
 that	SCONJ
 it	PRON
-can't	_
 can	AUX
 not	PART
 be	AUX
@@ -12787,7 +12782,6 @@ your	DET
 friends	NOUN
 .	PUNCT
 Why	ADV
-don't	_
 do	AUX
 not	PART
 all	DET
@@ -19838,7 +19832,6 @@ And	CCONJ
 those	DET
 simple	ADJ
 themes	NOUN
-aren't	_
 are	AUX
 not	PART
 really	ADV
@@ -20149,7 +20142,6 @@ of	ADP
 that	DET
 pyramid	NOUN
 that	PRON
-shouldn't	_
 should	AUX
 not	PART
 be	AUX
@@ -20178,7 +20170,6 @@ little	ADJ
 game	NOUN
 .	PUNCT
 We	PRON
-don't	_
 do	AUX
 not	PART
 really	ADV
@@ -20697,7 +20688,6 @@ eating	VERB
 them	PRON
 because	SCONJ
 they	PRON
-don't	_
 do	AUX
 not	PART
 know	VERB
@@ -26195,7 +26185,7 @@ life	NOUN
 Still	ADV
 ,	PUNCT
 one	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 avoid	VERB
@@ -30709,7 +30699,7 @@ threat	NOUN
 ,	PUNCT
 but	CCONJ
 they	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 point	VERB
@@ -31823,7 +31813,7 @@ toward	ADP
 that	DET
 idealistic	ADJ
 vision	NOUN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 continue	VERB
@@ -33198,9 +33188,7 @@ successor	NOUN
 but	CCONJ
 his	DET
 apprentice	NOUN
-had	_
-h	VERB
-ad	VERB
+had	VERB
 enough	ADV
 of	ADP
 the	DET
@@ -34740,7 +34728,7 @@ field	NOUN
 Splendeurs	NOUN
 et	CCONJ
 misères	NOUN
-des	_
+des	DET
 de	ADP
 les	DET
 courtisanes	NOUN
@@ -35596,7 +35584,7 @@ out	ADP
 that	SCONJ
 """"	PUNCT
 Cœlebs	PROPN
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 talk	VERB
@@ -38744,7 +38732,7 @@ Volpone	PROPN
 ,	PUNCT
 although	SCONJ
 we	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 know	VERB
@@ -41098,7 +41086,7 @@ both	PRON
 arguing	VERB
 that	SCONJ
 they	PRON
-cannot	_
+cannot	AUX
 can	AUX
 not	PART
 be	AUX

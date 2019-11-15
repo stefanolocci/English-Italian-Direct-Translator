@@ -3,6 +3,7 @@ import io
 import pandas as pd
 
 from utils import config_data
+from utils.time_it import timeit
 
 
 class CorpusManager:
@@ -10,11 +11,12 @@ class CorpusManager:
     def __init__(self):
         self.words = []
         self.tag_list = []
-        self.interleaved_w_t = ""
         self.tag_list_start = ""
         self.corpus_tag_frequencies = None
         self.sentences = []
+        self.word_freqs = {}
 
+    @timeit
     def read_corpus(self, path):
         with io.open(path, encoding='utf-8') as file:
             next(file)
@@ -24,7 +26,6 @@ class CorpusManager:
                 self.words.append(data[0])
                 sentence += data[0] + " "
                 self.tag_list.append(data[1])
-                self.interleaved_w_t += data[0].lower() + " " + data[1] + " "
                 if data[0] not in config_data.sentence_split_sep:
                     self.tag_list_start += data[1] + " "
                 else:
@@ -32,6 +33,12 @@ class CorpusManager:
                     self.tag_list_start += "S0 "
                     self.sentences.append(sentence)
                     sentence = ""
+                word_tag = (data[0].lower(), data[1])
+                res = self.word_freqs.get(word_tag)
+                if res:
+                    self.word_freqs[word_tag] += 1
+                else:
+                    self.word_freqs[word_tag] = 1
         self.corpus_tag_frequencies = self.__get_tag_frequencies()
         return self
 
@@ -41,7 +48,11 @@ class CorpusManager:
 
     # conta occorenze parola taggata con un certo pos
     def count_word_tag_frequency(self, wrd, pos):
-        return self.interleaved_w_t.count(" " + wrd.lower() + " " + pos)
+        res = self.word_freqs.get((wrd.lower(), pos))
+        if res:
+            return res
+        else:
+            return 0
 
     def count_pos_tag_frequency(self, pos_tag):
         return self.corpus_tag_frequencies[pos_tag]
@@ -57,9 +68,6 @@ class CorpusManager:
 
     def get_tags(self):
         return self.tag_list
-
-    def get_interleaved_w_t(self):
-        return self.interleaved_w_t
 
     def check_word_suffix(self, word):
         if any(word.lower().endswith(suffix) for suffix in config_data.noun_suffix):

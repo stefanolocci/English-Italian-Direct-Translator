@@ -1,5 +1,7 @@
 from conll_df import conll_df
-
+"""
+Script used to convert file with .conllu extension in .csv
+"""
 path = 'en_partut-ud-dev.conllu'
 df = conll_df(path, file_index=False)
 word_tag_df = df[['w', 'x']]

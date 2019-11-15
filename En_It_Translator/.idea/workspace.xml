@@ -39,7 +39,7 @@
     <property name="DataGrid.QuickDoc.View" value="regular" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/partut" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/partut/emission_matrix" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -52,11 +52,11 @@
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\ewt" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut\emission_matrix" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\wsj" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\gum" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\ewt" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data" />
-      <recent name="C:\Users\user\Desktop\En_It_Translator\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,6 +76,9 @@
       <module name="En_It_Translator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -139,6 +142,9 @@
       <module name="En_It_Translator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -208,8 +214,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.pos_tagger" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.pos_tagger" />
         <item itemvalue="Python.file_utility" />
         <item itemvalue="Python.viterbi_test" />
       </list>
@@ -277,7 +283,27 @@
       <workItem from="1571764027606" duration="2453000" />
       <workItem from="1572164697196" duration="9111000" />
       <workItem from="1572268972127" duration="10922000" />
-      <workItem from="1572341420824" duration="16294000" />
+      <workItem from="1572341420824" duration="16466000" />
+      <workItem from="1572377244242" duration="565000" />
+      <workItem from="1572603196138" duration="23792000" />
+      <workItem from="1572772636282" duration="8053000" />
+      <workItem from="1572858515029" duration="1921000" />
+      <workItem from="1572875256886" duration="94000" />
+      <workItem from="1572875415410" duration="7167000" />
+      <workItem from="1572889230561" duration="6145000" />
+      <workItem from="1572941549304" duration="4919000" />
+      <workItem from="1572986619498" duration="601000" />
+      <workItem from="1573035033142" duration="2324000" />
+      <workItem from="1573045819592" duration="9277000" />
+      <workItem from="1573121812086" duration="12633000" />
+      <workItem from="1573208151250" duration="11214000" />
+      <workItem from="1573295832916" duration="952000" />
+      <workItem from="1573477369080" duration="7000" />
+      <workItem from="1573513495706" duration="641000" />
+      <workItem from="1573568057920" duration="203000" />
+      <workItem from="1573585967148" duration="12000" />
+      <workItem from="1573640691670" duration="2799000" />
+      <workItem from="1573813586775" duration="7328000" />
     </task>
     <servers />
   </component>
@@ -297,10 +323,31 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pos_tagging/Baseline.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pos_tagging/Viterbi.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pos_tagging/Viterbi.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/En_It_Translator$translator.coverage" NAME="translator Coverage Results" MODIFIED="1566368963179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/En_It_Translator$file_utility.coverage" NAME="file_utility Coverage Results" MODIFIED="1571088390575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/En_It_Translator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1572365531516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/En_It_Translator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1573209827952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/En_It_Translator$viterbi_test.coverage" NAME="viterbi_test Coverage Results" MODIFIED="1566375417021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/En_It_Translator$pos_tagger.coverage" NAME="pos_tagger Coverage Results" MODIFIED="1571264204893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

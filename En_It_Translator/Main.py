@@ -2,16 +2,23 @@ import re
 
 from Translator import Translator
 from pos_tagging.Baseline import Baseline
-from pos_tagging.EmissionMatrix import EmissionMatrix
 from pos_tagging.CorpusManager import CorpusManager
+from pos_tagging.EmissionMatrix import EmissionMatrix
 from pos_tagging.EvalPosTagger import EvalPosTagger
 from pos_tagging.Viterbi import Viterbi
-from utils import config_data, number_utility
+from utils import config_data
+from utils.NumberUtility import NumberUtility
 from utils.progress_bar import print_progress_bar
 from utils.time_it import timeit
 
 
 def refine_result(pos_tag_result):
+    """
+    Method that apply some correction rule based on the most frequent tagging error
+    :param pos_tag_result: list of tagged words with Viterbi Algorithm
+    :return: list of tuples (word, tag) with corrected tag
+    """
+    num_utils = NumberUtility()
     punct_char = [",", ".", ":", ";", "[", "]", "{", "}", "(", ")", "?", "!"]
     prev_word, prev_tag = '', ''
     next_word, next_tag = '', ''
@@ -37,18 +44,12 @@ def refine_result(pos_tag_result):
             res[1] = 'PUNCT'
         elif 'http' in curr_word or '.com' in curr_word or '@' in curr_word:
             res[1] = 'X'
-        elif number_utility.is_number(curr_word) and curr_tag != 'NUM':
+        elif num_utils.is_number(curr_word) and curr_tag != 'NUM':
             res[1] = 'NUM'
-        elif 'th' in curr_word and number_utility.is_ordinal_number(curr_word):
+        elif 'th' in curr_word and num_utils.is_ordinal_number(curr_word):
             res[1] = 'NOUN'
-        elif number_utility.is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
+        elif num_utils.is_roman_number(curr_word) and curr_tag != 'PRON' and curr_tag != 'PROPN':
             res[1] = 'NUM'
-        # elif prev_word != '' and curr_word[0].isupper() and len(
-        #         curr_word) > 2 and curr_word[1].islower() and prev_tag != 'PUNCT' and curr_tag != 'ADJ':
-        #     res[1] = 'PROPN'
-        # elif curr_word[0].isupper() and len(curr_word) > 2 and curr_word[1].islower() and prev_tag and (
-        #         prev_word == '' or prev_tag == 'PUNCT') and curr_tag == 'NOUN':
-        #     res[1] = 'PROPN'
         elif curr_word == 'to' and (
                 next_tag == 'PROPN' or next_tag == 'NOUN' or next_tag == 'PRON' or next_tag == 'DET'):
             res[1] = 'ADP'
@@ -88,9 +89,15 @@ def refine_result(pos_tag_result):
 
 
 @timeit
-def test_viterbi(observations):
+def test_viterbi(observations, smooth):
+    """
+    Method that compute the accuracy of Viterbi algorithm on the Test Set
+    :param observations: words of test set
+    :param smooth: Type of smoothing to apply
+    :return: Accuracy on test set
+    """
     emission_matrix_path = './data/' + config_data.dataset + '/emission_matrix/emission_matrix_test_' + \
-                           config_data.dataset + '-noun-smooth.json'
+                           config_data.dataset + smooth + '.json'
     sentences = test_manager.preprocess_observations()
     test_emission_matrix = em_matrix.get_emission_matrix(emission_matrix_path, observations)
     progr_bar_length = len(sentences)
@@ -99,11 +106,16 @@ def test_viterbi(observations):
     for pb_index, sent in enumerate(sentences):
         print_progress_bar(pb_index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
         viterbi_result += refine_result(viterbi.viterbi(sent, test_emission_matrix))
-    print("Viterbi accuracy mean: {}".format(evaluator.compute_accuracy(viterbi_result)))
+        # viterbi_result += viterbi.viterbi(sent, test_emission_matrix)
+    print("Viterbi accuracy: {}".format(evaluator.compute_accuracy(viterbi_result)))
 
 
 @timeit
 def test_baseline():
+    """
+    Method that compute the accuracy of the Baseline Tagging on the test set
+    :return: Baseline accuracy
+    """
     sentences = test_manager.preprocess_observations()
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
@@ -115,6 +127,10 @@ def test_baseline():
 
 
 def run_translator():
+    """
+    Method that run the translation on the tagged sentence with Viterbi Algorithm
+    :return: translated sentence
+    """
     observations = ""
     with open('./data/sentences.txt') as test_sentences:
         for line in test_sentences:
@@ -130,9 +146,11 @@ def run_translator():
 
 
 if __name__ == '__main__':
-    print("Reading training, test and development corpus...")
+    print("Reading training set...")
     train_manager = CorpusManager().read_corpus(config_data.training_set_path)
+    print("Reading test set...")
     test_manager = CorpusManager().read_corpus(config_data.test_set_path)
+    print("Reading developement set...")
     dev_manager = CorpusManager().read_corpus(config_data.dev_set_path)
     print("Done!")
 
@@ -144,5 +162,8 @@ if __name__ == '__main__':
 
     test_observations = " ".join(test_manager.words)
     # run_translator()
-    test_viterbi(test_observations)
+    test_viterbi(test_observations, config_data.NOUN_SMOOTH)
+    test_viterbi(test_observations, config_data.EQUAL_SMOOTH)
+    test_viterbi(test_observations, config_data.PROPN_SMOOTH)
+    test_viterbi(test_observations, config_data.DEV_SUFFIX_SMOOTH)
     test_baseline()
