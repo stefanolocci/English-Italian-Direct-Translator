@@ -27,7 +27,7 @@ class Translator:
             'd7': {'Mary': 'Mary', 'has': 'ha', 'a': 'una', 'collection': 'collezione', 'of': 'di',
                    'expensive': 'costosi',
                    'jewels': 'gioielli'},
-            'd8': {'Do': ' ', 'you': 'ti', 'like': 'piacciono', 'fresh': 'fresche', 'cakes': 'le torte',
+            'd8': {'Do': ' ', 'You': 'Ti', 'like': 'piacciono', 'fresh': 'fresche', 'cakes': 'le torte',
                    'with': 'con', 'sweet': 'dolce', 'cream': 'la panna', '?': '?'}
         }
 
@@ -43,6 +43,7 @@ class Translator:
                 next_word, next_tag = sentence[i + 1][0], sentence[i + 1][1]
                 if word.lower() == 'do' and next_tag == 'PRON':
                     sentence.pop(i)
+                    sentence[0][0] = sentence[0][0].capitalize()
         return sentence
 
     def translate_sentence(self, tagged_sentence, dict_name):

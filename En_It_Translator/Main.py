@@ -98,15 +98,15 @@ def test_viterbi(observations, smooth):
     """
     emission_matrix_path = './data/' + config_data.dataset + '/emission_matrix/emission_matrix_test_' + \
                            config_data.dataset + smooth + '.json'
-    sentences = test_manager.preprocess_observations()
+    sentences = test_manager.get_sentences()
     test_emission_matrix = em_matrix.get_emission_matrix(emission_matrix_path, observations)
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
     viterbi_result = []
     for pb_index, sent in enumerate(sentences):
         print_progress_bar(pb_index + 1, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
-        viterbi_result += refine_result(viterbi.viterbi(sent, test_emission_matrix))
-        # viterbi_result += viterbi.viterbi(sent, test_emission_matrix)
+        # viterbi_result += refine_result(viterbi.viterbi(sent, test_emission_matrix))
+        viterbi_result += viterbi.viterbi(sent, test_emission_matrix)
     print("Viterbi accuracy: {}".format(evaluator.compute_accuracy(viterbi_result)))
 
 
@@ -116,7 +116,7 @@ def test_baseline():
     Method that compute the accuracy of the Baseline Tagging on the test set
     :return: Baseline accuracy
     """
-    sentences = test_manager.preprocess_observations()
+    sentences = test_manager.get_sentences()
     progr_bar_length = len(sentences)
     print_progress_bar(0, progr_bar_length, prefix='Progress:', suffix='Complete', length=50)
     baseline_result = []
@@ -161,9 +161,12 @@ if __name__ == '__main__':
     evaluator = EvalPosTagger(test_manager)
 
     test_observations = " ".join(test_manager.words)
-    # run_translator()
-    test_viterbi(test_observations, config_data.NOUN_SMOOTH)
-    test_viterbi(test_observations, config_data.EQUAL_SMOOTH)
-    test_viterbi(test_observations, config_data.PROPN_SMOOTH)
-    test_viterbi(test_observations, config_data.DEV_SUFFIX_SMOOTH)
-    test_baseline()
+    run_translator()
+
+    # TEST
+
+    # test_viterbi(test_observations, config_data.NOUN_SMOOTH)
+    # test_viterbi(test_observations, config_data.EQUAL_SMOOTH)
+    # test_viterbi(test_observations, config_data.PROPN_SMOOTH)
+    # test_viterbi(test_observations, config_data.DEV_SUFFIX_SMOOTH)
+    # test_baseline()

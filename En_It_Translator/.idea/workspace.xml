@@ -39,24 +39,25 @@
     <property name="DataGrid.QuickDoc.View" value="regular" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/partut/emission_matrix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut\emission_matrix" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\wsj" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut" />
+      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\gum" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\pos_tagging" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut\emission_matrix" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\gum\emission_matrix" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\ewt\emission_matrix" />
       <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\ewt" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut\emission_matrix" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\wsj" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\partut" />
-      <recent name="C:\Users\user\Desktop\Università\Magistrale\Materie\Primo Anno\Secondo Semestre\Tecnologie del Linguaggio Naturale\Mazzei\English-Italian-Direct-Translator\En_It_Translator\data\gum" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,9 +77,6 @@
       <module name="En_It_Translator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -303,7 +301,13 @@
       <workItem from="1573568057920" duration="203000" />
       <workItem from="1573585967148" duration="12000" />
       <workItem from="1573640691670" duration="2799000" />
-      <workItem from="1573813586775" duration="7328000" />
+      <workItem from="1573813586775" duration="7628000" />
+      <workItem from="1573849733950" duration="873000" />
+      <workItem from="1573850788155" duration="3559000" />
+      <workItem from="1573893856634" duration="2458000" />
+      <workItem from="1573897648083" duration="490000" />
+      <workItem from="1574087470617" duration="1449000" />
+      <workItem from="1574089169222" duration="340000" />
     </task>
     <servers />
   </component>
@@ -322,27 +326,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pos_tagging/Baseline.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pos_tagging/Viterbi.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pos_tagging/Viterbi.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/En_It_Translator$translator.coverage" NAME="translator Coverage Results" MODIFIED="1566368963179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

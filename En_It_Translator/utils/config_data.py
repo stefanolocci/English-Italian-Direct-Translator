@@ -1,4 +1,4 @@
-dataset = 'wsj'
+dataset = 'partut'
 training_set_path = './data/' + dataset + '/ud-word-pos-' + dataset + '-train.csv'
 test_set_path = './data/' + dataset + '/ud-word-pos-' + dataset + '-test.csv'
 dev_set_path = './data/' + dataset + '/ud-word-pos-' + dataset + '-dev.csv'

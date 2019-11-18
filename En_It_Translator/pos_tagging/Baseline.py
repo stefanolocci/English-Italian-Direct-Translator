@@ -1,6 +1,5 @@
 from operator import itemgetter
 
-from pos_tagging.CorpusManager import CorpusManager
 from utils import config_data
 
 
@@ -9,6 +8,11 @@ class Baseline:
         self.train_manager = train_manager
 
     def compute_baseline(self, observation):
+        """
+        Method to compute pos tagging based on tag frequencies
+        :param observation: Sentence to tag
+        :return: List of predicted tag for each word of the observation
+        """
         token_obs = observation.split()
         backpointer = []
         pos_tags = config_data.get_pos_tags()
